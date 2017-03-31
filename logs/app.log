@@ -1,0 +1,1163 @@
+11:47:20.825 INFO  test.ViewDetailController : clicked on Jenna Cide
+11:47:23.384 INFO  test.Author : 2001-09-11
+11:47:23.408 INFO  test.Author : 2001-09-11
+11:48:07.351 INFO  test.Author : 1702-04-12
+11:48:07.352 INFO  test.Author : 1702-04-12
+11:48:07.447 INFO  test.AuthorTableGateway : closed
+11:48:13.005 INFO  test.ViewDetailController : clicked on Alan Moore
+11:48:17.274 INFO  test.AuthorTableGateway : pre-execute
+11:48:17.380 INFO  test.AuthorTableGateway : post-execute!
+11:48:17.381 INFO  test.AuthorTableGateway : closed
+11:49:43.880 INFO  test.ViewDetailController : clicked on Jenna Cide
+11:49:47.949 INFO  test.DetailController : please enter valid data
+11:49:47.950 INFO  test.DetailController : First and Last names must not be blank
+11:49:47.950 INFO  test.DetailController : First, Last, and Web can not be more than 100 characters.
+11:49:47.950 INFO  test.DetailController : Gender must be either 'm' 'f' or 'u'
+11:49:47.950 INFO  test.DetailController : Date must match yyyy-MM-dd
+11:50:02.875 INFO  test.Author : 2001-09-11
+11:50:02.889 INFO  test.Author : 2001-09-11
+11:52:39.289 INFO  test.ViewDetailController : clicked on Jenna Cide
+11:52:44.205 INFO  test.Author : 2001-09-1
+11:52:52.343 INFO  test.Author : 2001-09-10
+11:52:52.349 INFO  test.Author : 2001-09-10
+11:55:00.622 INFO  test.ViewDetailController : clicked on Jenna Cide
+11:55:03.442 INFO  test.DetailController : please enter valid data
+11:55:03.443 INFO  test.DetailController : First and Last names must not be blank
+11:55:03.443 INFO  test.DetailController : First, Last, and Web can not be more than 100 characters.
+11:55:03.443 INFO  test.DetailController : Gender must be either 'm' 'f' or 'u'
+11:55:03.443 INFO  test.DetailController : Date must match yyyy-MM-dd
+11:55:08.960 INFO  test.Author : 2001-09-11
+11:55:08.971 INFO  test.Author : 2001-09-11
+11:55:13.595 INFO  test.DetailController : please enter valid data
+11:55:13.598 INFO  test.DetailController : First and Last names must not be blank
+11:55:13.599 INFO  test.DetailController : First, Last, and Web can not be more than 100 characters.
+11:55:13.599 INFO  test.DetailController : Gender must be either 'm' 'f' or 'u'
+11:55:13.599 INFO  test.DetailController : Date must match yyyy-MM-dd
+22:53:14.263 INFO  test.Author : 1990-04-03
+22:53:14.283 INFO  test.Author : 1990-04-03
+22:53:15.328 INFO  test.AuthorTableGateway : closed
+22:53:17.969 INFO  test.Author : 1990-04-03
+22:53:17.969 INFO  test.Author : 1990-04-03
+22:53:19.197 INFO  test.Author : 1990-04-03
+22:53:19.197 INFO  test.Author : 1990-04-03
+22:53:20.260 INFO  test.Author : 1990-04-03
+22:53:20.261 INFO  test.Author : 1990-04-03
+22:53:21.105 INFO  test.Author : 1990-04-03
+22:53:21.105 INFO  test.Author : 1990-04-03
+22:53:29.047 INFO  test.ViewDetailController : clicked on test test
+22:53:30.622 INFO  test.AuthorTableGateway : pre-execute
+22:53:30.700 INFO  test.AuthorTableGateway : post-execute!
+22:53:30.701 INFO  test.AuthorTableGateway : closed
+12:29:32.209 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+12:30:13.994 INFO  Controller_Pack.ViewDetailController : clicked on Joe King
+12:30:15.419 INFO  Model_Pack.Author : 1834-02-21
+12:30:15.438 INFO  Model_Pack.Author : 1834-02-21
+12:30:27.357 INFO  Controller_Pack.DetailController : please enter valid data
+12:30:27.357 INFO  Controller_Pack.DetailController : First and Last names must not be blank
+12:30:27.358 INFO  Controller_Pack.DetailController : First, Last, and Web can not be more than 100 characters.
+12:30:27.358 INFO  Controller_Pack.DetailController : Gender must be either 'm' 'f' or 'u'
+12:30:27.358 INFO  Controller_Pack.DetailController : Date must match yyyy-MM-dd
+14:07:34.159 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+14:07:40.861 INFO  Model_Pack.Author : 1975-03-23
+14:07:40.877 INFO  Model_Pack.Author : 1975-03-23
+14:07:47.666 INFO  Controller_Pack.ViewDetailController : clicked on Niel Downn
+14:07:53.264 INFO  Model_Pack.Author : 1975-03-23
+14:07:53.264 INFO  Model_Pack.Author : 1975-03-23
+22:54:08.625 INFO  Model_Pack.Author : 1905-12-12
+22:54:08.645 INFO  Model_Pack.Author : 1905-12-12
+22:54:09.238 INFO  Gate_Pack.AuthorTableGateway : closed
+22:54:14.987 INFO  Controller_Pack.ViewDetailController : clicked on Stranger Danger
+22:54:16.531 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+22:54:16.712 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+22:54:16.713 INFO  Gate_Pack.AuthorTableGateway : closed
+00:14:13.634 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+00:14:31.013 INFO  Model_Pack.Author : 2001-09-11
+00:14:31.031 INFO  Model_Pack.Author : 2001-09-11
+00:14:37.104 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+00:14:44.988 INFO  Controller_Pack.ViewDetailController : clicked on Joe King
+00:14:46.724 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+00:14:46.854 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+00:14:46.855 INFO  Gate_Pack.AuthorTableGateway : closed
+00:15:25.512 INFO  Controller_Pack.DetailController : please enter valid data
+00:15:25.512 INFO  Controller_Pack.DetailController : First and Last names must not be blank
+00:15:25.513 INFO  Controller_Pack.DetailController : First, Last, and Web can not be more than 100 characters.
+00:15:25.513 INFO  Controller_Pack.DetailController : Gender must be either 'm' 'f' or 'u'
+00:15:25.513 INFO  Controller_Pack.DetailController : Date must match yyyy-MM-dd
+00:15:33.510 INFO  Model_Pack.Author : 1001-01-01
+00:15:33.510 INFO  Model_Pack.Author : 1001-01-01
+00:15:34.163 INFO  Gate_Pack.AuthorTableGateway : closed
+00:15:41.175 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+13:47:18.203 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:47:20.778 INFO  Model_Pack.Author : 1905-12-12
+13:47:20.794 INFO  Model_Pack.Author : 1905-12-12
+14:47:43.546 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+14:47:45.836 INFO  Model_Pack.Author : 1001-01-01
+14:47:45.852 INFO  Model_Pack.Author : 1001-01-01
+19:05:51.449 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+19:05:54.318 INFO  Gate_Pack.AuthorTableGateway : closed
+19:12:11.812 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+19:12:14.815 INFO  Model_Pack.Author : 1001-01-01
+19:12:14.834 INFO  Model_Pack.Author : 1001-01-01
+19:12:26.966 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:12:28.764 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+19:12:28.846 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+19:12:28.847 INFO  Gate_Pack.AuthorTableGateway : closed
+19:12:32.446 INFO  Gate_Pack.AuthorTableGateway : closed
+19:15:58.890 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+19:16:01.619 INFO  Model_Pack.Author : 1001-01-01
+19:16:01.631 INFO  Model_Pack.Author : 1001-01-01
+19:16:20.644 INFO  Model_Pack.Author : 1212-12-12
+19:16:20.645 INFO  Model_Pack.Author : 1212-12-12
+19:16:20.784 INFO  Gate_Pack.AuthorTableGateway : closed
+19:16:40.719 INFO  Controller_Pack.ViewDetailController : clicked on test test
+19:16:41.940 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+19:16:42.083 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+19:16:42.084 INFO  Gate_Pack.AuthorTableGateway : closed
+19:16:46.444 INFO  Gate_Pack.AuthorTableGateway : closed
+19:28:35.451 INFO  Model_Pack.Author : 1212-12-12
+19:28:35.466 INFO  Model_Pack.Author : 1212-12-12
+19:28:35.606 INFO  Gate_Pack.AuthorTableGateway : closed
+19:28:54.162 INFO  Gate_Pack.AuthorTableGateway : closed
+19:41:05.937 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:41:07.493 INFO  Model_Pack.Author : 1212-12-12
+19:41:07.504 INFO  Model_Pack.Author : 1212-12-12
+19:41:13.824 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+19:41:15.529 INFO  Model_Pack.Author : 2001-09-11
+19:41:15.530 INFO  Model_Pack.Author : 2001-09-11
+19:41:21.740 INFO  Gate_Pack.AuthorTableGateway : closed
+19:47:30.827 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:47:35.521 INFO  Model_Pack.Author : 1212-12-12
+19:47:35.534 INFO  Model_Pack.Author : 1212-12-12
+19:47:53.165 INFO  Model_Pack.Author : 1212-12-12
+19:47:53.166 INFO  Model_Pack.Author : 1212-12-12
+19:47:53.248 INFO  Gate_Pack.AuthorTableGateway : closed
+19:48:00.538 INFO  Gate_Pack.AuthorTableGateway : closed
+19:48:09.135 INFO  Controller_Pack.ViewDetailController : clicked on test test
+19:48:10.495 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+19:48:10.553 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+19:48:10.554 INFO  Gate_Pack.AuthorTableGateway : closed
+19:48:14.645 INFO  Gate_Pack.AuthorTableGateway : closed
+19:54:53.923 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+19:54:59.475 INFO  Model_Pack.Author : 1001-01-01
+19:54:59.488 INFO  Model_Pack.Author : 1001-01-01
+19:55:02.027 INFO  Gate_Pack.AuthorTableGateway : closed
+19:55:25.331 INFO  Gate_Pack.AuthorTableGateway : closed
+20:07:27.424 INFO  Controller_Pack.ViewDetailController : []
+20:07:27.427 INFO  Controller_Pack.ViewDetailController : []
+20:07:40.717 INFO  Controller_Pack.ViewDetailController : []
+20:07:40.718 INFO  Controller_Pack.ViewDetailController : []
+20:07:48.086 INFO  Gate_Pack.AuthorTableGateway : closed
+20:08:31.894 INFO  Controller_Pack.ViewDetailController : ListView[id=listView, styleClass=list-view]
+20:08:44.216 INFO  Gate_Pack.AuthorTableGateway : closed
+20:09:31.126 INFO  Controller_Pack.ViewDetailController : ListView[id=listView, styleClass=list-view]
+20:09:33.931 INFO  Controller_Pack.ViewDetailController : ListView[id=listView, styleClass=list-view]
+20:09:41.328 INFO  Gate_Pack.AuthorTableGateway : closed
+20:27:49.983 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException: Error resolving onMouseClicked='#nMouseClick', either the event handler is not in the Namespace or there is an error in the script.
+/home/dduran/workspace/Test/bin/mainview/firstView.fxml:8
+
+20:27:57.008 INFO  Gate_Pack.AuthorTableGateway : closed
+20:28:21.267 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+20:28:24.089 INFO  Model_Pack.Author : 1001-01-01
+20:28:24.100 INFO  Model_Pack.Author : 1001-01-01
+20:28:30.398 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+20:28:38.282 INFO  Gate_Pack.AuthorTableGateway : closed
+20:30:29.816 INFO  Controller_Pack.ViewDetailController : here
+20:30:29.825 INFO  Controller_Pack.ViewDetailController : there
+20:30:34.473 INFO  Gate_Pack.AuthorTableGateway : closed
+20:31:03.983 INFO  Controller_Pack.ViewDetailController : here
+20:31:08.683 INFO  Gate_Pack.AuthorTableGateway : closed
+20:32:25.087 INFO  Controller_Pack.ViewDetailController : here
+20:32:25.088 INFO  Controller_Pack.ViewDetailController : here
+20:32:27.590 INFO  Gate_Pack.AuthorTableGateway : closed
+20:44:23.588 INFO  Controller_Pack.ViewDetailController : [Stan Dupp, Jenna Cide, Drew A. Blank, Niel Down]
+20:44:30.943 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+20:44:33.813 INFO  Controller_Pack.ViewDetailController : [Stan Dupp, Jenna Cide, Drew A. Blank, Niel Down, Stan Dupp, Jenna Cide, Drew A. Blank, Niel Down]
+20:44:55.055 INFO  Gate_Pack.AuthorTableGateway : closed
+20:45:03.094 INFO  Controller_Pack.ViewDetailController : [Stan Dupp, Jenna Cide, Drew A. Blank, Niel Down]
+20:45:05.936 INFO  Controller_Pack.ViewDetailController : [Stan Dupp, Jenna Cide, Drew A. Blank, Niel Down, Stan Dupp, Jenna Cide, Drew A. Blank, Niel Down]
+20:45:18.811 INFO  Gate_Pack.AuthorTableGateway : closed
+20:48:48.051 INFO  Gate_Pack.AuthorTableGateway : closed
+20:49:18.469 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+20:49:19.832 INFO  Model_Pack.Author : 1212-12-12
+20:49:19.851 INFO  Model_Pack.Author : 1212-12-12
+20:49:35.837 INFO  Model_Pack.Author : 1212-12-12
+20:49:35.837 INFO  Model_Pack.Author : 1212-12-12
+20:49:35.965 INFO  Gate_Pack.AuthorTableGateway : closed
+20:49:40.301 INFO  Controller_Pack.ViewDetailController : clicked on test test
+20:49:41.473 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+20:49:41.598 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+20:49:41.599 INFO  Gate_Pack.AuthorTableGateway : closed
+20:49:45.030 INFO  Gate_Pack.AuthorTableGateway : closed
+23:58:56.771 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+23:58:58.992 INFO  Controller_Pack.AuditTrailController : init trail
+23:59:06.470 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+23:59:07.958 INFO  Model_Pack.Author : 1001-01-01
+23:59:07.976 INFO  Model_Pack.Author : 1001-01-01
+23:59:15.041 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+23:59:16.883 INFO  Controller_Pack.AuditTrailController : init trail
+23:59:22.467 INFO  Gate_Pack.AuthorTableGateway : closed
+23:59:48.159 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+23:59:49.739 INFO  Controller_Pack.AuditTrailController : init trail
+23:59:54.508 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+23:59:55.929 INFO  Controller_Pack.AuditTrailController : init trail
+23:59:59.103 INFO  Gate_Pack.AuthorTableGateway : closed
+00:00:10.543 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+00:00:12.098 INFO  Controller_Pack.AuditTrailController : init trail
+00:00:16.528 INFO  Gate_Pack.AuthorTableGateway : closed
+00:18:21.272 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+00:18:22.740 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:18:37.031 INFO  Gate_Pack.AuthorTableGateway : closed
+00:20:40.181 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+00:20:42.065 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:20:53.134 INFO  Gate_Pack.AuthorTableGateway : closed
+00:22:42.722 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:22:45.162 INFO  Controller_Pack.MasterController : pre trails
+00:22:45.162 INFO  Model_Pack.Author : in Author, going to Gateway
+00:22:45.163 INFO  Gate_Pack.AuthorTableGateway : return null
+00:22:45.163 INFO  Controller_Pack.MasterController : post trails
+00:22:45.168 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:22:57.462 INFO  Gate_Pack.AuthorTableGateway : closed
+00:24:39.595 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:24:41.805 INFO  Controller_Pack.MasterController : pre load
+00:24:41.806 INFO  Controller_Pack.MasterController : post load
+00:24:41.811 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:24:45.259 INFO  Gate_Pack.AuthorTableGateway : closed
+00:25:21.245 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+00:25:22.645 INFO  Controller_Pack.AuditTrailController : init trail
+00:25:22.646 INFO  Controller_Pack.AuditTrailController : init trail
+00:25:22.646 INFO  Controller_Pack.AuditTrailController : init trail
+00:25:22.648 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:25:25.059 INFO  Gate_Pack.AuthorTableGateway : closed
+00:27:13.966 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+00:27:15.269 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:27:18.660 INFO  Gate_Pack.AuthorTableGateway : closed
+00:28:08.308 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+00:28:09.719 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:28:20.504 INFO  Gate_Pack.AuthorTableGateway : closed
+00:29:13.914 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:29:15.237 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/audit/audittrailview.fxml
+
+00:29:18.161 INFO  Gate_Pack.AuthorTableGateway : closed
+00:35:34.132 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+00:35:35.404 INFO  Controller_Pack.AuditTrailController : init trail
+00:35:43.521 INFO  Gate_Pack.AuthorTableGateway : closed
+00:37:25.837 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+00:37:38.712 INFO  Gate_Pack.AuthorTableGateway : closed
+00:38:23.937 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+00:38:29.857 INFO  Gate_Pack.AuthorTableGateway : closed
+00:39:28.509 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+00:39:35.513 INFO  Gate_Pack.AuthorTableGateway : closed
+18:51:17.093 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+18:51:20.987 INFO  Controller_Pack.DetailController : Deletion Cancled
+18:51:26.841 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+18:51:27.138 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+18:51:27.146 INFO  Gate_Pack.AuthorTableGateway : closed
+18:51:52.255 INFO  Model_Pack.Author : 1212-12-12
+18:51:52.272 INFO  Model_Pack.Author : 1212-12-12
+18:51:53.386 INFO  Gate_Pack.AuthorTableGateway : closed
+18:51:54.283 INFO  Gate_Pack.AuthorTableGateway : closed
+19:02:35.735 INFO  Gate_Pack.AuthorTableGateway : closed
+19:30:25.008 INFO  Controller_Pack.DetailController : java.lang.NullPointerException
+19:30:40.255 INFO  Controller_Pack.DetailController : java.lang.NullPointerException
+19:30:48.884 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:31:00.111 INFO  Model_Pack.Author : 1212-12-12
+19:31:00.123 INFO  Model_Pack.Author : 1212-12-12
+19:31:02.897 INFO  Gate_Pack.AuthorTableGateway : closed
+19:33:33.924 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:33:37.393 INFO  Model_Pack.Author : 1212-12-12
+19:33:37.404 INFO  Model_Pack.Author : 1212-12-12
+19:33:37.971 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'gender' at row 1
+19:33:42.812 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+19:34:00.469 INFO  Model_Pack.Author : 1001-01-01
+19:34:00.470 INFO  Model_Pack.Author : 1001-01-01
+19:34:03.419 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:34:07.139 INFO  Model_Pack.Author : 1212-12-12
+19:34:07.140 INFO  Model_Pack.Author : 1212-12-12
+19:34:07.791 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'gender' at row 1
+19:34:10.377 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:34:48.733 INFO  Model_Pack.Author : 1212-12-12
+19:34:48.733 INFO  Model_Pack.Author : 1212-12-12
+19:34:49.584 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'gender' at row 1
+19:34:52.433 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:35:04.308 INFO  Gate_Pack.AuthorTableGateway : closed
+19:36:51.827 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:36:54.938 INFO  Model_Pack.Author : 1212-12-12
+19:36:54.949 INFO  Model_Pack.Author : 1212-12-12
+19:36:56.020 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'gender' at row 1
+19:36:59.726 INFO  Gate_Pack.AuthorTableGateway : closed
+19:41:56.305 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:42:17.496 INFO  Model_Pack.Author : 1212-12-12
+19:42:17.507 INFO  Model_Pack.Author : 1212-12-12
+19:42:25.621 INFO  Gate_Pack.AuthorTableGateway : closed
+19:43:27.130 INFO  Controller_Pack.DetailController : java.lang.NullPointerException
+19:43:55.679 INFO  Controller_Pack.DetailController : Deletion Cancled
+19:43:57.814 INFO  Gate_Pack.AuthorTableGateway : closed
+19:54:00.296 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+19:54:40.528 INFO  Controller_Pack.DetailController : java.lang.NullPointerException
+19:54:45.463 INFO  Gate_Pack.AuthorTableGateway : closed
+19:55:52.327 INFO  Controller_Pack.DetailController : null
+20:46:01.543 INFO  Model_Pack.Author : 1212-12-12
+20:46:01.559 INFO  Model_Pack.Author : 1212-12-12
+20:46:02.924 INFO  Gate_Pack.AuthorTableGateway : closed
+20:46:05.483 INFO  Controller_Pack.ViewDetailController : clicked on sally Mander
+20:46:16.750 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+20:46:16.874 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+20:46:16.875 INFO  Gate_Pack.AuthorTableGateway : closed
+20:46:19.517 INFO  Gate_Pack.AuthorTableGateway : closed
+21:31:32.055 INFO  Gate_Pack.AuthorTableGateway : closed
+22:02:22.999 INFO  Gate_Pack.AuthorTableGateway : closed
+22:03:09.552 INFO  Gate_Pack.AuthorTableGateway : closed
+22:17:22.083 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+22:17:28.489 INFO  Gate_Pack.AuthorTableGateway : closed
+23:09:15.763 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+23:09:24.842 INFO  Gate_Pack.AuthorTableGateway : closed
+23:35:13.246 INFO  Model_Pack.Author : 1212-12-12
+23:35:13.265 INFO  Model_Pack.Author : 1212-12-12
+23:35:14.821 INFO  Gate_Pack.AuthorTableGateway : closed
+23:35:14.822 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+23:35:28.326 INFO  Gate_Pack.AuthorTableGateway : closed
+23:42:47.758 INFO  Controller_Pack.ViewDetailController : clicked on Daniel Duran
+23:42:51.646 INFO  Gate_Pack.AuthorTableGateway : pre-execute
+23:42:51.884 INFO  Gate_Pack.AuthorTableGateway : post-execute!
+23:42:51.885 INFO  Gate_Pack.AuthorTableGateway : closed
+23:43:08.604 INFO  Gate_Pack.AuthorTableGateway : closed
+23:46:51.184 INFO  Gate_Pack.AuthorTableGateway : closed
+23:49:58.313 INFO  Gate_Pack.AuthorTableGateway : closed
+23:51:31.743 INFO  Controller_Pack.MasterController : null
+23:58:10.115 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+23:58:17.701 INFO  Gate_Pack.AuthorTableGateway : closed
+00:01:54.132 INFO  Gate_Pack.AuthorTableGateway : closed
+00:33:04.780 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:33:16.002 INFO  Gate_Pack.AuthorTableGateway : closed
+00:53:29.856 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:53:35.703 INFO  Gate_Pack.AuthorTableGateway : closed
+00:56:17.077 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:56:24.095 INFO  Gate_Pack.AuthorTableGateway : closed
+00:56:49.199 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+00:56:51.222 INFO  Controller_Pack.DetailController : null
+00:57:00.206 INFO  Gate_Pack.AuthorTableGateway : closed
+00:57:44.361 INFO  Controller_Pack.DetailController : null
+00:57:54.363 INFO  Controller_Pack.DetailController : null
+00:57:58.269 INFO  Gate_Pack.AuthorTableGateway : closed
+01:26:21.429 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:26:30.903 INFO  Gate_Pack.AuthorTableGateway : closed
+01:39:21.655 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+01:39:33.964 INFO  Gate_Pack.AuthorTableGateway : closed
+01:45:13.176 INFO  Gate_Pack.AuthorTableGateway : closed
+01:46:28.457 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:46:39.644 INFO  Gate_Pack.AuthorTableGateway : closed
+01:47:23.584 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:47:32.920 INFO  Gate_Pack.AuthorTableGateway : closed
+01:49:56.858 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:50:03.256 INFO  Gate_Pack.AuthorTableGateway : closed
+01:54:05.231 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:54:15.478 INFO  Gate_Pack.AuthorTableGateway : closed
+01:55:39.316 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:55:41.330 INFO  Controller_Pack.DetailController :
+01:55:48.190 INFO  Gate_Pack.AuthorTableGateway : closed
+01:57:16.090 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:57:18.147 INFO  Controller_Pack.DetailController :
+01:57:22.612 INFO  Gate_Pack.AuthorTableGateway : closed
+21:50:03.656 INFO  Model_Pack.Author : 1212-12-12
+21:50:03.676 INFO  Model_Pack.Author : 1212-12-12
+21:50:04.236 ERROR Gate_Pack.AuthorTableGateway : Failed to insert new entry in database:
+Table 'bct105.audit_trail_table' doesn't exist
+21:50:04.304 INFO  Gate_Pack.AuthorTableGateway : closed
+21:50:22.442 INFO  Gate_Pack.AuthorTableGateway : closed
+21:51:30.400 INFO  Model_Pack.Author : 1212-12-12
+21:51:30.418 INFO  Model_Pack.Author : 1212-12-12
+21:51:33.091 ERROR Gate_Pack.AuthorTableGateway : Failed to insert new entry in database:
+Table 'bct105.audit_trail' doesn't exist
+21:51:33.290 INFO  Gate_Pack.AuthorTableGateway : closed
+21:52:01.690 INFO  Gate_Pack.AuthorTableGateway : closed
+21:53:07.205 INFO  Model_Pack.Author : 1212-12-12
+21:53:07.219 INFO  Model_Pack.Author : 1212-12-12
+21:53:09.353 ERROR Gate_Pack.AuthorTableGateway : Failed to insert new entry in database:
+Column count doesn't match value count at row 1
+21:53:09.546 INFO  Gate_Pack.AuthorTableGateway : closed
+21:53:27.151 INFO  Gate_Pack.AuthorTableGateway : closed
+21:54:31.523 INFO  Model_Pack.Author : 1212-12-12
+21:54:31.538 INFO  Model_Pack.Author : 1212-12-12
+21:54:32.512 INFO  Gate_Pack.AuthorTableGateway : closed
+21:54:38.119 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+21:54:47.300 INFO  Controller_Pack.ViewDetailController : clicked on dan dur
+21:55:00.985 INFO  Gate_Pack.AuthorTableGateway : closed
+23:07:19.297 INFO  Model_Pack.Author : 1212-12-12
+23:07:19.314 INFO  Model_Pack.Author : 1212-12-12
+23:07:20.481 INFO  Gate_Pack.AuthorTableGateway : closed
+23:07:26.132 INFO  Controller_Pack.ViewDetailController : clicked on dan dur
+23:07:30.003 INFO  Gate_Pack.AuthorTableGateway : closed
+23:07:32.761 INFO  Controller_Pack.ViewDetailController : clicked on dan dur
+23:07:51.371 INFO  Gate_Pack.AuthorTableGateway : closed
+23:12:09.028 INFO  Controller_Pack.ViewDetailController : clicked on dan dur
+23:12:13.345 INFO  Gate_Pack.AuthorTableGateway : closed
+23:12:19.610 INFO  Gate_Pack.AuthorTableGateway : closed
+23:20:08.428 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+23:20:12.063 INFO  Model_Pack.Author : 1212-12-12
+23:20:12.075 INFO  Model_Pack.Author : 1212-12-12
+23:20:15.307 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+23:20:49.375 INFO  Gate_Pack.AuthorTableGateway : closed
+23:21:13.640 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:21:16.294 INFO  Controller_Pack.DetailController :
+23:21:21.312 INFO  Gate_Pack.AuthorTableGateway : closed
+23:58:34.951 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+23:58:40.540 INFO  Model_Pack.Author : 1212-12-12
+23:58:40.554 INFO  Model_Pack.Author : 1212-12-12
+23:58:44.028 INFO  Model_Pack.Author : 1212-12-12
+23:58:44.028 INFO  Model_Pack.Author : 1212-12-12
+23:58:50.684 INFO  Gate_Pack.AuthorTableGateway : closed
+00:01:51.019 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+00:01:54.661 INFO  Model_Pack.Author : 1905-12-12
+00:01:54.678 INFO  Model_Pack.Author : 1905-12-12
+00:02:37.006 INFO  Gate_Pack.AuthorTableGateway : closed
+00:07:23.329 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:07:28.388 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+00:07:35.114 INFO  Gate_Pack.AuthorTableGateway : closed
+00:08:55.424 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+00:09:05.996 INFO  Model_Pack.Author : 1905-12-12
+00:09:06.010 INFO  Model_Pack.Author : 1905-12-12
+00:09:10.185 INFO  Controller_Pack.ViewDetailController : clicked on Sta Dupp
+00:09:19.188 INFO  Model_Pack.Author : 1905-12-12
+00:09:19.189 INFO  Model_Pack.Author : 1905-12-12
+00:09:26.526 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+00:09:49.065 INFO  Gate_Pack.AuthorTableGateway : closed
+00:11:21.092 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:11:27.838 INFO  Model_Pack.Author : 1212-12-12
+00:11:27.856 INFO  Model_Pack.Author : 1212-12-12
+00:11:31.280 INFO  Controller_Pack.ViewDetailController : clicked on Nie Down
+00:11:38.033 INFO  Model_Pack.Author : 1212-12-12
+00:11:38.034 INFO  Model_Pack.Author : 1212-12-12
+00:11:51.789 INFO  Gate_Pack.AuthorTableGateway : closed
+00:28:54.769 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+00:29:02.978 INFO  Model_Pack.Author : 1212-12-12
+00:29:02.990 INFO  Model_Pack.Author : 1212-12-12
+00:29:07.426 INFO  Controller_Pack.ViewDetailController : clicked on Nie Dow
+00:29:48.572 INFO  Gate_Pack.AuthorTableGateway : closed
+00:31:11.929 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+00:31:20.381 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+00:31:21.808 INFO  Model_Pack.Author : 2001-09-11
+00:31:21.820 INFO  Model_Pack.Author : 2001-09-11
+00:31:22.202 INFO  Gate_Pack.AuthorTableGateway : Jenna Cide  Jenna Cide
+00:31:26.459 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+00:31:29.364 INFO  Model_Pack.Author : 2001-09-11
+00:31:29.365 INFO  Model_Pack.Author : 2001-09-11
+00:31:29.683 INFO  Gate_Pack.AuthorTableGateway : Jenn Cide  Jenn Cide
+00:31:36.653 INFO  Gate_Pack.AuthorTableGateway : closed
+00:34:46.933 INFO  Controller_Pack.ViewDetailController : clicked on Jenn Cide
+00:34:51.671 INFO  Model_Pack.Author : 2001-09-11
+00:34:51.684 INFO  Model_Pack.Author : 2001-09-11
+00:34:52.169 INFO  Gate_Pack.AuthorTableGateway : Jenna Cide  Jenna Cide
+00:34:57.704 INFO  Gate_Pack.AuthorTableGateway : closed
+00:55:23.393 INFO  Controller_Pack.ViewDetailController : clicked on Nie Dow
+00:55:28.574 INFO  Model_Pack.Author : 1212-12-12
+00:55:28.588 INFO  Model_Pack.Author : 1212-12-12
+00:55:29.138 INFO  Gate_Pack.AuthorTableGateway : Niel Down  null null
+00:55:34.250 INFO  Gate_Pack.AuthorTableGateway : closed
+01:00:56.333 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+01:01:01.430 INFO  Model_Pack.Author : 2001-09-11
+01:01:01.443 INFO  Model_Pack.Author : 2001-09-11
+01:01:02.106 INFO  Gate_Pack.AuthorTableGateway : Jenna Cid  Jenna Cide
+01:01:04.694 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cid
+01:01:23.575 INFO  Model_Pack.Author : 2001-09-11
+01:01:23.577 INFO  Model_Pack.Author : 2001-09-11
+01:01:23.952 INFO  Gate_Pack.AuthorTableGateway : Jenna Cide  Jenna Cid
+01:01:26.616 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+01:02:13.866 INFO  Gate_Pack.AuthorTableGateway : closed
+01:21:03.368 INFO  Gate_Pack.AuthorTableGateway : closed
+01:21:06.633 INFO  Controller_Pack.ViewDetailController : clicked on Daniel Duran
+01:21:19.603 INFO  Controller_Pack.ViewDetailController : clicked on Dan Duran
+01:22:17.753 INFO  Controller_Pack.ViewDetailController : clicked on Dan Duran
+01:22:24.697 INFO  Controller_Pack.ViewDetailController : clicked on Daniel Duran
+01:22:43.499 INFO  Gate_Pack.AuthorTableGateway : closed
+01:24:44.928 INFO  Controller_Pack.ViewDetailController : clicked on Daniel Duran
+01:24:49.161 INFO  Gate_Pack.AuthorTableGateway : closed
+01:24:52.198 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+01:25:14.640 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:25:21.740 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:25:29.710 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:25:36.348 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blan
+01:25:46.844 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blan
+01:25:53.457 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:26:00.548 INFO  Gate_Pack.AuthorTableGateway : closed
+01:27:14.631 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+01:27:22.250 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+01:27:32.195 INFO  Gate_Pack.AuthorTableGateway : closed
+01:28:09.152 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+01:28:15.714 INFO  Gate_Pack.AuthorTableGateway : closed
+01:28:52.932 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+01:28:55.279 INFO  Controller_Pack.DetailController : Niel Down
+01:29:02.461 INFO  Gate_Pack.AuthorTableGateway : closed
+01:31:37.976 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:31:45.602 INFO  Controller_Pack.DetailController : Stan Dupp
+01:31:49.468 INFO  Gate_Pack.AuthorTableGateway : closed
+01:32:21.588 INFO  Controller_Pack.MasterController :
+01:32:23.836 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:32:23.837 INFO  Controller_Pack.MasterController : Drew A. Blank
+01:32:29.635 INFO  Controller_Pack.MasterController :
+01:32:29.636 INFO  Controller_Pack.DetailController : Drew A. Blank
+01:32:42.741 INFO  Gate_Pack.AuthorTableGateway : closed
+01:36:30.026 INFO  Controller_Pack.MasterController :
+01:36:32.702 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:36:32.702 INFO  Controller_Pack.MasterController : Drew A. Blank
+01:36:34.868 INFO  Controller_Pack.MasterController :
+01:36:44.224 INFO  Gate_Pack.AuthorTableGateway : closed
+01:38:02.459 INFO  Controller_Pack.MasterController :
+01:38:04.559 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+01:38:04.560 INFO  Controller_Pack.MasterController : Niel Down
+01:38:06.741 INFO  Controller_Pack.MasterController :
+01:38:16.646 INFO  Gate_Pack.AuthorTableGateway : closed
+01:43:33.973 INFO  Controller_Pack.MasterController :
+01:43:36.009 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:43:36.010 INFO  Controller_Pack.MasterController :
+01:43:37.850 INFO  Controller_Pack.MasterController : Stan Dupp
+01:43:51.444 INFO  Controller_Pack.MasterController : Stan Dupp
+01:43:54.674 INFO  Gate_Pack.AuthorTableGateway : closed
+01:44:26.019 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:44:33.722 INFO  Gate_Pack.AuthorTableGateway : closed
+01:46:20.386 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:46:26.198 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/secondview/lastView.fxml
+
+01:46:33.078 ERROR Controller_Pack.MasterController : javafx.fxml.LoadException:
+/home/dduran/workspace/Test/bin/secondview/lastView.fxml
+
+01:46:41.599 INFO  Gate_Pack.AuthorTableGateway : closed
+01:47:37.973 ERROR Controller_Pack.MasterController : [Ljava.lang.StackTraceElement;@622dc88
+01:47:58.565 ERROR Controller_Pack.MasterController : [Ljava.lang.StackTraceElement;@8dd672b
+01:54:29.925 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+01:54:35.162 INFO  Gate_Pack.AuthorTableGateway : closed
+01:59:59.999 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:00:11.294 INFO  Gate_Pack.AuthorTableGateway : closed
+02:10:22.298 INFO  Controller_Pack.ViewDetailController : clicked on Niel Down
+02:10:28.285 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+02:10:39.437 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:10:51.533 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:10:58.228 INFO  Gate_Pack.AuthorTableGateway : closed
+02:11:46.826 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:11:53.512 INFO  Controller_Pack.DetailController : Drew A. Blank Drew A. Blank
+02:12:04.911 INFO  Gate_Pack.AuthorTableGateway : closed
+02:12:25.477 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:12:30.059 INFO  Controller_Pack.DetailController : m m
+02:12:38.301 INFO  Gate_Pack.AuthorTableGateway : closed
+02:13:51.954 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:13:56.874 INFO  Controller_Pack.DetailController : m m
+02:14:00.311 INFO  Gate_Pack.AuthorTableGateway : closed
+02:22:41.689 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+02:22:51.420 INFO  Gate_Pack.AuthorTableGateway : closed
+02:25:58.766 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:26:25.051 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blan
+02:26:41.891 INFO  Gate_Pack.AuthorTableGateway : closed
+02:28:07.613 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:28:13.813 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+02:28:23.324 INFO  Gate_Pack.AuthorTableGateway : closed
+16:46:30.403 INFO  Gate_Pack.AuthorTableGateway : closed
+22:17:18.148 INFO  Controller_Pack.ViewDetailController : clicked on Neilzzz Down
+22:17:26.782 INFO  Controller_Pack.ViewDetailController : clicked on Neil Down
+22:17:34.651 INFO  Controller_Pack.ViewDetailController : clicked on Neil Down
+22:17:40.773 INFO  Controller_Pack.ViewDetailController : clicked on Neil Down
+22:18:05.663 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:18:20.499 INFO  Controller_Pack.ViewDetailController : clicked on somtStan Dupp
+22:18:55.560 INFO  Gate_Pack.AuthorTableGateway : closed
+22:26:56.505 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+22:27:25.386 INFO  Controller_Pack.ViewDetailController : clicked on Neil Down
+22:27:30.570 INFO  Gate_Pack.AuthorTableGateway : closed
+22:39:30.376 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:39:39.505 INFO  Gate_Pack.AuthorTableGateway : closed
+22:40:19.617 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:40:25.354 INFO  Controller_Pack.DetailController : Stan Dupp
+22:44:28.222 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:44:37.464 INFO  Gate_Pack.AuthorTableGateway : closed
+22:51:28.774 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:51:35.620 INFO  Gate_Pack.AuthorTableGateway : closed
+22:57:14.823 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:57:21.662 INFO  Gate_Pack.AuthorTableGateway : closed
+22:58:22.275 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:58:27.786 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:58:36.578 INFO  Controller_Pack.ViewDetailController : clicked on tan Dupp
+22:58:47.418 INFO  Gate_Pack.AuthorTableGateway : closed
+23:00:51.540 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:00:56.116 INFO  Gate_Pack.AuthorTableGateway : closed
+23:02:17.059 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:02:19.106 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:02:21.767 INFO  Gate_Pack.AuthorTableGateway : closed
+23:04:40.299 INFO  Gate_Pack.AuthorTableGateway : closed
+23:04:49.244 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:04:51.110 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:04:58.561 INFO  Gate_Pack.AuthorTableGateway : closed
+23:12:03.391 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:12:06.717 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:12:08.399 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:12:14.219 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:12:17.449 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:12:24.720 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:12:26.589 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:12:49.820 INFO  Gate_Pack.AuthorTableGateway : closed
+23:16:27.423 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:16:29.486 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:16:30.810 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:16:36.939 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:16:38.417 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:16:40.850 INFO  Gate_Pack.AuthorTableGateway : closed
+23:17:11.339 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:17:13.577 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:17:14.776 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:17:26.614 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+23:17:28.655 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:17:30.929 INFO  Gate_Pack.AuthorTableGateway : closed
+23:18:09.144 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+23:18:20.028 INFO  Gate_Pack.AuthorTableGateway : closed
+23:19:04.617 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:19:12.544 INFO  Gate_Pack.AuthorTableGateway : closed
+23:19:30.943 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+23:19:38.919 INFO  Gate_Pack.AuthorTableGateway : closed
+23:19:53.694 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+23:20:00.925 INFO  Gate_Pack.AuthorTableGateway : closed
+13:43:55.646 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:43:59.825 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:44:37.136 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:44:42.997 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+13:44:48.075 INFO  Controller_Pack.DetailController : 2001-09-11 2001-09-11 2001-09-11 2001-09-11
+13:44:52.429 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+13:44:58.846 INFO  Controller_Pack.DetailController : 2001-09-10 2001-09-10 2001-09-10 2001-09-10
+13:45:02.335 INFO  Gate_Pack.AuthorTableGateway : closed
+13:45:36.417 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:45:40.874 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:45:43.384 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:45:48.842 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:45:50.978 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:45:56.222 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:45:59.576 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:46:04.221 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:46:27.995 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:46:32.012 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:47:51.151 INFO  Gate_Pack.AuthorTableGateway : closed
+13:47:58.410 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:48:02.595 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:48:05.948 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:48:10.013 INFO  Controller_Pack.DetailController : 1905-12-11 1905-12-11 1905-12-11 1905-12-11
+13:48:12.726 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:48:16.327 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:48:17.264 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:48:23.009 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:48:31.462 INFO  Gate_Pack.AuthorTableGateway : closed
+13:51:09.664 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:51:16.550 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:51:22.732 INFO  Controller_Pack.DetailController : 1905-12-11 1905-12-11 1905-12-11 1905-12-11
+13:51:25.814 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:51:30.034 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:51:41.681 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:51:55.664 INFO  Controller_Pack.DetailController : 1905-12-12 1905-12-12 1905-12-12 1905-12-12
+13:52:09.188 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+13:52:44.204 INFO  Gate_Pack.AuthorTableGateway : closed
+14:03:08.651 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+14:03:17.779 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+14:03:28.084 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+14:03:31.802 INFO  Gate_Pack.AuthorTableGateway : closed
+14:03:56.364 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+14:04:09.654 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+14:04:12.319 INFO  Gate_Pack.AuthorTableGateway : closed
+23:51:16.733 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp
+23:51:21.912 INFO  Gate_Pack.AuthorTableGateway : closed
+00:02:30.672 INFO  Gate_Pack.AuthorTableGateway : here
+00:02:30.686 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp
+00:02:33.288 INFO  Gate_Pack.AuthorTableGateway : closed
+00:06:08.181 INFO  Gate_Pack.AuthorTableGateway : here
+00:06:08.191 INFO  Gate_Pack.AuthorTableGateway : here
+00:06:08.192 INFO  Gate_Pack.AuthorTableGateway : here
+00:06:08.194 INFO  Gate_Pack.AuthorTableGateway : here
+00:06:14.241 INFO  Controller_Pack.ViewDetailController : clicked on Neil Down
+00:06:18.221 INFO  Gate_Pack.AuthorTableGateway : closed
+00:27:40.199 INFO  Gate_Pack.BookTableGateway : start
+00:27:40.583 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Authors WHERE id =13' at line 1
+00:28:13.637 INFO  Gate_Pack.BookTableGateway : start
+00:28:13.746 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Authors WHERE id = 13' at line 1
+00:30:43.692 INFO  Gate_Pack.BookTableGateway : start
+00:30:43.809 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:35:17.301 INFO  Gate_Pack.BookTableGateway : start
+00:35:17.395 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:38:31.976 INFO  Gate_Pack.BookTableGateway : start
+00:38:32.068 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:44:27.195 INFO  Gate_Pack.BookTableGateway : start
+00:44:27.262 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+00:45:20.991 INFO  Gate_Pack.BookTableGateway : start
+00:45:21.091 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:46:03.986 INFO  Gate_Pack.BookTableGateway : start
+00:46:04.119 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Before start of result set
+00:47:12.200 INFO  Gate_Pack.BookTableGateway : start
+00:47:12.391 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Before start of result set
+00:48:22.775 INFO  Gate_Pack.BookTableGateway : start
+00:48:23.081 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:50:10.668 INFO  Gate_Pack.BookTableGateway : start
+00:50:10.697 INFO  Gate_Pack.BookTableGateway : start
+00:50:10.729 INFO  Gate_Pack.BookTableGateway : start
+00:50:10.792 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:50:33.130 INFO  Gate_Pack.BookTableGateway : start
+00:50:33.160 INFO  Gate_Pack.BookTableGateway : start
+00:50:33.203 INFO  Gate_Pack.BookTableGateway : start
+00:50:33.203 INFO  Gate_Pack.BookTableGateway : start
+00:50:33.252 INFO  Gate_Pack.BookTableGateway : start
+00:50:33.288 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:52:20.360 INFO  Gate_Pack.BookTableGateway : start
+00:52:20.408 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:53:11.123 INFO  Gate_Pack.BookTableGateway : start
+00:53:11.158 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:54:37.036 INFO  Gate_Pack.BookTableGateway : start
+00:54:37.073 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:55:47.156 INFO  Gate_Pack.BookTableGateway : start
+00:55:47.206 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:56:43.556 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Operation not allowed after ResultSet closed
+00:58:47.573 INFO  Gate_Pack.BookTableGateway : start
+00:58:47.621 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:03:20.325 INFO  Gate_Pack.BookTableGateway : start
+01:03:20.391 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:04:17.325 INFO  Gate_Pack.BookTableGateway : start
+01:04:17.367 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:04:49.876 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:06:46.145 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:07:44.560 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Before start of result set
+01:09:55.785 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:12:59.900 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:14:12.758 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:14:47.286 INFO  Gate_Pack.BookTableGateway : start
+01:14:47.363 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '2	what whatthe who
+2017-03-08
+so much words0000-00-00 00:00:0010 ' can not be represented as java.sql.Timestamp
+01:18:02.543 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+01:19:29.228 INFO  Gate_Pack.BookTableGateway : start
+01:19:29.317 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '2	what whatthe who
+2017-03-08
+so much words0000-00-00 00:00:0010 ' can not be represented as java.sql.Timestamp
+01:22:10.910 INFO  Gate_Pack.BookTableGateway : start
+01:22:10.948 INFO  Gate_Pack.BookTableGateway : start
+01:22:10.985 INFO  Gate_Pack.BookTableGateway : start
+01:22:11.021 INFO  Gate_Pack.BookTableGateway : start
+22:03:32.381 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:32.392 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:32.393 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:32.396 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:36.719 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:03:39.613 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+22:03:39.991 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:39.992 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:39.993 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:39.994 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:42.345 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:03:46.251 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+22:03:46.718 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:46.719 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:46.720 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:46.720 INFO  Gate_Pack.AuthorTableGateway : here
+22:03:52.438 INFO  Gate_Pack.AuthorTableGateway : closed
+22:04:42.122 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:42.127 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:42.128 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:42.129 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:44.061 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:04:49.223 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+22:04:49.578 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:49.579 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:49.580 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:49.580 INFO  Gate_Pack.AuthorTableGateway : here
+22:04:53.869 INFO  Gate_Pack.AuthorTableGateway : closed
+22:06:18.377 INFO  Gate_Pack.AuthorTableGateway : here
+22:06:18.384 INFO  Gate_Pack.AuthorTableGateway : here
+22:06:18.384 INFO  Gate_Pack.AuthorTableGateway : here
+22:06:18.386 INFO  Gate_Pack.AuthorTableGateway : here
+22:06:24.190 INFO  Gate_Pack.AuthorTableGateway : closed
+22:07:49.784 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:07:55.306 INFO  Gate_Pack.AuthorTableGateway : first
+22:07:55.354 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+22:07:59.402 INFO  Gate_Pack.AuthorTableGateway : closed
+22:08:39.505 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:08:43.710 INFO  Gate_Pack.AuthorTableGateway : first
+22:08:43.762 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+22:08:45.681 INFO  Gate_Pack.AuthorTableGateway : closed
+22:09:31.354 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:09:34.893 INFO  Gate_Pack.AuthorTableGateway : first
+22:09:34.928 INFO  Gate_Pack.AuthorTableGateway : second
+22:09:34.935 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Column 'last_modified' not found.
+22:09:47.235 INFO  Gate_Pack.AuthorTableGateway : closed
+22:16:50.691 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:16:55.229 INFO  Gate_Pack.AuthorTableGateway : first
+22:16:55.275 INFO  Gate_Pack.AuthorTableGateway : second
+22:16:55.281 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Column 'last_modified' not found.
+22:17:45.446 INFO  Gate_Pack.AuthorTableGateway : closed
+22:17:55.990 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:17:59.406 INFO  Gate_Pack.AuthorTableGateway : first
+22:17:59.442 INFO  Gate_Pack.AuthorTableGateway : second
+22:17:59.448 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Column 'last_modified' not found.
+22:18:03.022 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:18:18.613 INFO  Gate_Pack.AuthorTableGateway : closed
+22:21:46.934 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:21:51.036 INFO  Gate_Pack.AuthorTableGateway : first
+22:21:51.086 INFO  Gate_Pack.AuthorTableGateway : second
+22:21:51.092 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Column 'last_modified' not found.
+22:22:27.435 INFO  Gate_Pack.AuthorTableGateway : closed
+22:22:36.453 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:22:39.684 INFO  Gate_Pack.AuthorTableGateway : first
+22:22:39.722 INFO  Gate_Pack.AuthorTableGateway : second
+22:22:39.727 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Column 'last_modified' not found.
+22:24:27.752 INFO  Gate_Pack.AuthorTableGateway : closed
+22:24:35.602 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:24:38.774 INFO  Gate_Pack.AuthorTableGateway : first
+22:24:38.802 INFO  Gate_Pack.AuthorTableGateway : second
+22:24:42.925 INFO  Gate_Pack.AuthorTableGateway : third
+22:24:42.935 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+22:24:42.937 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+22:24:52.375 INFO  Gate_Pack.AuthorTableGateway : closed
+22:26:30.115 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:26:33.730 INFO  Gate_Pack.AuthorTableGateway : first
+22:26:33.763 INFO  Gate_Pack.AuthorTableGateway : 2017-03-10T09:14:26	2017-03-10T09:14:26
+22:26:39.785 INFO  Gate_Pack.AuthorTableGateway : third
+22:26:39.796 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+22:26:39.797 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+22:27:37.259 INFO  Gate_Pack.AuthorTableGateway : closed
+22:27:45.203 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:27:48.488 INFO  Gate_Pack.AuthorTableGateway : first
+22:27:48.519 INFO  Gate_Pack.AuthorTableGateway : 2017-03-10T09:14:26	2017-03-10T09:14:26
+22:27:48.520 INFO  Gate_Pack.AuthorTableGateway : third
+22:27:48.568 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+22:30:23.604 INFO  Gate_Pack.AuthorTableGateway : closed
+22:30:31.165 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:30:37.744 INFO  Gate_Pack.AuthorTableGateway : third
+22:30:37.800 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasejava.sql.SQLException: Column 'last_modified' not found.
+22:30:41.277 INFO  Gate_Pack.AuthorTableGateway : closed
+22:31:49.186 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+22:31:52.562 INFO  Gate_Pack.AuthorTableGateway : third
+22:32:09.562 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dup
+22:32:11.195 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dup
+22:32:19.298 INFO  Gate_Pack.AuthorTableGateway : third
+22:32:23.569 INFO  Gate_Pack.AuthorTableGateway : closed
+22:32:30.344 INFO  Gate_Pack.AuthorTableGateway : third
+22:32:30.353 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+22:32:30.354 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+22:32:36.194 INFO  Gate_Pack.AuthorTableGateway : closed
+22:57:03.461 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Column 'id' not found.
+23:04:33.000 INFO  Controller_Pack.BookController : clicked on null
+23:06:30.535 INFO  Gate_Pack.AuthorTableGateway : closed
+23:08:44.509 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+23:14:15.018 INFO  Controller_Pack.BookController : clicked on null
+23:14:23.579 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+23:15:13.430 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+23:17:01.293 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+23:17:01.309 INFO  Controller_Pack.BookDetailController : 2017-03-10
+23:17:55.088 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+23:17:55.107 INFO  Controller_Pack.BookDetailController : 2017-03-30
+23:20:05.615 INFO  Controller_Pack.ViewDetailController : clicked on null
+23:20:10.037 INFO  Gate_Pack.AuthorTableGateway : closed
+23:21:37.476 INFO  Controller_Pack.BookController : clicked on null
+23:23:11.991 INFO  Controller_Pack.BookController : clicked on null
+23:23:20.129 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+23:23:20.144 INFO  Controller_Pack.BookDetailController : 2017-03-30
+23:23:32.745 INFO  Controller_Pack.BookController : clicked on null
+23:25:42.587 INFO  Controller_Pack.BookController : clicked on null
+23:30:10.457 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+23:30:10.475 INFO  Controller_Pack.BookDetailController : 2017-03-30
+23:36:04.424 INFO  Controller_Pack.BookController : clicked on Stan Dupp - delete me
+23:36:04.440 INFO  Controller_Pack.BookDetailController : 2017-03-02
+23:36:14.023 INFO  Gate_Pack.BookTableGateway : closed
+00:46:55.314 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+00:46:55.336 INFO  Controller_Pack.BookDetailController : 2017-03-30
+00:48:44.537 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+00:48:44.557 INFO  Controller_Pack.BookDetailController : 2017-03-30
+00:50:00.515 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+00:50:00.533 INFO  Controller_Pack.BookDetailController : 2017-03-08
+00:50:02.860 INFO  Controller_Pack.BookDetailController : befor!
+00:53:34.767 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+00:53:34.784 INFO  Controller_Pack.BookDetailController : 2017-03-10
+00:53:37.026 INFO  Controller_Pack.BookDetailController : befor!
+00:57:53.903 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+00:57:54.325 INFO  Controller_Pack.BookDetailController : 2017-03-30
+00:58:00.716 INFO  Controller_Pack.BookDetailController : befor!
+00:58:00.717 INFO  Controller_Pack.BookDetailController : in!
+00:58:00.718 INFO  Controller_Pack.BookDetailController : updating?
+00:58:01.002 ERROR Gate_Pack.BookTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'bct105.Book' doesn't exist
+00:58:23.057 INFO  Gate_Pack.AuthorTableGateway : closed
+00:59:14.898 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+00:59:15.360 INFO  Controller_Pack.BookDetailController : 2017-03-30
+00:59:21.272 INFO  Controller_Pack.BookDetailController : befor!
+00:59:21.273 INFO  Controller_Pack.BookDetailController : in!
+00:59:21.273 INFO  Controller_Pack.BookDetailController : updating?
+00:59:26.356 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+00:59:26.700 INFO  Controller_Pack.BookDetailController : 2017-03-30
+00:59:55.470 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+01:00:14.230 INFO  Gate_Pack.AuthorTableGateway : closed
+01:02:59.689 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+01:02:59.706 INFO  Controller_Pack.BookDetailController : 2017-03-30
+01:03:02.403 INFO  Controller_Pack.BookDetailController : befor!
+01:06:49.098 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+01:06:49.120 INFO  Controller_Pack.BookDetailController : 2017-03-08
+01:07:59.270 INFO  Gate_Pack.AuthorTableGateway : closed
+01:08:07.005 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+01:08:07.022 INFO  Controller_Pack.BookDetailController : 2017-03-08
+01:08:14.341 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+01:08:21.599 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+01:08:21.604 INFO  Controller_Pack.BookDetailController : 2017-03-30
+01:08:50.751 INFO  Gate_Pack.AuthorTableGateway : closed
+01:13:30.862 INFO  Controller_Pack.BookDetailController :
+01:15:47.812 INFO  Controller_Pack.BookDetailController :
+01:16:59.208 INFO  Controller_Pack.BookDetailController :
+01:17:10.491 INFO  Controller_Pack.BookDetailController : here
+01:32:39.130 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+01:32:39.531 INFO  Controller_Pack.BookDetailController : 2017-03-08
+01:32:49.052 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+01:32:49.346 INFO  Controller_Pack.BookDetailController : 2017-03-08
+01:32:53.642 INFO  Controller_Pack.BookDetailController :
+01:33:20.271 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '6new bookabc
+1212-12-12pretty good0000-00-00 00:00:0010       ' can not be represented as java.sql.Timestamp
+01:37:12.902 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '6new bookabc
+1212-12-12pretty good0000-00-00 00:00:0010       ' can not be represented as java.sql.Timestamp
+01:37:25.993 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '6new bookabc
+1212-12-12pretty good0000-00-00 00:00:0010       ' can not be represented as java.sql.Timestamp
+01:37:27.695 INFO  Gate_Pack.AuthorTableGateway : closed
+01:39:53.842 INFO  Controller_Pack.BookController : clicked on Stan Dupp - new book
+01:40:33.461 INFO  Controller_Pack.BookController : clicked on Stan Dupp - the new
+01:40:51.791 INFO  Gate_Pack.AuthorTableGateway : closed
+01:44:05.411 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+01:44:09.495 INFO  Gate_Pack.AuthorTableGateway : closed
+01:44:42.098 INFO  Gate_Pack.AuthorTableGateway : closed
+10:04:22.798 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+10:04:24.866 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: No operations allowed after statement closed.
+10:04:28.552 INFO  Gate_Pack.AuthorTableGateway : closed
+10:06:02.837 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+10:06:11.980 INFO  Gate_Pack.AuthorTableGateway : closed
+10:07:30.320 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+10:07:31.781 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY `date_added` ASC' at line 1
+10:08:21.532 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+10:08:23.002 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'A' in 'where clause'
+10:08:29.501 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+10:08:31.465 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'A' in 'where clause'
+10:08:33.899 INFO  Gate_Pack.AuthorTableGateway : closed
+10:09:06.780 INFO  Gate_Pack.AuthorTableGateway : closed
+10:09:13.934 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+10:09:15.453 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'A' in 'where clause'
+10:09:18.077 INFO  Gate_Pack.AuthorTableGateway : closed
+10:15:46.165 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+10:15:47.856 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+10:15:55.306 INFO  Gate_Pack.AuthorTableGateway : closed
+10:16:16.322 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+10:16:24.881 INFO  Gate_Pack.AuthorTableGateway : closed
+10:17:56.905 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+10:17:58.745 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'A' in 'where clause'
+10:18:04.152 INFO  Gate_Pack.AuthorTableGateway : closed
+10:19:50.239 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+10:19:58.322 INFO  Gate_Pack.AuthorTableGateway : closed
+10:20:59.496 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+10:21:06.853 INFO  Gate_Pack.AuthorTableGateway : closed
+10:22:57.721 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+10:23:01.556 INFO  Gate_Pack.AuthorTableGateway : closed
+10:24:50.399 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+10:24:55.570 INFO  Gate_Pack.AuthorTableGateway : closed
+10:25:14.827 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+10:25:19.451 INFO  Gate_Pack.AuthorTableGateway : closed
+10:26:02.500 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+10:26:06.389 INFO  Gate_Pack.AuthorTableGateway : closed
+10:28:49.072 INFO  Controller_Pack.ViewDetailController : clicked on Jenna Cide
+10:28:53.919 INFO  Gate_Pack.AuthorTableGateway : closed
+10:38:53.812 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+10:39:07.845 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+10:39:29.509 INFO  Gate_Pack.AuthorTableGateway : closed
+10:40:20.334 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+10:40:34.634 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+10:40:42.582 INFO  Gate_Pack.AuthorTableGateway : closed
+10:44:06.018 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+10:44:09.490 INFO  Controller_Pack.MasterController : 3
+10:44:18.387 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+10:44:20.067 INFO  Controller_Pack.MasterController : 2
+10:51:47.796 INFO  Gate_Pack.AuthorTableGateway : closed
+10:54:34.661 INFO  Controller_Pack.BookController : clicked on Stan Dupp - working
+10:54:37.008 INFO  Controller_Pack.MasterController : 8
+10:55:01.289 INFO  Gate_Pack.AuthorTableGateway : closed
+11:16:39.171 INFO  Controller_Pack.BookController : clicked on Stan Dupp - working
+11:16:52.310 INFO  Controller_Pack.BookController : clicked on Stan Dupp - working
+11:16:53.812 INFO  Controller_Pack.MasterController : 8
+11:17:03.247 INFO  Gate_Pack.AuthorTableGateway : closed
+07:16:58.291 INFO  Controller_Pack.BookController : clicked on Stan Dupp - working
+07:17:12.788 INFO  Gate_Pack.AuthorTableGateway : closed
+07:18:33.662 INFO  Gate_Pack.AuthorTableGateway : closed
+07:18:49.505 INFO  Gate_Pack.AuthorTableGateway : closed
+07:20:01.878 INFO  Gate_Pack.AuthorTableGateway : closed
+07:20:42.197 INFO  Controller_Pack.BookController : clicked on Stan Dupp - second book
+07:20:47.328 INFO  Gate_Pack.AuthorTableGateway : closed
+07:21:32.365 INFO  Controller_Pack.BookDetailController : here
+07:22:20.029 INFO  Controller_Pack.BookDetailController : here
+07:22:35.784 INFO  Gate_Pack.AuthorTableGateway : closed
+07:27:43.228 INFO  Controller_Pack.BookDetailController : here
+07:29:18.722 INFO  Gate_Pack.AuthorTableGateway : closed
+07:29:54.386 INFO  Controller_Pack.BookDetailController : here
+07:30:03.449 INFO  Gate_Pack.AuthorTableGateway : closed
+07:32:07.880 INFO  Controller_Pack.BookDetailController : here
+07:34:12.612 INFO  Controller_Pack.BookDetailController : here
+07:34:18.564 INFO  Controller_Pack.BookDetailController : here
+07:34:25.016 INFO  Controller_Pack.BookDetailController : here
+07:34:29.650 INFO  Controller_Pack.BookDetailController : here
+07:34:35.076 INFO  Controller_Pack.BookDetailController : here
+07:34:38.847 INFO  Controller_Pack.BookDetailController : here
+07:34:43.023 INFO  Gate_Pack.AuthorTableGateway : closed
+07:35:55.237 INFO  Gate_Pack.AuthorTableGateway : closed
+07:36:34.789 INFO  Controller_Pack.BookController : clicked on Stan Dupp - inserting
+07:36:45.321 INFO  Controller_Pack.BookController : clicked on Stan Dupp - inserting
+07:36:46.488 INFO  Controller_Pack.MasterController : 9
+07:36:53.243 INFO  Controller_Pack.BookController : clicked on Stan Dupp - inserting
+07:37:08.384 INFO  Controller_Pack.ViewDetailController : clicked on Stan Dupp
+07:37:18.718 INFO  Gate_Pack.AuthorTableGateway : closed
+08:48:51.428 INFO  Gate_Pack.AuthorTableGateway : closed
+08:49:55.811 INFO  Controller_Pack.BookController : clicked on Jenna Cide - first book
+08:50:58.620 INFO  Gate_Pack.AuthorTableGateway : closed
+08:51:14.107 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+08:51:18.783 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+08:51:29.994 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+08:51:36.360 INFO  Gate_Pack.AuthorTableGateway : closed
+08:59:52.729 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:00:00.924 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:00:15.408 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:00:22.238 INFO  Controller_Pack.MasterController : 3
+09:00:34.057 INFO  Gate_Pack.AuthorTableGateway : closed
+09:01:34.984 INFO  Controller_Pack.BookController : clicked on Jenna Cide - first book
+09:01:41.286 INFO  Gate_Pack.AuthorTableGateway : closed
+09:03:26.022 INFO  Gate_Pack.AuthorTableGateway : closed
+09:05:39.941 INFO  Gate_Pack.AuthorTableGateway : closed
+09:09:23.525 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:09:29.715 INFO  Controller_Pack.BookDetailController : Drew A. Blank - third book
+09:09:33.460 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:09:41.062 INFO  Controller_Pack.BookDetailController : Drew A. Blank - third book
+09:09:48.193 INFO  Controller_Pack.BookDetailController :   -
+09:10:02.145 INFO  Gate_Pack.AuthorTableGateway : closed
+09:14:27.121 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:14:32.077 INFO  Controller_Pack.BookDetailController : Drew A. Blank - third book
+09:14:36.747 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:14:43.602 INFO  Controller_Pack.BookDetailController : Drew A. Blank - third book
+09:14:46.560 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:14:51.606 INFO  Controller_Pack.BookDetailController : Drew A. Blank - third book
+09:14:57.153 INFO  Controller_Pack.BookDetailController :   -
+09:15:01.475 INFO  Gate_Pack.AuthorTableGateway : closed
+09:20:16.659 INFO  Gate_Pack.AuthorTableGateway : closed
+09:22:06.903 INFO  Controller_Pack.BookDetailController : TextField[id=Title, styleClass=text-input text-field]
+09:22:08.688 INFO  Gate_Pack.AuthorTableGateway : closed
+09:23:02.087 INFO  Gate_Pack.AuthorTableGateway : closed
+09:23:13.543 INFO  Controller_Pack.BookDetailController :
+09:23:15.355 INFO  Gate_Pack.AuthorTableGateway : closed
+09:25:02.883 INFO  Gate_Pack.AuthorTableGateway : closed
+09:30:26.500 INFO  Controller_Pack.BookController : clicked on Neil Down - fourth book
+09:30:27.874 INFO  Controller_Pack.MasterController : 4
+09:30:35.501 INFO  Controller_Pack.BookController : clicked on Drew A. Blank - third book
+09:30:36.877 INFO  Controller_Pack.MasterController : 3
+09:30:42.579 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+09:30:45.622 ERROR Gate_Pack.AuthorTableGateway : Failed to Delete entry in database:
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book WHERE author_id = 14' at line 1
+09:31:50.285 INFO  Gate_Pack.AuthorTableGateway : closed
+09:33:41.023 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+09:33:44.742 ERROR Gate_Pack.AuthorTableGateway : Failed to Delete entry in database:
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book WHERE author_id = 14' at line 1
+09:33:49.507 INFO  Gate_Pack.AuthorTableGateway : closed
+09:34:38.146 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+09:34:40.715 ERROR Gate_Pack.AuthorTableGateway : Failed to Delete entry in database:
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book WHERE author_id = 14' at line 1
+09:34:43.905 INFO  Gate_Pack.AuthorTableGateway : closed
+09:35:15.261 INFO  Controller_Pack.ViewDetailController : clicked on Drew A. Blank
+09:35:20.135 INFO  Gate_Pack.AuthorTableGateway : deleting
+09:35:22.390 INFO  Gate_Pack.AuthorTableGateway : closed
+22:25:13.868 INFO  Gate_Pack.AuthorTableGateway : closed
+22:26:38.288 INFO  Gate_Pack.AuthorTableGateway : closed
+22:30:00.791 ERROR Gate_Pack.AuthorTableGateway : java.io.FileNotFoundException: db.properties (No such file or directory)
+22:34:19.603 ERROR Gate_Pack.AuthorTableGateway : java.io.FileNotFoundException: db.properties (No such file or directory)
+22:35:32.951 ERROR Gate_Pack.AuthorTableGateway : java.io.FileNotFoundException: db.properties (No such file or directory)
+22:41:39.733 ERROR Gate_Pack.AuthorTableGateway : java.io.FileNotFoundException: db.properties (No such file or directory)
+22:42:19.292 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+22:42:59.463 ERROR Gate_Pack.AuthorTableGateway : java.io.FileNotFoundException: ../db.properties (No such file or directory)
+22:43:23.343 ERROR Gate_Pack.AuthorTableGateway : java.io.FileNotFoundException: ../../db.properties (No such file or directory)
+22:48:37.461 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Failed to get a connection using the URL 'MYSQL_AUTHOR_DB_URL'.
+22:48:42.422 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Failed to get a connection using the URL 'MYSQL_AUTHOR_DB_URL'.
+22:50:00.315 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Failed to get a connection using the URL 'MYSQL_AUTHOR_DB_URL'.
+22:50:56.185 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Failed to get a connection using the URL 'MYSQL_AUTHOR_DB_URL'.
+22:54:01.164 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.Authors' doesn't exist
+22:54:30.590 ERROR Gate_Pack.AuthorTableGateway : Failed to insert new entry in database:
+Table 'vvf555.Authors' doesn't exist
+22:54:30.635 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.Authors' doesn't exist
+22:54:35.723 INFO  Gate_Pack.AuthorTableGateway : closed
+22:56:41.616 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp
+22:56:46.170 INFO  Gate_Pack.AuthorTableGateway : closed
+22:57:11.089 ERROR Gate_Pack.AuthorTableGateway : Failed to insert new entry in database:
+Table 'vvf555.autdit_trail' doesn't exist
+22:57:11.173 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp
+22:57:16.188 INFO  Gate_Pack.AuthorTableGateway : closed
+22:58:23.691 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp
+22:58:38.990 ERROR Gate_Pack.AuthorTableGateway : Failed to insert new entry in database:
+Table 'vvf555.autdit_trail' doesn't exist
+22:58:39.700 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp
+22:58:44.426 INFO  Gate_Pack.AuthorTableGateway : closed
+22:59:29.011 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp
+22:59:37.695 INFO  Gate_Pack.AuthorTableGateway : closed
+23:08:44.744 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00' can not be represented as java.sql.Date
+23:08:53.469 INFO  Controller_Pack.ViewDetailController : clicked on Matthew123 McConaughey
+23:09:00.429 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00' can not be represented as java.sql.Date
+23:09:05.904 INFO  Gate_Pack.AuthorTableGateway : closed
+23:09:29.789 ERROR Gate_Pack.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Value '0000-00-00' can not be represented as java.sql.Date
+23:09:35.989 INFO  Gate_Pack.AuthorTableGateway : closed
+23:10:10.610 INFO  Controller_Pack.ViewDetailController : clicked on ima loser
+23:10:33.827 INFO  Gate_Pack.AuthorTableGateway : closed
+23:12:45.779 INFO  Controller_Pack.ViewDetailController : clicked on I_Ama loser
+23:12:46.753 INFO  Controller_Pack.MasterController : 4
+23:12:49.439 INFO  Gate_Pack.AuthorTableGateway : closed
+23:25:19.241 INFO  Gate_Pack.AuthorTableGateway : closed
+23:35:00.128 ERROR Gate_Pack.BookTableGateway : Failed to insert new entry in database:
+Table 'vvf555.autdit_trail' doesn't exist
+23:35:07.304 INFO  Gate_Pack.AuthorTableGateway : closed
+23:37:07.366 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.Authors' doesn't exist
+23:37:09.571 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.Authors' doesn't exist
+23:37:13.684 INFO  Gate_Pack.AuthorTableGateway : closed
+23:37:51.202 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '2How to not be newold guy publishing
+2009-01-12 Being a new guy is hard, git gud80000-00-00 00:00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ' can not be represented as java.sql.Timestamp
+23:38:31.009 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '2How to not be newold guy publishing
+2009-01-12 Being a new guy is hard, git gud80000-00-00 00:00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ' can not be represented as java.sql.Timestamp
+23:38:42.811 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '2How to not be newold guy publishing
+2009-01-12 Being a new guy is hard, git gud80000-00-00 00:00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ' can not be represented as java.sql.Timestamp
+23:38:46.004 INFO  Gate_Pack.AuthorTableGateway : closed
+23:39:42.044 INFO  Controller_Pack.BookController : clicked on new Guy - How to not be new
+23:39:44.022 INFO  Gate_Pack.AuthorTableGateway : closed
+23:54:23.720 INFO  Gate_Pack.AuthorTableGateway : closed
+23:55:12.281 INFO  Gate_Pack.AuthorTableGateway : closed
+23:55:43.929 INFO  Gate_Pack.AuthorTableGateway : closed
+23:56:23.410 INFO  Gate_Pack.AuthorTableGateway : closed
+23:58:11.517 INFO  Gate_Pack.AuthorTableGateway : closed
+23:59:20.538 INFO  Gate_Pack.AuthorTableGateway : closed
+00:05:26.792 INFO  Gate_Pack.AuthorTableGateway : closed
+00:05:44.836 INFO  Controller_Pack.BookController : clicked on new Guy - How to not be new
+00:05:55.129 INFO  Gate_Pack.AuthorTableGateway : closed
+00:06:45.124 INFO  Gate_Pack.AuthorTableGateway : closed
+00:07:15.594 INFO  Controller_Pack.ViewDetailController : clicked on Matthew123 McConaughey
+00:07:17.702 INFO  Gate_Pack.AuthorTableGateway : closed
+00:10:36.373 INFO  Gate_Pack.AuthorTableGateway : closed
+00:12:10.097 INFO  Gate_Pack.AuthorTableGateway : closed
+00:17:06.955 INFO  Gate_Pack.AuthorTableGateway : closed
+00:31:43.558 INFO  Gate_Pack.AuthorTableGateway : closed
+00:35:24.183 INFO  Gate_Pack.AuthorTableGateway : closed
+00:38:40.306 INFO  Gate_Pack.AuthorTableGateway : closed
+00:41:09.377 INFO  Gate_Pack.AuthorTableGateway : closed
+00:53:22.748 INFO  Gate_Pack.AuthorTableGateway : closed
+14:35:37.169 INFO  Controller_Pack.ViewDetailController : clicked on I_Ama loser
+14:35:48.970 INFO  Controller_Pack.BookController : clicked on new Guy - How to not be new
+14:36:50.213 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+14:36:55.804 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+14:37:04.081 INFO  Controller_Pack.ViewDetailController : clicked on thiasnf lsadl
+14:37:08.746 INFO  Gate_Pack.AuthorTableGateway : closed
+18:08:41.061 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+18:08:42.549 INFO  Gate_Pack.AuthorTableGateway : closed
