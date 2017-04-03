@@ -64,7 +64,8 @@ public class BookTableGateway {
 //				ps = conn.prepareStatement("SELECT `first_name`, `last_name`, `dob`, `gender`, `web_site`, `last_modified` FROM `Authors` WHERE `id` = " + rsb.getInt("author_id"));
 //				rsa = ps.executeQuery();
 				stmt = conn.createStatement();
-				rsa = stmt.executeQuery("SELECT * FROM `AuthorTable` WHERE `id` = " + rsb.getInt("author_id"));
+				rsa = stmt.executeQuery("SELECT * FROM `AuthorTable` WHERE `id` = " +
+						rsb.getInt("author_id"));
 				//rsa = stmt2.executeQuery("SELECT `first_name`, `last_name`, `dob`, `gender`, `web_site`, `last_modified` FROM `Authors` WHERE `id` = " + rsb.getInt("author_id"));
 				if(rsa.next()){
 					listView.add(new Book(rsb.getInt("id"), rsb.getString("title"),rsb.getString("publisher"),

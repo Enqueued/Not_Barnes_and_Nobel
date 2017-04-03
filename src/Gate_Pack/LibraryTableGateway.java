@@ -61,7 +61,8 @@ public class LibraryTableGateway {
             conn.setAutoCommit(false);
             stmt = conn.createStatment();
             //need to think about what we are going to pull first
-            rs2 = stmt.executeQuery();
+            rs2 = stmt.executeQuery("SELECT * FROM `AuthorTable` left join book on `AuthorTable`.id=author_id");
+
 
 
 

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759e85b1-f41c-4f72-b760-10153cbb0335" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model_Pack/Library.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" afterPath="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java" afterPath="$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" afterPath="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,10 +37,14 @@
           <file leaf-file-name="LibraryTableGateway.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+                <state relative-caret-position="505">
+                  <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <marker date="1491201688636" expanded="true" signature="2230:2243" ph="SELECT * FRO... book" />
+                    <marker date="1491201688636" expanded="true" signature="2230:2272" ph="SELECT * FRO... author" />
+                    <marker date="1491201688636" expanded="true" signature="2230:2302" ph="SELECT * FRO... author" />
+                    <marker date="1491201688636" expanded="true" signature="2230:2304" ph="SELECT * FRO... " />
                   </folding>
                 </state>
               </provider>
@@ -55,9 +55,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -69,26 +67,28 @@
           <file leaf-file-name="BookTableGateway.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                <state relative-caret-position="323">
+                  <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <marker date="1490924499917" expanded="true" signature="1780:1798" ph="SELECT * FRO... book" />
-                    <marker date="1490924499917" expanded="true" signature="2127:2168" ph="SELECT * FRO... AuthorTable" />
-                    <marker date="1490924499917" expanded="true" signature="3437:3504" ph="DELETE from " />
-                    <marker date="1490924499917" expanded="true" signature="3616:3647" ph="DELETE from " />
-                    <marker date="1490924499917" expanded="true" signature="4280:4382" ph="INSERT INTO `book`... " />
-                    <marker date="1490924499917" expanded="true" signature="4864:4944" ph="insert into `audit_trail`... " />
-                    <marker date="1490924499917" expanded="true" signature="5690:5736" ph="SELECT `last... book" />
-                    <marker date="1490924499917" expanded="true" signature="6300:6401" ph="UPDATE book " />
-                    <marker date="1490924499917" expanded="true" signature="6766:6812" ph="SELECT `last... book" />
-                    <marker date="1490924499917" expanded="true" signature="7013:7093" ph="insert into `audit_trail`... " />
-                    <marker date="1490924499917" expanded="true" signature="7293:7373" ph="insert into `audit_trail`... " />
-                    <marker date="1490924499917" expanded="true" signature="7644:7724" ph="insert into `audit_trail`... " />
-                    <marker date="1490924499917" expanded="true" signature="8003:8083" ph="insert into `audit_trail`... " />
-                    <marker date="1490924499917" expanded="true" signature="8354:8434" ph="insert into `audit_trail`... " />
-                    <marker date="1490924499917" expanded="true" signature="8716:8796" ph="insert into `audit_trail`... " />
-                    <marker date="1490924499917" expanded="true" signature="9565:9679" ph="SELECT * FRO... audit_trail" />
+                    <element signature="e#989#995#0" expanded="true" />
+                    <element signature="e#9446#9463#0" expanded="true" />
+                    <marker date="1491201665207" expanded="true" signature="1780:1798" ph="SELECT * FRO... book" />
+                    <marker date="1491201665207" expanded="true" signature="2127:2168" ph="SELECT * FRO... AuthorTable" />
+                    <marker date="1491201665207" expanded="true" signature="3443:3510" ph="DELETE from " />
+                    <marker date="1491201665207" expanded="true" signature="3622:3653" ph="DELETE from " />
+                    <marker date="1491201665207" expanded="true" signature="4286:4388" ph="INSERT INTO `book`... " />
+                    <marker date="1491201665207" expanded="true" signature="4870:4950" ph="insert into `audit_trail`... " />
+                    <marker date="1491201665207" expanded="true" signature="5696:5742" ph="SELECT `last... book" />
+                    <marker date="1491201665207" expanded="true" signature="6306:6407" ph="UPDATE book " />
+                    <marker date="1491201665207" expanded="true" signature="6772:6818" ph="SELECT `last... book" />
+                    <marker date="1491201665207" expanded="true" signature="7019:7099" ph="insert into `audit_trail`... " />
+                    <marker date="1491201665207" expanded="true" signature="7299:7379" ph="insert into `audit_trail`... " />
+                    <marker date="1491201665207" expanded="true" signature="7650:7730" ph="insert into `audit_trail`... " />
+                    <marker date="1491201665207" expanded="true" signature="8009:8089" ph="insert into `audit_trail`... " />
+                    <marker date="1491201665207" expanded="true" signature="8360:8440" ph="insert into `audit_trail`... " />
+                    <marker date="1491201665207" expanded="true" signature="8722:8802" ph="insert into `audit_trail`... " />
+                    <marker date="1491201665207" expanded="true" signature="9571:9685" ph="SELECT * FRO... audit_trail" />
                   </folding>
                 </state>
               </provider>
@@ -116,6 +116,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ultimaq" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -139,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/Model_Pack/Author.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/Book.java" />
-        <option value="$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java" />
         <option value="$PROJECT_DIR$/src/Main_Pack/AppMain.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/MenuController.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/ViewDetailController.java" />
@@ -149,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/Controller_Pack/BookController.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/Library.java" />
+        <option value="$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java" />
         <option value="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
       </list>
     </option>
@@ -165,7 +170,7 @@
     <option name="height" value="873" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -178,93 +183,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model_Pack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gate_Pack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller_Pack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -759,12 +678,20 @@
       <workItem from="1491071570348" duration="5000" />
       <workItem from="1491071589701" duration="5081000" />
       <workItem from="1491120461549" duration="627000" />
-      <workItem from="1491189661305" duration="4000" />
+      <workItem from="1491189661305" duration="2305000" />
     </task>
+    <task id="LOCAL-00001" summary="working on project 5.">
+      <created>1491189699072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491189699072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25014000" />
+    <option name="totallyTimeSpent" value="27315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="0" />
@@ -808,6 +735,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working on project 5." />
+    <MESSAGE value="JOINS SHALL COMETH!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="JOINS SHALL COMETH!!" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -823,6 +755,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1490924499917" expanded="true" signature="1698:1718" ph="SELECT * FRO... Authors" />
+            <marker date="1490924499917" expanded="true" signature="1698:1723" ph="SELECT * FRO... AuthorTable" />
+            <marker date="1490924499917" expanded="true" signature="2838:2891" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="3449:3549" ph="UPDATE Autho... " />
+            <marker date="1490924499917" expanded="true" signature="3886:3939" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="4133:4213" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4408:4488" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4758:4838" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5101:5181" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5431:5511" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5760:5840" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="6680:6781" ph="INSERT INTO `Authors`... " />
+            <marker date="1490924499917" expanded="true" signature="7214:7294" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="8130:8167" ph="SELECT * fro... book" />
+            <marker date="1490924499917" expanded="true" signature="8242:8287" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8404:8440" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8548:8615" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8723:8761" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="9792:9908" ph="SELECT * FRO... autdit_trail" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -844,9 +797,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,6 +805,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3435">
           <caret line="229" column="84" lean-forward="false" selection-start-line="229" selection-start-column="84" selection-end-line="229" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -882,6 +836,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,6 +853,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1490924499917" expanded="true" signature="1698:1718" ph="SELECT * FRO... Authors" />
+            <marker date="1490924499917" expanded="true" signature="1698:1723" ph="SELECT * FRO... AuthorTable" />
+            <marker date="1490924499917" expanded="true" signature="2838:2891" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="3449:3549" ph="UPDATE Autho... " />
+            <marker date="1490924499917" expanded="true" signature="3886:3939" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="4133:4213" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4408:4488" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4758:4838" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5101:5181" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5431:5511" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5760:5840" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="6680:6781" ph="INSERT INTO `Authors`... " />
+            <marker date="1490924499917" expanded="true" signature="7214:7294" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="8130:8167" ph="SELECT * fro... book" />
+            <marker date="1490924499917" expanded="true" signature="8242:8287" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8404:8440" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8548:8615" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8723:8761" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="9792:9908" ph="SELECT * FRO... autdit_trail" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,9 +895,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,6 +903,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3435">
           <caret line="229" column="84" lean-forward="false" selection-start-line="229" selection-start-column="84" selection-end-line="229" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -955,6 +934,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,6 +951,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1490924499917" expanded="true" signature="1698:1718" ph="SELECT * FRO... Authors" />
+            <marker date="1490924499917" expanded="true" signature="1698:1723" ph="SELECT * FRO... AuthorTable" />
+            <marker date="1490924499917" expanded="true" signature="2838:2891" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="3449:3549" ph="UPDATE Autho... " />
+            <marker date="1490924499917" expanded="true" signature="3886:3939" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="4133:4213" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4408:4488" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4758:4838" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5101:5181" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5431:5511" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5760:5840" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="6680:6781" ph="INSERT INTO `Authors`... " />
+            <marker date="1490924499917" expanded="true" signature="7214:7294" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="8130:8167" ph="SELECT * fro... book" />
+            <marker date="1490924499917" expanded="true" signature="8242:8287" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8404:8440" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8548:8615" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8723:8761" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="9792:9908" ph="SELECT * FRO... autdit_trail" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -990,9 +993,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,6 +1001,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,6 +1046,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+          <folding>
+            <marker date="1490924499917" expanded="true" signature="1698:1718" ph="SELECT * FRO... Authors" />
+            <marker date="1490924499917" expanded="true" signature="1698:1723" ph="SELECT * FRO... AuthorTable" />
+            <marker date="1490924499917" expanded="true" signature="2838:2891" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="3449:3549" ph="UPDATE Autho... " />
+            <marker date="1490924499917" expanded="true" signature="3886:3939" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="4133:4213" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4408:4488" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4758:4838" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5101:5181" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5431:5511" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5760:5840" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="6680:6781" ph="INSERT INTO `Authors`... " />
+            <marker date="1490924499917" expanded="true" signature="7214:7294" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="8130:8167" ph="SELECT * fro... book" />
+            <marker date="1490924499917" expanded="true" signature="8242:8287" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8404:8440" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8548:8615" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8723:8761" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="9792:9908" ph="SELECT * FRO... autdit_trail" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,6 +1137,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,6 +1154,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,6 +1164,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1490924499917" expanded="true" signature="1698:1718" ph="SELECT * FRO... Authors" />
+            <marker date="1490924499917" expanded="true" signature="1698:1723" ph="SELECT * FRO... AuthorTable" />
+            <marker date="1490924499917" expanded="true" signature="2838:2891" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="3449:3549" ph="UPDATE Autho... " />
+            <marker date="1490924499917" expanded="true" signature="3886:3939" ph="SELECT `last... Authors" />
+            <marker date="1490924499917" expanded="true" signature="4133:4213" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4408:4488" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="4758:4838" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5101:5181" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5431:5511" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="5760:5840" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="6680:6781" ph="INSERT INTO `Authors`... " />
+            <marker date="1490924499917" expanded="true" signature="7214:7294" ph="insert into `autdit_trail`... " />
+            <marker date="1490924499917" expanded="true" signature="8130:8167" ph="SELECT * fro... book" />
+            <marker date="1490924499917" expanded="true" signature="8242:8287" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8404:8440" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8548:8615" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="8723:8761" ph="DELETE from " />
+            <marker date="1490924499917" expanded="true" signature="9792:9908" ph="SELECT * FRO... autdit_trail" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,44 +1224,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1490924499917" expanded="true" signature="1780:1798" ph="SELECT * FRO... book" />
-            <marker date="1490924499917" expanded="true" signature="2127:2168" ph="SELECT * FRO... AuthorTable" />
-            <marker date="1490924499917" expanded="true" signature="3437:3504" ph="DELETE from " />
-            <marker date="1490924499917" expanded="true" signature="3616:3647" ph="DELETE from " />
-            <marker date="1490924499917" expanded="true" signature="4280:4382" ph="INSERT INTO `book`... " />
-            <marker date="1490924499917" expanded="true" signature="4864:4944" ph="insert into `audit_trail`... " />
-            <marker date="1490924499917" expanded="true" signature="5690:5736" ph="SELECT `last... book" />
-            <marker date="1490924499917" expanded="true" signature="6300:6401" ph="UPDATE book " />
-            <marker date="1490924499917" expanded="true" signature="6766:6812" ph="SELECT `last... book" />
-            <marker date="1490924499917" expanded="true" signature="7013:7093" ph="insert into `audit_trail`... " />
-            <marker date="1490924499917" expanded="true" signature="7293:7373" ph="insert into `audit_trail`... " />
-            <marker date="1490924499917" expanded="true" signature="7644:7724" ph="insert into `audit_trail`... " />
-            <marker date="1490924499917" expanded="true" signature="8003:8083" ph="insert into `audit_trail`... " />
-            <marker date="1490924499917" expanded="true" signature="8354:8434" ph="insert into `audit_trail`... " />
-            <marker date="1490924499917" expanded="true" signature="8716:8796" ph="insert into `audit_trail`... " />
-            <marker date="1490924499917" expanded="true" signature="9565:9679" ph="SELECT * FRO... audit_trail" />
+            <element signature="e#989#995#0" expanded="true" />
+            <element signature="e#9446#9463#0" expanded="true" />
+            <marker date="1491201665207" expanded="true" signature="1780:1798" ph="SELECT * FRO... book" />
+            <marker date="1491201665207" expanded="true" signature="2127:2168" ph="SELECT * FRO... AuthorTable" />
+            <marker date="1491201665207" expanded="true" signature="3443:3510" ph="DELETE from " />
+            <marker date="1491201665207" expanded="true" signature="3622:3653" ph="DELETE from " />
+            <marker date="1491201665207" expanded="true" signature="4286:4388" ph="INSERT INTO `book`... " />
+            <marker date="1491201665207" expanded="true" signature="4870:4950" ph="insert into `audit_trail`... " />
+            <marker date="1491201665207" expanded="true" signature="5696:5742" ph="SELECT `last... book" />
+            <marker date="1491201665207" expanded="true" signature="6306:6407" ph="UPDATE book " />
+            <marker date="1491201665207" expanded="true" signature="6772:6818" ph="SELECT `last... book" />
+            <marker date="1491201665207" expanded="true" signature="7019:7099" ph="insert into `audit_trail`... " />
+            <marker date="1491201665207" expanded="true" signature="7299:7379" ph="insert into `audit_trail`... " />
+            <marker date="1491201665207" expanded="true" signature="7650:7730" ph="insert into `audit_trail`... " />
+            <marker date="1491201665207" expanded="true" signature="8009:8089" ph="insert into `audit_trail`... " />
+            <marker date="1491201665207" expanded="true" signature="8360:8440" ph="insert into `audit_trail`... " />
+            <marker date="1491201665207" expanded="true" signature="8722:8802" ph="insert into `audit_trail`... " />
+            <marker date="1491201665207" expanded="true" signature="9571:9685" ph="SELECT * FRO... audit_trail" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="505">
+          <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1491201688636" expanded="true" signature="2230:2243" ph="SELECT * FRO... book" />
+            <marker date="1491201688636" expanded="true" signature="2230:2272" ph="SELECT * FRO... author" />
+            <marker date="1491201688636" expanded="true" signature="2230:2302" ph="SELECT * FRO... author" />
+            <marker date="1491201688636" expanded="true" signature="2230:2304" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
