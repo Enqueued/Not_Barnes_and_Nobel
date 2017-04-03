@@ -1161,3 +1161,16 @@ Table 'vvf555.autdit_trail' doesn't exist
 18:08:41.061 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
 1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
 18:08:42.549 INFO  Gate_Pack.AuthorTableGateway : closed
+20:56:37.385 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+20:56:38.620 INFO  Controller_Pack.BookController : clicked on new Guy - How to not be new
+20:56:44.268 INFO  Controller_Pack.ViewDetailController : clicked on Matthew_reborn McConaughey
+20:56:48.896 INFO  Controller_Pack.MasterController : 2
+20:57:02.347 INFO  Controller_Pack.ViewDetailController : clicked on Coolio DDawg
+20:57:03.631 INFO  Controller_Pack.MasterController : 7
+20:57:09.298 INFO  Controller_Pack.ViewDetailController : clicked on Matthew123 McConaughey
+20:57:11.018 INFO  Controller_Pack.MasterController : 1
+20:57:13.845 INFO  Controller_Pack.ViewDetailController : clicked on Matthew123 McConaughey
+20:57:21.573 INFO  Controller_Pack.ViewDetailController : clicked on Matthew123 McConaughey
+20:57:22.511 INFO  Controller_Pack.MasterController : 1
+20:57:27.708 INFO  Gate_Pack.AuthorTableGateway : closed
