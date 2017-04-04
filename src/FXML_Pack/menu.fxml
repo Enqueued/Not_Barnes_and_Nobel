@@ -6,7 +6,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
         <menus>
@@ -27,6 +27,11 @@
               <MenuItem fx:id="newBookView" mnemonicParsing="false" onAction="#handleMenuItem" text="Add Book" />
             </items>
           </Menu>
+            <Menu mnemonicParsing="false" text="Libraries">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Library List" />
+              </items>
+            </Menu>
         </menus>
       </MenuBar>
    </top>
