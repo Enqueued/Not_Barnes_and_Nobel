@@ -1174,3 +1174,14 @@ Table 'vvf555.autdit_trail' doesn't exist
 20:57:21.573 INFO  Controller_Pack.ViewDetailController : clicked on Matthew123 McConaughey
 20:57:22.511 INFO  Controller_Pack.MasterController : 1
 20:57:27.708 INFO  Gate_Pack.AuthorTableGateway : closed
+22:32:37.922 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+22:32:43.488 INFO  Gate_Pack.AuthorTableGateway : closed
+22:46:20.100 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joincom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join `library_book` on library.id=library_id left outer join book on book_' at line 1
+23:05:35.749 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joincom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join `library_book` on library.id=library_id left outer join book on book_' at line 1
+23:06:17.122 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joincom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join `library_book` on library.id=library_id left outer join book on book_' at line 1
+23:08:10.494 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:10:17.406 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:19:04.777 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:20:16.634 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:31:34.954 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException

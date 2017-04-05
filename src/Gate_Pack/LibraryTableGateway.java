@@ -8,15 +8,12 @@ import com.sun.xml.internal.messaging.saaj.packaging.mime.internet.ParseExceptio
 import javafx.scene.control.Alert;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import javax.accessibility.AccessibleRelationSet;
 import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Created by ultimaq on 4/1/17.
@@ -31,7 +28,7 @@ public class LibraryTableGateway {
     //these result sets will be created just encase at first
     // may need more later on though
     ResultSet rs = null;
-    List<Library> listView = new ArrayList<~>();
+    List<Library> listView = new ArrayList<Library>();
 
     public LibraryTableGateway() throws SQLException{
         //import sql properties
@@ -60,17 +57,17 @@ public class LibraryTableGateway {
      */
     public List<Library> getLibraries() throws SQLException{
         LibraryBook booky;
-        List<LibraryBook> books;
+        List<LibraryBook> books = new ArrayList<LibraryBook>();
         conn = ds.getConnection(); //connection to sql db
         try{
             conn.setAutoCommit(false);
             stmt = conn.createStatement();
             //need to think about what we are going to pull first
-            rs = stmt.executeQuery("select * from `library` "+
-                                        "right inner join `library_book` on library.id=library_id "+
-                                        "left outer join book on book_id=book.id "+
-                                        "left outer join `AuthorTable` on author_id=`AuthorTable`.id "+
-                                        "order by `library`.id");
+            rs = stmt.executeQuery("select * from library "+
+										"right join library_book on library.id=library_id "+
+                                        "left join book on book_id=book.id "+
+                                        "left join AuthorTable on author_id=AuthorTable.id "+
+                                        "order by library.id");
             //todo: fill in all necessary items
             while(rs.next()){
                 Author it = new Author(rs.getString("first_name"),rs.getString("last_name"),
@@ -81,6 +78,9 @@ public class LibraryTableGateway {
                         rs.getString("summary"), it, rs.getTimestamp("last_modified").toLocalDateTime());
                 booky = new LibraryBook (rs.getInt("library_book.id"), book);
 
+                books.add(booky);
+                Library library = new Library(rs.getInt("library.id"),
+						rs.getString("library.library_name"), books, rs.getTimestamp("last_modified").toLocalDateTime());
             }
         }catch (Exception e){
             logger.error("Failed to register Join" + e);
@@ -157,7 +157,11 @@ public class LibraryTableGateway {
 						conn.setAutoCommit(true);
 						conn.close();
 					}
-					MasterController.getInstance().changeView(authorpackage.ViewType.Library_Detail, Lib);
+					try {
+						MasterController.getInstance().changeView(ViewType.LIBRARY_DETAIL, Lib);
+					} catch (java.text.ParseException e) {
+						e.printStackTrace();
+					}
 				}
 				ps = conn.prepareStatement("UPDATE library SET library_name = ? WHERE id = ?");
 				ps.setString(1, Lib.getLibraryName());

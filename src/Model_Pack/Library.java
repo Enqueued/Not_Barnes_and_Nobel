@@ -12,7 +12,7 @@ public class Library {
     private List<LibraryBook> books;
     private LocalDateTime lastModified;
 
-    private Library(){
+    public Library(){
         this.id = 0;
         this.libraryName = "";
         this.books=null;

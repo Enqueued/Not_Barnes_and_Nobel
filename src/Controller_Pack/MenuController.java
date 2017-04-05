@@ -5,6 +5,8 @@ import java.net.URL;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.ResourceBundle;
+
+import Model_Pack.Library;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import Model_Pack.ViewType;
@@ -22,6 +24,7 @@ public class MenuController implements Initializable {
 	@FXML private MenuItem Quit;
 	@FXML private MenuItem BookView;
 	@FXML private MenuItem newBookView;
+	@FXML private MenuItem libView;
 
 	/**
 	 * blank constructor
@@ -58,6 +61,11 @@ public class MenuController implements Initializable {
 		}
 		if(source == newBookView){
 			MasterController.getInstance().changeView(ViewType.BOOK_VIEW_TOO, new Author());
+			return;
+		}
+
+		if(source == libView){
+			MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, new Library());
 			return;
 		}
 	}

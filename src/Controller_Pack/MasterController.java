@@ -1,10 +1,8 @@
 package Controller_Pack;
 
-import Model_Pack.auditTrailEntry;
-import Model_Pack.Author;
+import Gate_Pack.LibraryTableGateway;
+import Model_Pack.*;
 import Gate_Pack.AuthorTableGateway;
-import Model_Pack.ViewType;
-import Model_Pack.Book;
 import Gate_Pack.BookTableGateway;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
@@ -29,8 +27,9 @@ public class MasterController {
 	private BorderPane rootPane;
 	private DetailController DC = new DetailController();
 	private BookDetailController BDC = new BookDetailController();
-	private AuthorTableGateway DB;
-	private BookTableGateway BDB;
+	private AuthorTableGateway ATG;
+	private BookTableGateway BTG;
+	private LibraryTableGateway LTG;
 	private List<Author> authors;
 	private Author author;
 	private int check = 0;
@@ -48,8 +47,9 @@ public class MasterController {
 	private MasterController() {
 		//create gateways
 		try {
-			DB = new AuthorTableGateway();
-			BDB = new BookTableGateway();
+			ATG = new AuthorTableGateway();
+			BTG = new BookTableGateway();
+			LTG = new LibraryTableGateway();
 		} catch (Exception e) {
 			logger.error(e);
 			Platform.exit();
@@ -87,40 +87,45 @@ public class MasterController {
 		if(vType == ViewType.AUTHOR_LIST) {
 			check = 0;
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/firstView.fxml"));
-			loader.setController(new ViewDetailController(DB.getAuthors()));
+			loader.setController(new ViewDetailController(ATG.getAuthors()));
 
 		} else if(vType == ViewType.AUTHOR_DETAIL) {
 			check =1;
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/lastView.fxml"));
-			loader.setController(new DetailController((Author) data, DB));
+			loader.setController(new DetailController((Author) data, ATG));
 
 		} else if(vType == ViewType.BOOK_AUDIT_TRAIL) {
 			check = 0;
 			Book book = (Book) data;
 			logger.info(book.getId());
-			List<auditTrailEntry> trails = BDB.auditTrail(book);
+			List<auditTrailEntry> trails = BTG.auditTrail(book);
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/audittrailview.fxml"));
 			loader.setController(new AuditTrailController(book, trails));
 		} else if(vType == ViewType.BOOK_VIEW) {
 			check = 0;
-			List<Book> books = BDB.getBooks();
+			List<Book> books = BTG.getBooks();
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/bookview.fxml"));
 			loader.setController(new BookController(books));
 		} else if(vType == ViewType.BOOK_DETAIL) {
 			check = 2;
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/bookdetailview.fxml"));
-			loader.setController(new BookDetailController((Book) data, DB.getAuthors(), new BookTableGateway()));
+			loader.setController(new BookDetailController((Book) data, ATG.getAuthors(), new BookTableGateway()));
 		} else if(vType == ViewType.BOOK_VIEW_TOO) {
 			check = 2;
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/bookdetailview.fxml"));
-			loader.setController(new BookDetailController( new Book(), DB.getAuthors(), new BookTableGateway()));
+			loader.setController(new BookDetailController( new Book(), ATG.getAuthors(), new BookTableGateway()));
 		}else if(vType == ViewType.AUDIT_TRAIL) {
 			check = 0;
 			Author author = (Author) data;
 			logger.info(author.getId());
-			List<auditTrailEntry> trails = DB.auditTrail(author);
+			List<auditTrailEntry> trails = ATG.auditTrail(author);
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/audittrailview.fxml"));
 			loader.setController(new AuditTrailController(author, trails));
+		} else if(vType == ViewType.LIBRARY_VIEW){
+			check = 2;
+			List<Library> libs = LTG.getLibraries();
+			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/libraryListView.fxml"));
+			loader.setController(new LibraryController(libs));
 		}
 
 		Parent view = null;
@@ -140,7 +145,7 @@ public class MasterController {
 	 * @throws SQLException
 	 */
 	public void close() throws SQLException {
-		DB.close();
+		ATG.close();
 	}
 
 	/**
@@ -160,7 +165,7 @@ public class MasterController {
 	}
 
 	public void setAuthorGateway(AuthorTableGateway carGateway) {
-		this.DB = carGateway;
+		this.ATG = carGateway;
 	}
 
 	public void setDC(DetailController detailController) {
@@ -173,7 +178,7 @@ public class MasterController {
 
 	//Getters
 	public AuthorTableGateway getAuthorGateway() {
-		return DB;
+		return ATG;
 	}
 
 	public BorderPane getRootPane() {

@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ListView fx:id="libList" layoutX="34.0" layoutY="111.0" prefHeight="260.0" prefWidth="260.0" />
@@ -15,7 +14,7 @@
             <Font size="41.0" />
          </font>
       </Label>
-      <Button fx:id="delButton" layoutX="370.0" layoutY="241.0" mnemonicParsing="false" onAction="#buttonPress" text="Delete Library">
+      <Button fx:id="delButton" layoutX="370.0" layoutY="241.0" mnemonicParsing="false" onAction="#onButtonPress" text="Delete Library">
          <font>
             <Font size="20.0" />
          </font>

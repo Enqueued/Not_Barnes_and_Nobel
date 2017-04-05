@@ -11,12 +11,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+
 
 /**
  * Created by ultimaq on 4/4/17.
@@ -40,7 +40,7 @@ public class LibraryController {
     private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException{
 		Object source = action.getSource();
 		if(source == delBtn){
-			logger.debug("Delete Library Btn clicked");
+			logger.info("Delete Library Btn clicked");
 			Library selected = menuLibrary.getSelectionModel().getSelectedItem();
 			if(selected == null){
 				return;
@@ -79,6 +79,4 @@ public class LibraryController {
 		libraryList.clear();
 	}
 
-}
-    }
 }
