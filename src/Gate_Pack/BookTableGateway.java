@@ -80,7 +80,7 @@ public class BookTableGateway {
 			logger.error("Failed reading database" + e);
 
 			//handle the exception 
-		} finally { 
+	l	} finaly {
 			//be sure to close the objects 
 			if(rsa != null) 
 				rsa.close(); 
