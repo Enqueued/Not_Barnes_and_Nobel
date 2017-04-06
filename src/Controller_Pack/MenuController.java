@@ -63,9 +63,8 @@ public class MenuController implements Initializable {
 			MasterController.getInstance().changeView(ViewType.BOOK_VIEW_TOO, new Author());
 			return;
 		}
-
 		if(source == libView){
-			MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, new Library());
+			MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, new Author());
 			return;
 		}
 	}

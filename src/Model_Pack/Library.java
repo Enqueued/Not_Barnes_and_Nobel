@@ -28,7 +28,7 @@ public class Library {
 
     //obligitory tostring
     public String toString(){
-        return this.libraryName;
+        return this.libraryName + " " +this.lastModified;
     }
 
     //getters and setters

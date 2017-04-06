@@ -2,7 +2,6 @@ package Gate_Pack;
 
 import Controller_Pack.MasterController;
 import Model_Pack.*;
-import com.mysql.jdbc.Statement;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import com.sun.xml.internal.messaging.saaj.packaging.mime.internet.ParseException;
 import javafx.scene.control.Alert;
@@ -13,6 +12,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.*;
 
 /**
@@ -24,11 +24,13 @@ public class LibraryTableGateway {
     private static Logger logger = LogManager.getLogger();
     private MysqlDataSource ds = null;
     Connection conn = null;
-    java.sql.Statement stmt = null;
+    Statement stmt = null;
     //these result sets will be created just encase at first
     // may need more later on though
     ResultSet rs = null;
-    List<Library> listView = new ArrayList<Library>();
+    private List<Library> listView = new ArrayList<Library>();
+    private List<LibraryBook> listViewBook = new ArrayList<LibraryBook>();
+	private LibraryBook booky;
 
     public LibraryTableGateway() throws SQLException{
         //import sql properties
@@ -56,8 +58,6 @@ public class LibraryTableGateway {
      * @throws SQLException
      */
     public List<Library> getLibraries() throws SQLException{
-        LibraryBook booky;
-        List<LibraryBook> books = new ArrayList<LibraryBook>();
         conn = ds.getConnection(); //connection to sql db
         try{
             conn.setAutoCommit(false);
@@ -70,18 +70,24 @@ public class LibraryTableGateway {
                                         "order by library.id");
             //todo: fill in all necessary items
             while(rs.next()){
-                Author it = new Author(rs.getString("first_name"),rs.getString("last_name"),
+                Author it = new Author(rs.getString("AuthorTable.first_name"),rs.getString("last_name"),
                         rs.getString("gender"),rs.getString("web_site"),rs.getDate("dob"),
                         rs.getInt("id"), rs.getTimestamp("last_modified").toLocalDateTime());
+				logger.info("in the while loop~! " + it.toString() );
                 Book book = new Book (rs.getInt("id"), rs.getString("title"),
                         rs.getString("publisher"), rs.getDate("date_published").toString(),
                         rs.getString("summary"), it, rs.getTimestamp("last_modified").toLocalDateTime());
-                booky = new LibraryBook (rs.getInt("library_book.id"), book);
-
-                books.add(booky);
-                Library library = new Library(rs.getInt("library.id"),
-						rs.getString("library.library_name"), books, rs.getTimestamp("last_modified").toLocalDateTime());
+				logger.info("New Book: "+book.toString());
+                booky = new LibraryBook (rs.getInt("quantity"), book);
+				logger.info(booky.toString() );
+                listViewBook.add(booky);
+                Library library = new Library(rs.getInt("library_id"),
+						rs.getString("library_name"), listViewBook, rs.getTimestamp("last_modified").toLocalDateTime());
+                logger.info(library.toString());
+                listView.add(library);
+                listViewBook = new ArrayList<LibraryBook>();
             }
+            conn.commit();
         }catch (Exception e){
             logger.error("Failed to register Join" + e);
         } finally {
@@ -93,184 +99,35 @@ public class LibraryTableGateway {
                 conn.close();
             }
         }
-        return null;
+        return listView;
     }
 
-    public void updateLibName(Library lib)throws ParseException, SQLException{
+	public void deleteLibrary(Library library) throws SQLException {
 		conn = ds.getConnection();
-		PreparedStatement ps;
+
 		try {
 			conn.setAutoCommit(false);
-			stmt = conn.createStatement();
-			ps = conn.prepareStatement("UPDATE library SET library_name = ? WHERE id = ?");
-			ps.setString(1, lib.getLibraryName());
-			ps.setInt(2, lib.getId());
+			PreparedStatement ps = conn.prepareStatement("DELETE from `autdit_trail` WHERE record_id = ? AND record_type = 'L'");
+			ps.setInt(1, library.getId());
 			ps.executeUpdate();
-			conn.commit();
-		} catch(SQLException e) {
-			logger.error("Failed updating database" + e);
-			conn.rollback();
 
-			//handle the exception
-		} finally {
-			//be sure to close the objects
-			if(stmt != null)
-				stmt.close();
-			if(conn != null) {
-				conn.setAutoCommit(true);
-				conn.close();
-			}
-		}
+			ps.close();
 
-	}
-
-	public void updateLibraryDB(Library Lib, Library oldLib)throws ParseException, SQLException {
-		if(Lib.getId() > 0){
-			conn = ds.getConnection();
-			PreparedStatement ps;
-			try {
-				conn.setAutoCommit(false);
-				stmt = conn.createStatement();
-				rs = stmt.executeQuery("SELECT `last_modified` FROM library WHERE `id` = " + Lib.getId());
-				rs.next();
-				if(!Lib.getLastModified().toString().equals(rs.getTimestamp("last_modified").toLocalDateTime().toString())){
-					Alert alert = new Alert(Alert.AlertType.WARNING);
-					alert.setTitle("Update Error");
-					alert.setContentText("Library not up to date. please try again.");
-					alert.showAndWait();
-					if(rs != null)
-						rs.close();
-					if(conn != null) {
-						conn.setAutoCommit(true);
-						conn.close();
-					}
-					try {
-						MasterController.getInstance().changeView(ViewType.LIBRARY_DETAIL, Lib);
-					} catch (java.text.ParseException e) {
-						e.printStackTrace();
-					}
-				}
-				if(!(valLibcheck(Lib.getId(),Lib.getLibraryName()))){
-					if(rs != null)
-						rs.close();
-					if(conn != null) {
-						conn.setAutoCommit(true);
-						conn.close();
-					}
-					try {
-						MasterController.getInstance().changeView(ViewType.LIBRARY_DETAIL, Lib);
-					} catch (java.text.ParseException e) {
-						e.printStackTrace();
-					}
-				}
-				ps = conn.prepareStatement("UPDATE library SET library_name = ? WHERE id = ?");
-				ps.setString(1, Lib.getLibraryName());
-				ps.setInt(2, Lib.getId());
-				ps.executeUpdate();
-				stmt = conn.createStatement();
-				rs = stmt.executeQuery("SELECT `last_modified` FROM library WHERE `id` = " + Lib.getId());
-				rs.next();
-				Lib.setLastModified(rs.getTimestamp("last_modified").toLocalDateTime());
-				ps.close();
-				if(Lib.equals(oldLib)){
-					ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
-					ps.setInt(1, Lib.getId());
-					ps.setString(2, "Library Name changed from " + oldLib.getLibraryName() + " to " + Lib.getLibraryName());
-					ps.executeUpdate();
-				}
-				conn.commit();
-			} catch(SQLException e) {
-				logger.error("Failed updating database" + e);
-				conn.rollback();
-
-				//handle the exception
-			} finally {
-				//be sure to close the objects
-				if(stmt != null)
-					stmt.close();
-				if(conn != null) {
-					conn.setAutoCommit(true);
-					conn.close();
-				}
-			}
-			if(Lib.getBooks() != oldLib.getBooks()){
-				//logger.debug("list of books has changed");
-				for(LibraryBook l1: oldLib.getBooks()){
-					for(LibraryBook l2: Lib.getBooks()){
-						if(l1.getBook() == l2.getBook()){
-							if(l1.getQuantity() != l2.getQuantity()){
-								//logger.debug("number of " + l1.getBook() + "has changed");
-								updateLibraryBook(l2, Lib.getId(), l1.getQuantity() - l2.getQuantity());
-							}
-						}
-						if(!(oldLib.getBooks().contains(l2))){
-							//logger.debug("old Library doesn't contain LibraryBook");
-							newLibraryBook(l2, Lib.getId());
-							break;
-						}
-					}
-				}
-
-			}
-		}else{
-			addLibrary(Lib);
-		}
-
-	}
-
-	public void updateLibraryBook(LibraryBook lb, int libID, int newQuan)throws ParseException, SQLException {
-		conn = ds.getConnection();
-		PreparedStatement ps;
-		try{
-			conn.setAutoCommit(false);
-			ps = conn.prepareStatement("UPDATE library_book SET quantity = ? WHERE library_id = ? AND book_id = ?");
-			ps.setInt(2, libID);
-			ps.setInt(3, lb.getBook().getId());
-			ps.setInt(1, newQuan);
-			logger.debug(ps);
+			ps = conn.prepareStatement("DELETE from `library_book` WHERE library_id = ?");
+			ps.setInt(1, library.getId());
 			ps.executeUpdate();
 			ps.close();
-			ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
-		    ps.setInt(1, libID);
-		    ps.setString(2, lb.getBook() + " quantity changed from <" + lb.getQuantity() + "> to <" + newQuan  + ">");
-		    ps.executeUpdate();
-			conn.commit();
-		} catch(SQLException e) {
-			logger.error("Failed updating database" + e);
-			conn.rollback();
 
-			//handle the exception
-		} finally {
-			//be sure to close the objects
-			if(stmt != null)
-				stmt.close();
-			if(conn != null) {
-				conn.setAutoCommit(true);
-				conn.close();
-			}
-		}
-	}
-
-	public void newLibraryBook(LibraryBook lb, int libID)throws ParseException, SQLException {
-		conn = ds.getConnection();
-		PreparedStatement ps;
-		try{
-			conn.setAutoCommit(false);
-			ps = conn.prepareStatement("INSERT INTO `library_book` (`library_id` , `book_id` , `quantity`) VALUES (?,?,?)", PreparedStatement.RETURN_GENERATED_KEYS);
-			ps.setInt(1, libID);
-			ps.setInt(2, lb.getBook().getId());
-			ps.setInt(3, lb.getQuantity());
+			ps = conn.prepareStatement("DELETE from `library` WHERE id = ?");
+			ps.setInt(1, library.getId());
 			ps.executeUpdate();
-			ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
-		    ps.setInt(1, libID);
-		    ps.setString(2, lb.getBook() + " added");
-		    ps.executeUpdate();
 			ps.close();
-			conn.commit();
-		} catch(SQLException e) {
-			logger.error("Failed updating database" + e);
-			conn.rollback();
 
+			conn.commit();
+
+		} catch(SQLException e) {
+			logger.error("Failed to Delete entry in database: \n" +e.getMessage());
+			conn.rollback();
 			//handle the exception
 		} finally {
 			//be sure to close the objects
@@ -281,30 +138,48 @@ public class LibraryTableGateway {
 				conn.close();
 			}
 		}
+
 	}
 
-	public void addLibrary(Library lb)throws ParseException, SQLException {
-		logger.debug("add library was called");
+	public void insertLibrary(Library library) throws SQLException {
 		conn = ds.getConnection();
 		ResultSet rs = null;
 
 		try {
 			conn.setAutoCommit(false);
-		    PreparedStatement ps = conn.prepareStatement("INSERT INTO `library`( `library_name` ) VALUES (?)", PreparedStatement.RETURN_GENERATED_KEYS);
-		    ps.setString(1,lb.getLibraryName());
-		    ps.executeUpdate();
-		    rs = ps.getGeneratedKeys();
+			PreparedStatement ps = conn.prepareStatement("INSERT INTO `library`( `library_name`) VALUES (?)", PreparedStatement.RETURN_GENERATED_KEYS);
+			ps.setString(1,library.getLibraryName());
+			ps.executeUpdate();
+			rs = ps.getGeneratedKeys();
 
-		    if(rs != null && rs.next()) {
-		    	lb.setId(rs.getInt(1));
+			if(rs != null && rs.next()) {
+				library.setId(rs.getInt(1));
 			}
-		    ps.close();
+			ps.close();
 
-		    ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('A', ?, ?)");
-		    ps.setInt(1, lb.getId());
-		    ps.setString(2, "Added " + lb.getLibraryName());
-		    ps.executeUpdate();
-		    conn.commit();
+			ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+			ps.setInt(1, library.getId());
+			ps.setString(2, "Added " + library.toString());
+			ps.executeUpdate();
+			logger.info("start");
+			if(library.getBooks() != null){
+				List<LibraryBook> librarybooks = library.getBooks();
+				for(LibraryBook b : librarybooks){
+					Book books = b.getBook();
+					ps = conn.prepareStatement("insert into `library_book` (library_id, book_id, quantity) values (?, ?, ?)");
+					ps.setInt(1, library.getId());
+					ps.setInt(2, books.getId());
+					ps.setInt(3, b.getQuantity());
+					ps.executeUpdate();
+					ps.close();
+					ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+					ps.setInt(1, library.getId());
+					ps.setString(2, "Added Book" + books.toString());
+					ps.executeUpdate();
+				}
+			}
+
+			conn.commit();
 		} catch(SQLException e) {
 			logger.error("Failed to insert new entry in database: \n" +e.getMessage());
 			conn.rollback();
@@ -322,29 +197,91 @@ public class LibraryTableGateway {
 		}
 	}
 
-	public void deleteLibraryBook(LibraryBook lb, int libID) throws SQLException{
+	public void updateLibrary(Library library, Library oldlibrary) throws ParseException, SQLException {
 		conn = ds.getConnection();
-
+		PreparedStatement ps;
 		try {
 			conn.setAutoCommit(false);
-			PreparedStatement ps = conn.prepareStatement("DELETE from `audit_trail` WHERE record_id = ? AND record_type = 'L'");
-			ps.setInt(1, lb.getBook().getId());
-			ps.executeUpdate();
+			stmt = conn.createStatement();
+			rs = stmt.executeQuery("SELECT `last_modified` FROM library WHERE `id` = " + library.getId());
+			rs.next();
+			if(!library.getLastModified().toString().equals(rs.getTimestamp("last_modified").toLocalDateTime().toString())){
+				Alert alert = new Alert(AlertType.WARNING);
+				alert.setTitle("Update Error");
+				alert.setContentText("Library not up to date. please try again.");
+				alert.showAndWait();
+				if(rs != null)
+					rs.close();
+				if(conn != null) {
+					conn.setAutoCommit(true);
+					conn.close();
+				}
+				MasterController.getInstance().changeView(authorstuff.ViewType.Library_List_View, library);
 
-			ps.close();
-
-			ps = conn.prepareStatement("DELETE from `library_book` WHERE book_id = ? AND library_id = ?");
-			ps.setInt(1, lb.getBook().getId());
-			ps.setInt(2, libID);
+			}
+			ps = conn.prepareStatement("UPDATE library SET library_name = ? WHERE id = ?");
+			ps.setString(1,library.getLibraryName());
+			ps.setInt(2, library.getId());
 			ps.executeUpdate();
+			stmt = conn.createStatement();
+			rs = stmt.executeQuery("SELECT `last_modified` FROM library WHERE `id` = " + library.getId());
+			rs.next();
+			library.setLastModified(rs.getTimestamp("last_modified").toLocalDateTime());
 			ps.close();
+			if(!library.getLibraryName().equals(oldlibrary.getLibraryName())){
+				ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+				ps.setInt(1, library.getId());
+				ps.setString(2, "Library name changed from " + oldlibrary.getLibraryName() + " to " + library.getLibraryName());
+				ps.executeUpdate();
+			}
+			List<LibraryBook> libraryBook = library.getBooks();
+			stmt = conn.createStatement();
+			rsb = stmt.executeQuery("SELECT * FROM library_book WHERE library_id = "+library.getId());
+			for(LibraryBook books : libraryBook){
+				int flag = 0;
+				while(rsb.next()) {
+					Book boook = books.getBook();
+					if(boook.getId() == rsb.getInt("book_id")){
+						flag = 1;
+						if(books.getQuantity() != rsb.getInt("quantity")){
+							ps = conn.prepareStatement("UPDATE library_book SET quantity = ? WHERE library_id = ? AND book_id = ?");
+							ps.setInt(1,books.getQuantity());
+							ps.setInt(2, library.getId());
+							ps.setInt(3, boook.getId());
+							ps.executeUpdate();
+
+							ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+							ps.setInt(1, library.getId());
+							ps.setString(2, "Book quantity changed from " + rsb.getInt("quantity") + " to " + books.getQuantity());
+							ps.executeUpdate();
+						}
+						rsb.first();
+						break;
+					}
+
+				}
+				if(flag == 0){
+					ps = conn.prepareStatement("insert into `library_book` (library_id, book_id, quantity) values (?, ?, ?)");
+					ps.setInt(1, library.getId());
+					ps.setInt(2,books.getBook().getId() );
+					ps.setInt(3, books.getQuantity());
+					ps.executeUpdate();
+					ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+					ps.setInt(1, library.getId());
+					ps.setString(2, "Added new book: " + books.getBook());
+					ps.executeUpdate();
+					rsb.first();
+				}
+			}
 
 			conn.commit();
-
 		} catch(SQLException e) {
-			logger.error("Failed to Delete entry in database: \n" +e.getMessage());
+			logger.error("Failed updating database" + e);
 			conn.rollback();
+
+			//handle the exception
 		} finally {
+			//be sure to close the objects
 			if(stmt != null)
 				stmt.close();
 			if(conn != null) {
@@ -354,19 +291,93 @@ public class LibraryTableGateway {
 		}
 	}
 
-	public void deleteLibrary(int libID) throws SQLException{
+	public List<auditTrailEntry> auditTrail(Library library) throws SQLException {
+		List<auditTrailEntry> list = new ArrayList<auditTrailEntry>();
+		conn = ds.getConnection();
+
+		try {
+			stmt = conn.createStatement();
+			rs = stmt.executeQuery("SELECT * FROM `autdit_trail` WHERE `record_id` = "+library.getId()+" AND `record_type` = 'L' ORDER BY `date_added` ASC");
+			while(rs.next()) {
+				//fetch the next record into rs
+				list.add(new auditTrailEntry(rs.getString("record_type"),rs.getTimestamp("date_added"),
+						rs.getString("entry_msg")));
+			}
+		} catch(SQLException e) {
+			logger.error("Failed reading database" + e);
+
+			//handle the exception
+		} finally {
+			//be sure to close the objects
+			if(rs != null)
+				rs.close();
+			if(stmt != null)
+				stmt.close();
+			if(conn != null) {
+				conn.close();
+			}
+		}
+		return list;
+	}
+
+	public void close() throws SQLException {
+		if(stmt != null)
+			stmt.close();
+		if(conn != null) {
+			conn.close();
+			logger.info("closed");
+		}
+	}
+
+
+	public List<LibraryBook> getLibraryBooks(int id) throws SQLException {
+		conn = ds.getConnection();
+		List<LibraryBook> libraryBooks = new ArrayList<LibraryBook>();
+
+		try {
+			conn.setAutoCommit(false);
+
+			stmt = conn.createStatement();
+			rs = stmt.executeQuery("select * from library_book "+
+					"left join book on book_id=book.id "+
+					"left join AuthorTable on author_id=AuthorTable.id "+
+					"order by book_id");
+			while(rs.next()){
+				libraryBooks.add(new LibraryBook((new Book(rs.getInt("id"), rs.getString("title"),rs.getString("publisher"),
+				rs.getDate("date_published").toString(),rs.getString("summary"),new Author(rs.getString("first_name"),rs.getString("last_name"),
+				rs.getString("gender"),rs.getString("web_site"),rs.getDate("dob"),rs.getInt("id"), rs.getTimestamp("last_modified").toLocalDateTime()), rs.getTimestamp("last_modified").toLocalDateTime())),rsa.getInt("quantity"),true));
+			}
+			conn.commit();
+		} catch(SQLException e) {
+			conn.rollback();
+			logger.error("Failed reading database" + e);
+
+			//handle the exception
+		} finally {
+			//be sure to close the objects
+			if(rs != null)
+				rs.close();
+			if(stmt != null)
+				stmt.close();
+			if(conn != null) {
+				conn.setAutoCommit(true);
+				conn.close();
+			}
+		}
+		return listViewBook;
+
+	}
+
+
+	public void deleteLibraryBook(Library library, LibraryBook selectedItem) throws SQLException {
+		// TODO Auto-generated method stub
 		conn = ds.getConnection();
 
 		try {
 			conn.setAutoCommit(false);
-			PreparedStatement ps = conn.prepareStatement("DELETE from `audit_trail` WHERE record_id = ? AND record_type = 'L'");
-			ps.setInt(1, libID);
-			ps.executeUpdate();
-
-			ps.close();
-
-			ps = conn.prepareStatement("DELETE from `library` WHERE library_id = ?");
-			ps.setInt(1, libID);
+			PreparedStatement ps = conn.prepareStatement("DELETE from `library_book` WHERE library_id = ? AND book_id = ?");
+			ps.setInt(2, selectedItem.getBook().getId());
+			ps.setInt(1, library.getId());
 			ps.executeUpdate();
 			ps.close();
 
@@ -375,7 +386,9 @@ public class LibraryTableGateway {
 		} catch(SQLException e) {
 			logger.error("Failed to Delete entry in database: \n" +e.getMessage());
 			conn.rollback();
+			//handle the exception
 		} finally {
+			//be sure to close the objects
 			if(stmt != null)
 				stmt.close();
 			if(conn != null) {
@@ -383,47 +396,7 @@ public class LibraryTableGateway {
 				conn.close();
 			}
 		}
+
 	}
-
-	public List<LibraryBook> difBooks(List<LibraryBook> lib, List<LibraryBook> libold){
-		for(int i=0;i<lib.size();i++){
-			if(lib.get(i) == libold.get(1)){
-				lib.remove(i);
-			}
-		}
-		return lib;
-	}
-
-	public boolean valLibcheck(int id, String name){
-		boolean correct = true;
-		if(id<0){
-			correct = false;
-		}
-		if(name.length() > 100 || name.length() == 0){
-			correct = false;
-		}
-
-		return correct;
-	}
-
-	public boolean valBookcheck(Book b){
-		boolean correct = true;
-		if(b.getId() < 0){
-			correct = false;
-		}
-		if(b.getTitle().length() > 100 || b.getTitle().length() == 0){
-			correct = false;
-		}
-		if(b.getPublisher().length() > 100 || b.getPublisher().length() == 0){
-			correct = false;
-		}
-		if(b.getSummary().length() != 0){
-			correct = false;
-		}
-		if(b.getAuthor().getId() <= 0){
-			correct = false;
-		}
-		return correct;
-	}
-
 }
+

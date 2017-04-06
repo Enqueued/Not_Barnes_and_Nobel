@@ -29,7 +29,7 @@
           </Menu>
             <Menu mnemonicParsing="false" text="Libraries">
               <items>
-                <MenuItem mnemonicParsing="false" text="Library List" />
+                <MenuItem fx:id="libView" mnemonicParsing="false" onAction="#handleMenuItem" text="Library List" />
               </items>
             </Menu>
         </menus>

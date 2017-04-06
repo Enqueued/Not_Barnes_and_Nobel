@@ -122,10 +122,25 @@ public class MasterController {
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/audittrailview.fxml"));
 			loader.setController(new AuditTrailController(author, trails));
 		} else if(vType == ViewType.LIBRARY_VIEW){
-			check = 2;
-			List<Library> libs = LTG.getLibraries();
+			check = 0;
+			//List<Library> libList = LTG.getLibraries();
 			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/libraryListView.fxml"));
-			loader.setController(new LibraryController(libs));
+			loader.setController(new LibraryController(LTG.getLibraries()));
+		} else if(vType == ViewType.LIBRARY_DETAIL){
+			check = 3;
+			Library checky = (Library) data;
+			loader = new FXMLLoader(getClass().getResource("/librarystuff/LibraryDetailView.fxml"));
+			loader.setController(new LibraryDetailController(checky, new LibraryTableGateway()));
+		}else if(vType == ViewType.Library_Audit_Trail) {
+			check = 0;
+			Library library = (Library) data;
+			List<auditTrailEntry> trails = LTG.auditTrail(library);
+			loader = new FXMLLoader(getClass().getResource("/audit/audittrailview.fxml"));
+			loader.setController(new AuditTrailController(library, trails));
+		}else if(vType == ViewType.New_Library) {
+			check = 3;
+			loader = new FXMLLoader(getClass().getResource("/librarystuff/LibraryDetailView.fxml"));
+			loader.setController(new LibraryDetailController( new Library(),new LibraryTableGateway()));
 		}
 
 		Parent view = null;

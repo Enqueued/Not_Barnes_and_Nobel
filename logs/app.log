@@ -1185,3 +1185,153 @@ Table 'vvf555.autdit_trail' doesn't exist
 23:19:04.777 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
 23:20:16.634 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
 23:31:34.954 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+08:10:33.808 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+22:50:37.951 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:15:29.973 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:16:23.741 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:16:53.756 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:40:36.348 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:46:30.725 INFO  Gate_Pack.LibraryTableGateway : in the while loop~!
+23:46:30.733 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:47:15.544 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! null null
+23:47:15.551 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:47:51.129 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! null null
+23:47:51.135 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.lang.NullPointerException
+23:54:56.529 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+23:54:56.543 ERROR Gate_Pack.LibraryTableGateway : Failed to register Joinjava.sql.SQLException: Column 'library_book.id' not found.
+23:55:24.079 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+23:56:06.460 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+23:56:32.824 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+23:56:32.830 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Book: o not be new (2) 
+23:57:39.056 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+23:57:39.061 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Book: super cool dawg (2) 
+23:58:20.282 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+23:58:20.289 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Book: super cool dawg (3) 
+23:59:14.752 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+23:59:14.757 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:59:14.757 INFO  Gate_Pack.LibraryTableGateway : LibBook:  Book: super cool dawg (3) 
+00:00:09.324 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:00:09.331 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:00:09.331 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:00:47.348 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:00:47.354 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:00:47.355 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:00:47.355 INFO  Gate_Pack.LibraryTableGateway : Otherone
+00:01:26.601 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:01:26.605 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:01:26.606 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:01:26.607 INFO  Gate_Pack.LibraryTableGateway : Otherone2017-04-04T23:08:18
+00:01:47.981 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:01:47.988 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:01:47.989 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:01:47.989 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:02:58.569 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:02:58.571 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:02:58.571 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:02:58.571 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:27:48.791 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:27:48.798 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:27:48.799 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:27:48.800 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:31:37.444 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:31:37.449 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:31:37.450 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:31:37.450 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:32:05.035 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:32:05.036 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:32:05.037 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:32:05.037 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:43:06.207 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:43:06.214 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:43:06.215 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:43:06.215 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:45:21.777 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:45:21.779 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:45:21.780 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:45:21.780 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:48:52.863 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:48:52.867 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:48:52.868 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:48:52.868 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:49:42.026 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:49:42.031 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:49:42.032 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:49:42.033 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:51:48.056 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:51:48.061 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:51:48.062 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:51:48.063 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:56:38.990 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:56:38.994 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:56:38.995 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:56:38.996 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:01:14.465 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:01:14.470 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:01:14.471 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:01:14.471 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:02:14.371 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:02:14.377 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:02:14.378 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:02:14.379 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:05:54.163 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:05:54.168 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:05:54.169 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:05:54.170 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:11:54.484 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:11:54.486 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:11:54.486 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:11:54.487 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:12:22.340 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:12:22.346 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:12:22.347 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:12:22.349 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:13:03.399 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:13:03.407 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:13:03.408 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:13:03.410 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:13:06.914 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:13:06.916 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:13:06.917 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:13:06.918 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:13:54.322 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:13:54.329 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:13:54.330 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:13:54.331 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:13:54.411 INFO  Controller_Pack.LibraryController : about to enter the fore...
+01:14:58.168 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:14:58.174 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:14:58.175 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:14:58.176 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:14:58.251 INFO  Controller_Pack.LibraryController : libraries is null
+01:15:25.403 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:15:25.409 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:15:25.410 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:15:25.411 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:15:58.426 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:15:58.433 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:15:58.434 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:15:58.435 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:16:15.981 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:16:15.987 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:16:15.988 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:16:15.990 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:16:35.046 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:16:35.052 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:16:35.053 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:16:35.054 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:16:35.125 INFO  Controller_Pack.LibraryController : libraries is null
+01:16:53.616 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:16:53.623 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:16:53.624 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:16:53.625 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:18:20.319 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:18:20.326 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:18:20.328 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:18:20.329 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:19:59.791 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:19:59.798 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:19:59.800 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:19:59.802 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:19:59.876 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+01:19:59.878 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+01:20:01.278 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!

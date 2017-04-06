@@ -23,17 +23,13 @@ import java.util.List;
  */
 public class LibraryController {
     private static Logger logger = LogManager.getLogger();
-    private List<Library> libraryList;
-    @FXML private ListView<Library> menuLibrary;
+    private List<Library> libraries;
+    @FXML private ListView<Library> listView;
     @FXML private Button delBtn;
     private LibraryTableGateway libraryTableGateway;
 
-    public LibraryController(){
-
-    }
-
-    public LibraryController(List<Library> libraryList){
-        this.libraryList=libraryList;
+    public LibraryController(List<Library> libraries){
+        this.libraries =libraries;
     }
 
     @FXML
@@ -41,7 +37,7 @@ public class LibraryController {
 		Object source = action.getSource();
 		if(source == delBtn){
 			logger.info("Delete Library Btn clicked");
-			Library selected = menuLibrary.getSelectionModel().getSelectedItem();
+			Library selected = listView.getSelectionModel().getSelectedItem();
 			if(selected == null){
 				return;
 			}else{
@@ -56,12 +52,13 @@ public class LibraryController {
 
 	@FXML private void onMouseClick(MouseEvent action) throws IOException, SQLException, ParseException{
 		if(action.getClickCount() == 2){
-			Library selected = menuLibrary.getSelectionModel().getSelectedItem();
+			Library selected = listView.getSelectionModel().getSelectedItem();
 			if(selected == null){
 				return;
 			}
 			Object source = action.getSource();
-			if(source == menuLibrary){
+			if(source == listView){
+				logger.info("Clicked on the " + selected.getLibraryName() + " Library!");
 				try {
 					MasterController.getInstance().changeView(ViewType.LIBRARY_DETAIL, selected);
 				} catch (java.text.ParseException e) {
@@ -71,12 +68,14 @@ public class LibraryController {
 		}
 	}
 
-	public void initialize(){
-		ObservableList<Library> libraryItems = menuLibrary.getItems();
-		for(Library lib : this.libraryList){
-			libraryItems.add(lib);
+	public void initialize() throws SQLException{
+		ObservableList<Library> items = listView.getItems();
+		logger.info("libraries is null" + libraries.toString());
+		for(Library lib : libraries){
+			logger.info(" in the for loop: "+ lib.toString());
+			items.add(lib);
 		}
-		libraryList.clear();
+		libraries.clear();
 	}
 
 }
