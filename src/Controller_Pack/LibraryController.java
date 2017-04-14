@@ -32,10 +32,12 @@ public class LibraryController {
         this.libraries =libraries;
     }
 
-    @FXML
+    //todo remove this funciton and place it into the detail view:
+    /*@FXML
     private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException{
 		Object source = action.getSource();
 		if(source == delBtn){
+			MasterController.getInstance().setCheck(0);
 			logger.info("Delete Library Btn clicked");
 			Library selected = listView.getSelectionModel().getSelectedItem();
 			if(selected == null){
@@ -48,7 +50,7 @@ public class LibraryController {
 				libraryTableGateway.deleteLibrary(selected.getId());
 			}
 		}
-	}
+	}*/
 
 	@FXML private void onMouseClick(MouseEvent action) throws IOException, SQLException, ParseException{
 		if(action.getClickCount() == 2){

@@ -52,7 +52,7 @@ public class LibraryDetailController {
         this.libraryBooks = libraryBooks2;
     }
     @FXML private Button DeleteBook;
-    @FXML private Button Delete;
+    @FXML private Button delBtn;
     @FXML private Button Save;
     @FXML private Button Audit;
     @FXML private Button InvReport;
@@ -103,16 +103,17 @@ public class LibraryDetailController {
             } catch (Exception e){
                 e.printStackTrace();
             }
-        }else if(source == Delete){
+        }else if(source == delBtn){
+            //should go about deleting the currently viewed library
             MasterController.getInstance().setCheck(0);
             if(library.getId() == 0){
                 Alert alert = new Alert(AlertType.WARNING);
-                alert.setTitle("Delete Error");
+                alert.setTitle("delBtn Error");
                 alert.setContentText("New Libraries cannot be deleted");
                 alert.showAndWait();
             }else{
                 Alert alert = new Alert(AlertType.CONFIRMATION);
-                alert.setTitle("Delete Library?");
+                alert.setTitle("delBtn Library?");
                 alert.setContentText("Are you sure you want to delete " + library.toString());
                 Optional<ButtonType> result = alert.showAndWait();
                 if (result.get() == ButtonType.OK){
@@ -147,7 +148,7 @@ public class LibraryDetailController {
             }
             MasterController.getInstance().setCheck(0);
             logger.info(library.getLastModified());
-            MasterController.getInstance().changeView(authorstuff.ViewType.Library_List_View, library);
+            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW , library);
 
         }else if(source == InvReport){
             pdfgenerator p = new pdfgenerator();
@@ -157,7 +158,7 @@ public class LibraryDetailController {
             }
         }else if(source == DeleteBook){
             Alert alert = new Alert(AlertType.CONFIRMATION);
-            alert.setTitle("Delete Library?");
+            alert.setTitle("delBtn Library?");
             alert.setContentText("Are you sure you want to delete " +listView.getSelectionModel().getSelectedItem());
             Optional<ButtonType> result = alert.showAndWait();
             if (result.get() == ButtonType.OK){

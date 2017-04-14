@@ -11,4 +11,7 @@
 	<lib name="mysql-connector-java-5.1.40-bin.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/mysql-connector-java-5.1.40-bin.jar!/"/>
 	</lib>
+	<levels>
+		<level name="itext5-itextpdf-5.5.11" value="project"/>
+	</levels>
 </component>
