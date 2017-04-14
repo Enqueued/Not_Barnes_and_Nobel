@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759e85b1-f41c-4f72-b760-10153cbb0335" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/itext5_itextpdf_5_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Controller_Pack/BookDetailController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Controller_Pack/DetailController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Gate_Pack/AuthorTableGateway.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Gate_Pack/BookTableGateway.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Model_Pack/Author.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Model_Pack/Book.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Model_Pack/Library.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Model_Pack/LibraryBook.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Model_Pack/LibraryListView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Model_Pack/ViewType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Model_Pack/auditTrailEntry.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+    <list default="true" id="759e85b1-f41c-4f72-b760-10153cbb0335" name="Default" comment="update for the pdfGenerator">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.eml" afterPath="$PROJECT_DIR$/Test.eml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller_Pack/LibraryController.java" afterPath="$PROJECT_DIR$/src/Controller_Pack/LibraryController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" afterPath="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" afterPath="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" afterPath="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryDetailController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LibraryDetailController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
+            <state relative-caret-position="457">
+              <caret line="205" column="41" lean-forward="false" selection-start-line="205" selection-start-column="41" selection-end-line="205" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +69,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LibraryBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pdfGen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="573">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3657#3670#0" expanded="true" />
@@ -126,59 +122,16 @@
       <file leaf-file-name="MasterController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
+            <state relative-caret-position="-650">
               <caret line="131" column="77" lean-forward="false" selection-start-line="131" selection-start-column="77" selection-end-line="131" selection-end-column="77" />
               <folding>
-                <element signature="e#1093#1094#0" expanded="false" />
-                <element signature="e#1112#1113#0" expanded="false" />
-                <element signature="e#5659#5660#0" expanded="false" />
-                <element signature="e#5690#5691#0" expanded="false" />
-                <element signature="e#5754#5755#0" expanded="false" />
-                <element signature="e#5782#5783#0" expanded="false" />
-                <element signature="e#5839#5840#0" expanded="false" />
-                <element signature="e#5867#5868#0" expanded="false" />
-                <element signature="e#5916#5917#0" expanded="false" />
-                <element signature="e#5932#5933#0" expanded="false" />
-                <element signature="e#5992#5993#0" expanded="false" />
-                <element signature="e#6009#6010#0" expanded="false" />
-                <element signature="e#6045#6046#0" expanded="false" />
-                <element signature="e#6067#6068#0" expanded="false" />
-                <element signature="e#6103#6104#0" expanded="false" />
-                <element signature="e#6119#6120#0" expanded="false" />
-                <element signature="e#6155#6156#0" expanded="false" />
-                <element signature="e#6180#6181#0" expanded="false" />
-                <element signature="e#6221#6222#0" expanded="false" />
-                <element signature="e#6238#6239#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuditTrailController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LibraryController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LibraryController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -238,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/Controller_Pack/BookDetailController.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/DetailController.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/LibraryListView.java" />
-        <option value="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/ViewType.java" />
         <option value="$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/BookController.java" />
@@ -249,8 +201,9 @@
         <option value="$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java" />
         <option value="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/LibraryController.java" />
-        <option value="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" />
+        <option value="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
+        <option value="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
       </list>
     </option>
   </component>
@@ -304,6 +257,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model_Pack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -802,7 +773,7 @@
       <workItem from="1491547199992" duration="2524000" />
       <workItem from="1491768208971" duration="599000" />
       <workItem from="1492108640653" duration="16000" />
-      <workItem from="1492127276909" duration="3442000" />
+      <workItem from="1492127276909" duration="5944000" />
     </task>
     <task id="LOCAL-00001" summary="working on project 5.">
       <created>1491189699072</created>
@@ -825,20 +796,26 @@
       <option name="project" value="LOCAL" />
       <updated>1491466482247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update for the pdfGenerator">
+      <created>1492133853897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492133853897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71457000" />
+    <option name="totallyTimeSpent" value="73959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -878,7 +855,8 @@
     <MESSAGE value="JOINS SHALL COMETH!!" />
     <MESSAGE value="Joins...why are you being this way?&#10;Null pointer error on Observable List...&#10;Need to figure this out..." />
     <MESSAGE value="I figured out the join and it seems to have been an issue with the shit sending null (forgot to put a todo there), should be done with this by tomorrow -_-" />
-    <option name="LAST_COMMIT_MESSAGE" value="I figured out the join and it seems to have been an issue with the shit sending null (forgot to put a todo there), should be done with this by tomorrow -_-" />
+    <MESSAGE value="update for the pdfGenerator" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for the pdfGenerator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,26 +888,7 @@
         <state relative-caret-position="135">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#1093#1094#0" expanded="false" />
-            <element signature="e#1112#1113#0" expanded="false" />
-            <element signature="e#5659#5660#0" expanded="false" />
-            <element signature="e#5690#5691#0" expanded="false" />
-            <element signature="e#5754#5755#0" expanded="false" />
-            <element signature="e#5782#5783#0" expanded="false" />
-            <element signature="e#5839#5840#0" expanded="false" />
-            <element signature="e#5867#5868#0" expanded="false" />
-            <element signature="e#5916#5917#0" expanded="false" />
-            <element signature="e#5932#5933#0" expanded="false" />
-            <element signature="e#5992#5993#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6045#6046#0" expanded="false" />
-            <element signature="e#6067#6068#0" expanded="false" />
-            <element signature="e#6103#6104#0" expanded="false" />
-            <element signature="e#6119#6120#0" expanded="false" />
-            <element signature="e#6155#6156#0" expanded="false" />
-            <element signature="e#6180#6181#0" expanded="false" />
-            <element signature="e#6221#6222#0" expanded="false" />
-            <element signature="e#6238#6239#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1002,26 +961,7 @@
         <state relative-caret-position="135">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#1093#1094#0" expanded="false" />
-            <element signature="e#1112#1113#0" expanded="false" />
-            <element signature="e#5659#5660#0" expanded="false" />
-            <element signature="e#5690#5691#0" expanded="false" />
-            <element signature="e#5754#5755#0" expanded="false" />
-            <element signature="e#5782#5783#0" expanded="false" />
-            <element signature="e#5839#5840#0" expanded="false" />
-            <element signature="e#5867#5868#0" expanded="false" />
-            <element signature="e#5916#5917#0" expanded="false" />
-            <element signature="e#5932#5933#0" expanded="false" />
-            <element signature="e#5992#5993#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6045#6046#0" expanded="false" />
-            <element signature="e#6067#6068#0" expanded="false" />
-            <element signature="e#6103#6104#0" expanded="false" />
-            <element signature="e#6119#6120#0" expanded="false" />
-            <element signature="e#6155#6156#0" expanded="false" />
-            <element signature="e#6180#6181#0" expanded="false" />
-            <element signature="e#6221#6222#0" expanded="false" />
-            <element signature="e#6238#6239#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1208,13 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model_Pack/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
@@ -1273,55 +1206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="131" column="77" lean-forward="false" selection-start-line="131" selection-start-column="77" selection-end-line="131" selection-end-column="77" />
-          <folding>
-            <element signature="e#1093#1094#0" expanded="false" />
-            <element signature="e#1112#1113#0" expanded="false" />
-            <element signature="e#5659#5660#0" expanded="false" />
-            <element signature="e#5690#5691#0" expanded="false" />
-            <element signature="e#5754#5755#0" expanded="false" />
-            <element signature="e#5782#5783#0" expanded="false" />
-            <element signature="e#5839#5840#0" expanded="false" />
-            <element signature="e#5867#5868#0" expanded="false" />
-            <element signature="e#5916#5917#0" expanded="false" />
-            <element signature="e#5932#5933#0" expanded="false" />
-            <element signature="e#5992#5993#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6045#6046#0" expanded="false" />
-            <element signature="e#6067#6068#0" expanded="false" />
-            <element signature="e#6103#6104#0" expanded="false" />
-            <element signature="e#6119#6120#0" expanded="false" />
-            <element signature="e#6155#6156#0" expanded="false" />
-            <element signature="e#6180#6181#0" expanded="false" />
-            <element signature="e#6221#6222#0" expanded="false" />
-            <element signature="e#6238#6239#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model_Pack/Library.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1347,27 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3657#3670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1375,6 +1238,61 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1491549429112" expanded="true" signature="1190:1703" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3657#3670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="131" column="77" lean-forward="false" selection-start-line="131" selection-start-column="77" selection-end-line="131" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="205" column="41" lean-forward="false" selection-start-line="205" selection-start-column="41" selection-end-line="205" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

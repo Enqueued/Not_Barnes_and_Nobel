@@ -17,10 +17,10 @@ public class LibraryBook {
         quantity = 0;
     }
 
-    public LibraryBook(int quantity, Book book){
+    public LibraryBook(int quantity, Book book, boolean record){
         this.book = book;
         this.quantity = quantity;
-        this.newRecord = false;
+        this.newRecord = record;
     }
 
     @Override

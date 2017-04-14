@@ -10,9 +10,10 @@ import java.util.Optional;
 import Gate_Pack.BookTableGateway;
 import Gate_Pack.LibraryTableGateway;
 import Model_Pack.*;
+import com.itextpdf.text.DocumentException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-//import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.DocumentException;
 
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -130,7 +131,7 @@ public class LibraryDetailController {
             if(Books.getSelectionModel().getSelectedItem() == null){
                 return;
             }
-            LibraryBook checks = new LibraryBook(Books.getSelectionModel().getSelectedItem(),Integer.parseInt(Quantity.getText()), false);
+            LibraryBook checks = new LibraryBook(Integer.parseInt(Quantity.getText()), Books.getSelectionModel().getSelectedItem(), false);
             if(libraryBooks == null){
                 libraryBooks.add(checks);
             }
@@ -151,7 +152,7 @@ public class LibraryDetailController {
             MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW , library);
 
         }else if(source == InvReport){
-            pdfgenerator p = new pdfgenerator();
+            pdfGen p = new pdfGen();
             try {
                 p.createPDF(library);
             } catch (DocumentException e) {
@@ -163,7 +164,7 @@ public class LibraryDetailController {
             Optional<ButtonType> result = alert.showAndWait();
             if (result.get() == ButtonType.OK){
                 LTG.deleteLibraryBook(library, listView.getSelectionModel().getSelectedItem());
-                MasterController.getInstance().changeView(authorstuff.ViewType.Library_List_View, library);
+                MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
             } else {
                 logger.info("Deletion Cancled");
             }
