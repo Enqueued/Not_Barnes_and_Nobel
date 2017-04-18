@@ -143,7 +143,11 @@ public class LibraryDetailController {
             }
             //initialize();
             if(library.getId() != 0){
-                LTG.updateLibrary(library, oldLibrary);
+                try {
+                    LTG.updateLibrary(library, oldLibrary);
+                } catch (com.sun.xml.internal.messaging.saaj.packaging.mime.internet.ParseException e) {
+                    e.printStackTrace();
+                }
             }else{
                 LTG.insertLibrary(library);
             }
@@ -248,7 +252,7 @@ public class LibraryDetailController {
                 return 1;
             }
         }
-        LibraryDetailController LDC = MasterController.getInstance().getLC();
+        LibraryDetailController LDC = MasterController.getInstance().getLDC();
         if (library.equals(data) && library.getId() > 0) {
             return (0);
         } else {

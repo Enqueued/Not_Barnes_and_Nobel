@@ -78,7 +78,8 @@ public class LibraryTableGateway {
                         rs.getString("publisher"), rs.getDate("date_published").toString(),
                         rs.getString("summary"), it, rs.getTimestamp("last_modified").toLocalDateTime());
 				logger.info("New Book: "+book.toString());
-                booky = new LibraryBook (rs.getInt("quantity"), book);
+				//creation of new record for list
+                booky = new LibraryBook (rs.getInt("quantity"), book, true);
 				logger.info(booky.toString() );
                 listViewBook.add(booky);
                 Library library = new Library(rs.getInt("library_id"),
@@ -206,7 +207,7 @@ public class LibraryTableGateway {
 			rs = stmt.executeQuery("SELECT `last_modified` FROM library WHERE `id` = " + library.getId());
 			rs.next();
 			if(!library.getLastModified().toString().equals(rs.getTimestamp("last_modified").toLocalDateTime().toString())){
-				Alert alert = new Alert(AlertType.WARNING);
+				Alert alert = new Alert(Alert.AlertType.WARNING);
 				alert.setTitle("Update Error");
 				alert.setContentText("Library not up to date. please try again.");
 				alert.showAndWait();
@@ -216,7 +217,11 @@ public class LibraryTableGateway {
 					conn.setAutoCommit(true);
 					conn.close();
 				}
-				MasterController.getInstance().changeView(authorstuff.ViewType.Library_List_View, library);
+				try {
+					MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
+				} catch (java.text.ParseException e) {
+					e.printStackTrace();
+				}
 
 			}
 			ps = conn.prepareStatement("UPDATE library SET library_name = ? WHERE id = ?");
@@ -236,14 +241,14 @@ public class LibraryTableGateway {
 			}
 			List<LibraryBook> libraryBook = library.getBooks();
 			stmt = conn.createStatement();
-			rsb = stmt.executeQuery("SELECT * FROM library_book WHERE library_id = "+library.getId());
+			rs = stmt.executeQuery("SELECT * FROM library_book WHERE library_id = "+library.getId());
 			for(LibraryBook books : libraryBook){
 				int flag = 0;
-				while(rsb.next()) {
+				while(rs.next()) {
 					Book boook = books.getBook();
-					if(boook.getId() == rsb.getInt("book_id")){
+					if(boook.getId() == rs.getInt("book_id")){
 						flag = 1;
-						if(books.getQuantity() != rsb.getInt("quantity")){
+						if(books.getQuantity() != rs.getInt("quantity")){
 							ps = conn.prepareStatement("UPDATE library_book SET quantity = ? WHERE library_id = ? AND book_id = ?");
 							ps.setInt(1,books.getQuantity());
 							ps.setInt(2, library.getId());
@@ -252,10 +257,10 @@ public class LibraryTableGateway {
 
 							ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
 							ps.setInt(1, library.getId());
-							ps.setString(2, "Book quantity changed from " + rsb.getInt("quantity") + " to " + books.getQuantity());
+							ps.setString(2, "Book quantity changed from " + rs.getInt("quantity") + " to " + books.getQuantity());
 							ps.executeUpdate();
 						}
-						rsb.first();
+						rs.first();
 						break;
 					}
 
@@ -270,7 +275,7 @@ public class LibraryTableGateway {
 					ps.setInt(1, library.getId());
 					ps.setString(2, "Added new book: " + books.getBook());
 					ps.executeUpdate();
-					rsb.first();
+					rs.first();
 				}
 			}
 
@@ -343,9 +348,14 @@ public class LibraryTableGateway {
 					"left join AuthorTable on author_id=AuthorTable.id "+
 					"order by book_id");
 			while(rs.next()){
-				libraryBooks.add(new LibraryBook((new Book(rs.getInt("id"), rs.getString("title"),rs.getString("publisher"),
-				rs.getDate("date_published").toString(),rs.getString("summary"),new Author(rs.getString("first_name"),rs.getString("last_name"),
-				rs.getString("gender"),rs.getString("web_site"),rs.getDate("dob"),rs.getInt("id"), rs.getTimestamp("last_modified").toLocalDateTime()), rs.getTimestamp("last_modified").toLocalDateTime())),rsa.getInt("quantity"),true));
+				Author author = new Author(rs.getString("first_name"), rs.getString("last_name"),
+						rs.getString("gender"), rs.getString("web_site"), rs.getDate("dob"),
+						rs.getInt("id"), rs.getTimestamp("last_modified").toLocalDateTime());
+				Book book = new Book(rs.getInt("id"), rs.getString("title"),
+						rs.getString("publisher"), rs.getDate("date_published").toString(),
+						rs.getString("summary"), author, rs.getTimestamp("last_modified").toLocalDateTime());
+				LibraryBook LB = new LibraryBook(rs.getInt("quantity"), book, true);
+				libraryBooks.add(LB);
 			}
 			conn.commit();
 		} catch(SQLException e) {

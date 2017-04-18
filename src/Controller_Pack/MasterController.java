@@ -27,6 +27,7 @@ public class MasterController {
 	private BorderPane rootPane;
 	private DetailController DC = new DetailController();
 	private BookDetailController BDC = new BookDetailController();
+	private LibraryDetailController LDC = new LibraryDetailController();
 	private AuthorTableGateway ATG;
 	private BookTableGateway BTG;
 	private LibraryTableGateway LTG;
@@ -191,6 +192,10 @@ public class MasterController {
 		BDC = bDC;
 	}
 
+	public void setLDC(LibraryDetailController LDC){
+		this.LDC = LDC;
+	}
+
 	//Getters
 	public AuthorTableGateway getAuthorGateway() {
 		return ATG;
@@ -210,6 +215,10 @@ public class MasterController {
 
 	public BookDetailController getBDC() {
 		return BDC;
+	}
+
+	public LibraryDetailController getLDC(){
+		return LDC;
 	}
 
 }

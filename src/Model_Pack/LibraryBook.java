@@ -17,6 +17,7 @@ public class LibraryBook {
         quantity = 0;
     }
 
+    //record defaults to false
     public LibraryBook(int quantity, Book book, boolean record){
         this.book = book;
         this.quantity = quantity;
