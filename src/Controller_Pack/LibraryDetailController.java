@@ -13,7 +13,6 @@ import Model_Pack.*;
 import com.itextpdf.text.DocumentException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.itextpdf.text.DocumentException;
 
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -125,7 +124,7 @@ public class LibraryDetailController {
                 }
             }
         }else if(source == Audit){
-            MasterController.getInstance().changeView(ViewType.Library_Audit_Trail, library);
+            MasterController.getInstance().changeView(ViewType.LIBRARY_AUDIT_TRAIL, library);
         }else if(source == AddBook){
             library.setLibraryName(LibraryName.getText());
             if(Books.getSelectionModel().getSelectedItem() == null){

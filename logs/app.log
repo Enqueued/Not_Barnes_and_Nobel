@@ -1349,3 +1349,22 @@ Table 'vvf555.autdit_trail' doesn't exist
 01:57:21.774 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
 01:57:21.846 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
 01:57:21.847 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+15:39:34.308 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+15:39:34.310 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+15:39:34.311 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+15:39:34.311 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+15:39:34.377 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+15:39:34.378 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+19:20:55.363 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+19:20:55.371 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+19:20:55.372 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+19:20:55.374 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+19:20:55.434 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+19:20:55.434 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+19:52:06.865 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+19:52:06.871 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+19:52:06.872 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+19:52:06.874 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+19:52:06.933 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+19:52:06.934 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+19:52:08.173 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!

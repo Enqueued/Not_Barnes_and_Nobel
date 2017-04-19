@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="759e85b1-f41c-4f72-b760-10153cbb0335" name="Default" comment="update for the pdfGenerator">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.eml" afterPath="$PROJECT_DIR$/Test.eml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" afterPath="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller_Pack/MasterController.java" afterPath="$PROJECT_DIR$/src/Controller_Pack/MasterController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" afterPath="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" afterPath="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model_Pack/ViewType.java" afterPath="$PROJECT_DIR$/src/Model_Pack/ViewType.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,43 +29,19 @@
       <file leaf-file-name="LibraryTableGateway.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
+            <state relative-caret-position="3366">
               <caret line="200" column="16" lean-forward="false" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1492151591767" expanded="true" signature="2492:2812" ph="select * fro... library" />
-                <marker date="1492151591767" expanded="true" signature="4642:4710" ph="DELETE from " />
-                <marker date="1492151591767" expanded="true" signature="4819:4866" ph="DELETE from " />
-                <marker date="1492151591767" expanded="true" signature="4974:5008" ph="DELETE from " />
-                <marker date="1492151591767" expanded="true" signature="5629:5678" ph="INSERT INTO `library`... " />
-                <marker date="1492151591767" expanded="true" signature="5941:6022" ph="insert into `autdit_trail`... " />
-                <marker date="1492151591767" expanded="true" signature="6354:6429" ph="insert into `library_book`... " />
-                <marker date="1492151591767" expanded="true" signature="6614:6695" ph="insert into `autdit_trail`... " />
-                <marker date="1492151591767" expanded="true" signature="7455:7504" ph="SELECT `last... library" />
-                <marker date="1492151591767" expanded="true" signature="8159:8207" ph="UPDATE libra... " />
-                <marker date="1492151591767" expanded="true" signature="8374:8423" ph="SELECT `last... library" />
-                <marker date="1492151591767" expanded="true" signature="8656:8737" ph="insert into `autdit_trail`... " />
-                <marker date="1492151591767" expanded="true" signature="9038:9084" ph="SELECT * FRO... library_book" />
-                <marker date="1492151591767" expanded="true" signature="9376:9449" ph="UPDATE libra... " />
-                <marker date="1492151591767" expanded="true" signature="9631:9712" ph="insert into `autdit_trail`... " />
-                <marker date="1492151591767" expanded="true" signature="9996:10071" ph="insert into `library_book`... " />
-                <marker date="1492151591767" expanded="true" signature="10253:10334" ph="insert into `autdit_trail`... " />
-                <marker date="1492151591767" expanded="true" signature="11043:11161" ph="SELECT * FRO... autdit_trail" />
-                <marker date="1492151591767" expanded="true" signature="12065:12219" ph="select * fro... library_book" />
-                <marker date="1492151591767" expanded="true" signature="13435:13498" ph="DELETE from " />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryDetailController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LibraryDetailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="148" column="20" lean-forward="false" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +49,7 @@
       <file leaf-file-name="LibraryBook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="198">
               <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
@@ -83,7 +59,7 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model_Pack/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="72">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
@@ -93,7 +69,7 @@
       <file leaf-file-name="pdfGen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="126">
               <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
@@ -103,7 +79,7 @@
       <file leaf-file-name="Library.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model_Pack/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="288">
               <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
@@ -113,12 +89,10 @@
       <file leaf-file-name="MasterController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3111">
-              <caret line="220" column="18" lean-forward="false" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
+            <state relative-caret-position="2250">
+              <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6053#6054#0" expanded="true" />
-                <element signature="e#6074#6075#0" expanded="true" />
                 <element signature="e#6423#6424#0" expanded="true" />
                 <element signature="e#6440#6441#0" expanded="true" />
               </folding>
@@ -126,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LibraryController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
         <option value="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
-        <option value="$PROJECT_DIR$/src/Controller_Pack/MasterController.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
+        <option value="$PROJECT_DIR$/src/Controller_Pack/MasterController.java" />
       </list>
     </option>
   </component>
@@ -228,26 +202,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -257,11 +231,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Totally_Not_Barnes_and_Noble" />
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -269,14 +243,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model_Pack" />
+              <option name="myItemId" value="Controller_Pack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -771,6 +745,14 @@
       <workItem from="1492127276909" duration="5944000" />
       <workItem from="1492150430150" duration="2777000" />
       <workItem from="1492486524720" duration="5000" />
+      <workItem from="1492545388651" duration="3680000" />
+      <workItem from="1492559036585" duration="482000" />
+      <workItem from="1492559698493" duration="238000" />
+      <workItem from="1492559949046" duration="1452000" />
+      <workItem from="1492563735426" duration="125000" />
+      <workItem from="1492564180352" duration="105000" />
+      <workItem from="1492564439116" duration="887000" />
+      <workItem from="1492609830157" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="working on project 5.">
       <created>1491189699072</created>
@@ -804,10 +786,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76741000" />
+    <option name="totallyTimeSpent" value="83719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="1" width="1604" height="901" extended-state="6" />
+    <frame x="-2" y="1" width="1604" height="901" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -816,28 +798,28 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52682257" sideWeight="0.5053192" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52682257" sideWeight="0.49468085" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52720207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2087766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29826897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39921466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32642487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33700138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853404" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -887,8 +869,6 @@
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6053#6054#0" expanded="true" />
-            <element signature="e#6074#6075#0" expanded="true" />
             <element signature="e#6423#6424#0" expanded="true" />
             <element signature="e#6440#6441#0" expanded="true" />
           </folding>
@@ -964,8 +944,6 @@
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6053#6054#0" expanded="true" />
-            <element signature="e#6074#6075#0" expanded="true" />
             <element signature="e#6423#6424#0" expanded="true" />
             <element signature="e#6440#6441#0" expanded="true" />
           </folding>
@@ -1167,19 +1145,9 @@
     <entry file="jar:///opt/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
     <entry file="file://$PROJECT_DIR$/src/Model_Pack/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="288">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,7 +1167,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="126">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
@@ -1207,7 +1175,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model_Pack/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="72">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
@@ -1215,60 +1183,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="198">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="200" column="16" lean-forward="false" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="220" column="18" lean-forward="false" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
+        <state relative-caret-position="2250">
+          <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6053#6054#0" expanded="true" />
-            <element signature="e#6074#6075#0" expanded="true" />
             <element signature="e#6423#6424#0" expanded="true" />
             <element signature="e#6440#6441#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="200" column="16" lean-forward="false" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1492151591767" expanded="true" signature="2492:2812" ph="select * fro... library" />
-            <marker date="1492151591767" expanded="true" signature="4642:4710" ph="DELETE from " />
-            <marker date="1492151591767" expanded="true" signature="4819:4866" ph="DELETE from " />
-            <marker date="1492151591767" expanded="true" signature="4974:5008" ph="DELETE from " />
-            <marker date="1492151591767" expanded="true" signature="5629:5678" ph="INSERT INTO `library`... " />
-            <marker date="1492151591767" expanded="true" signature="5941:6022" ph="insert into `autdit_trail`... " />
-            <marker date="1492151591767" expanded="true" signature="6354:6429" ph="insert into `library_book`... " />
-            <marker date="1492151591767" expanded="true" signature="6614:6695" ph="insert into `autdit_trail`... " />
-            <marker date="1492151591767" expanded="true" signature="7455:7504" ph="SELECT `last... library" />
-            <marker date="1492151591767" expanded="true" signature="8159:8207" ph="UPDATE libra... " />
-            <marker date="1492151591767" expanded="true" signature="8374:8423" ph="SELECT `last... library" />
-            <marker date="1492151591767" expanded="true" signature="8656:8737" ph="insert into `autdit_trail`... " />
-            <marker date="1492151591767" expanded="true" signature="9038:9084" ph="SELECT * FRO... library_book" />
-            <marker date="1492151591767" expanded="true" signature="9376:9449" ph="UPDATE libra... " />
-            <marker date="1492151591767" expanded="true" signature="9631:9712" ph="insert into `autdit_trail`... " />
-            <marker date="1492151591767" expanded="true" signature="9996:10071" ph="insert into `library_book`... " />
-            <marker date="1492151591767" expanded="true" signature="10253:10334" ph="insert into `autdit_trail`... " />
-            <marker date="1492151591767" expanded="true" signature="11043:11161" ph="SELECT * FRO... autdit_trail" />
-            <marker date="1492151591767" expanded="true" signature="12065:12219" ph="select * fro... library_book" />
-            <marker date="1492151591767" expanded="true" signature="13435:13498" ph="DELETE from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="148" column="20" lean-forward="false" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="40" />
+        <state relative-caret-position="293">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1337,8 +1289,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>itext5-itextpdf-5.5.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
