@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="31.0" layoutY="185.0" text="Library ID:">
          <font>
@@ -24,8 +23,8 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <ListView layoutX="348.0" layoutY="82.0" prefHeight="200.0" prefWidth="200.0" />
-      <TextField layoutX="79.0" layoutY="82.0" />
-      <TextField layoutX="79.0" layoutY="232.0" />
+      <ListView fx:id="BookList" layoutX="348.0" layoutY="82.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="LibName" layoutX="79.0" layoutY="82.0" />
+      <TextField fx:id="LibID" layoutX="79.0" layoutY="232.0" />
    </children>
 </AnchorPane>
