@@ -130,17 +130,17 @@ public class MasterController {
 		} else if(vType == ViewType.LIBRARY_DETAIL){
 			check = 3;
 			Library checky = (Library) data;
-			loader = new FXMLLoader(getClass().getResource("/librarystuff/LibraryDetailView.fxml"));
+			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/libraryDetailView.fxml"));
 			loader.setController(new LibraryDetailController(checky, new LibraryTableGateway()));
 		}else if(vType == ViewType.LIBRARY_AUDIT_TRAIL) {
 			check = 0;
 			Library library = (Library) data;
 			List<auditTrailEntry> trails = LTG.auditTrail(library);
-			loader = new FXMLLoader(getClass().getResource("/audit/audittrailview.fxml"));
+			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/audittrailview.fxml"));
 			loader.setController(new AuditTrailController(library, trails));
 		}else if(vType == ViewType.NEW_LIBRARY) {
 			check = 3;
-			loader = new FXMLLoader(getClass().getResource("/librarystuff/LibraryDetailView.fxml"));
+			loader = new FXMLLoader(getClass().getResource("/FXML_Pack/libraryDetailView.fxml"));
 			loader.setController(new LibraryDetailController( new Library(),new LibraryTableGateway()));
 		}
 

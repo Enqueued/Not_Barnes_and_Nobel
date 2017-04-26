@@ -39,10 +39,10 @@ public class LibraryDetailController {
     private List<LibraryBook> libraryBooks;
     @FXML private Button DelBook;
     @FXML private Button DelLib;
+    @FXML private Button AddBook;
     @FXML private Button Save;
     @FXML private Button Audit;
     @FXML private Button Report;
-    @FXML private Button AddBook;
     @FXML private TextField Quantity;
     @FXML private TextField LibName;
     @FXML private TextField LibID;
