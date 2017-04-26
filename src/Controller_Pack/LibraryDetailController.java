@@ -35,6 +35,20 @@ public class LibraryDetailController {
     private Library oldLibrary;
     private LibraryTableGateway LTG;
     private BookTableGateway BTG;
+    private List<Book> Book;
+    private List<LibraryBook> libraryBooks;
+    @FXML private Button DelBook;
+    @FXML private Button DelLib;
+    @FXML private Button Save;
+    @FXML private Button Audit;
+    @FXML private Button Report;
+    @FXML private Button AddBook;
+    @FXML private TextField Quantity;
+    @FXML private TextField LibName;
+    @FXML private TextField LibID;
+    @FXML private ComboBox<Book> Books;
+    @FXML private ListView<LibraryBook> listView;
+
     public LibraryDetailController(Library data, LibraryTableGateway LTG) {
         this.library=data;
         this.LTG = LTG;
@@ -51,128 +65,9 @@ public class LibraryDetailController {
         this.LTG = LTG;
         this.libraryBooks = libraryBooks2;
     }
-    @FXML private Button DeleteBook;
-    @FXML private Button delBtn;
-    @FXML private Button Save;
-    @FXML private Button Audit;
-    @FXML private Button InvReport;
-    @FXML private Button AddBook;
-    @FXML private ComboBox<Book> Books;
-    private List<Book> Book;
-    @FXML private TextField LibraryName;
-    @FXML private TextField Quantity;
-    private List<LibraryBook> libraryBooks;
-    @FXML private ListView<LibraryBook> listView;
 
-    @FXML private void onMouseClick(MouseEvent action) throws IOException, SQLException, ParseException{
-        Object source = action.getSource();
-        if(source == null){
-            return;
-        }
-        if(source == listView){
-            LibraryBook book = listView.getSelectionModel().getSelectedItem();
-            //logger.debug(book.getBook() + " was clicked clicked");
-        }
-    }
 
-    @FXML private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException{
-        Object source = action.getSource();
-        if(source == Save){
-            try{
-                if(library.getId() != 0){
-                    oldLibrary = new Library(library.getId(), library.getLibraryName(), library.getBooks(), library.getLastModified());
-                }
-                MasterController.getInstance().setCheck(0);
-                if(LibraryName(LibraryName.getText()) && QuantityCheck(Quantity.getText())){
-                    library.setLibraryName(LibraryName.getText());
-                    library.setBooks(libraryBooks);
-                    try {
-                        if(library.getId() == 0){
-                            LTG.insertLibrary(library);
-                            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
-                        }else{
-                            LTG.updateLibrary(library,oldLibrary);
-                            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
-                        }
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }else{
-                    return;
-                }
-            } catch (Exception e){
-                e.printStackTrace();
-            }
-        }else if(source == delBtn){
-            //should go about deleting the currently viewed library
-            MasterController.getInstance().setCheck(0);
-            if(library.getId() == 0){
-                Alert alert = new Alert(AlertType.WARNING);
-                alert.setTitle("delBtn Error");
-                alert.setContentText("New Libraries cannot be deleted");
-                alert.showAndWait();
-            }else{
-                Alert alert = new Alert(AlertType.CONFIRMATION);
-                alert.setTitle("delBtn Library?");
-                alert.setContentText("Are you sure you want to delete " + library.toString());
-                Optional<ButtonType> result = alert.showAndWait();
-                if (result.get() == ButtonType.OK){
-                    LTG.deleteLibrary(library);
-                    MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
-                } else {
-                    logger.info("Deletion Cancled");
-                }
-            }
-        }else if(source == Audit){
-            MasterController.getInstance().changeView(ViewType.LIBRARY_AUDIT_TRAIL, library);
-        }else if(source == AddBook){
-            library.setLibraryName(LibraryName.getText());
-            if(Books.getSelectionModel().getSelectedItem() == null){
-                return;
-            }
-            LibraryBook checks = new LibraryBook(Integer.parseInt(Quantity.getText()), Books.getSelectionModel().getSelectedItem(), false);
-            if(libraryBooks == null){
-                libraryBooks.add(checks);
-            }
-            if(libraryBooks.contains(checks)){
-                int newCheck = libraryBooks.indexOf(checks);
-                libraryBooks.get(newCheck).setQuantity(Integer.parseInt(Quantity.getText()));
-            }else{
-                libraryBooks.add(checks);
-            }
-            //initialize();
-            if(library.getId() != 0){
-                try {
-                    LTG.updateLibrary(library, oldLibrary);
-                } catch (com.sun.xml.internal.messaging.saaj.packaging.mime.internet.ParseException e) {
-                    e.printStackTrace();
-                }
-            }else{
-                LTG.insertLibrary(library);
-            }
-            MasterController.getInstance().setCheck(0);
-            logger.info(library.getLastModified());
-            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW , library);
 
-        }else if(source == InvReport){
-            pdfGen p = new pdfGen();
-            try {
-                p.createPDF(library);
-            } catch (DocumentException e) {
-            }
-        }else if(source == DeleteBook){
-            Alert alert = new Alert(AlertType.CONFIRMATION);
-            alert.setTitle("delBtn Library?");
-            alert.setContentText("Are you sure you want to delete " +listView.getSelectionModel().getSelectedItem());
-            Optional<ButtonType> result = alert.showAndWait();
-            if (result.get() == ButtonType.OK){
-                LTG.deleteLibraryBook(library, listView.getSelectionModel().getSelectedItem());
-                MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
-            } else {
-                logger.info("Deletion Cancled");
-            }
-        }
-    }
 
 
     private boolean QuantityCheck(String string) {
@@ -188,7 +83,7 @@ public class LibraryDetailController {
         }
     }
 
-    private boolean LibraryName(String text) {
+    private boolean isLibName(String text) {
         if(!text.isEmpty() && text.length() <= 100){
             return true;
         }else{
@@ -202,7 +97,8 @@ public class LibraryDetailController {
 
     public void initialize()throws SQLException, ParseException{
         BTG = new BookTableGateway();
-        LibraryName.setText(library.getLibraryName());
+        LibName.setText(library.getLibraryName());
+        LibID.setText(String.valueOf(library.getId()));
         Books.getItems().addAll(BTG.getBooks());
         Quantity.setText("0");
         oldLibrary = new Library(library.getId(),library.getLibraryName(),library.getBooks(),library.getLastModified());
@@ -255,7 +151,7 @@ public class LibraryDetailController {
         if (library.equals(data) && library.getId() > 0) {
             return (0);
         } else {
-            if (!LibraryName.getText().equals(library.getLibraryName())) {
+            if (!LibName.getText().equals(library.getLibraryName())) {
                 Alert alert = new Alert(AlertType.CONFIRMATION);
                 alert.setTitle("Save Data?");
                 alert.setContentText("yes = save, no = don't save, cancle = stay");
@@ -280,5 +176,114 @@ public class LibraryDetailController {
             }
         }
         return 0;
+    }
+    @FXML private void onMouseClick(MouseEvent action) throws IOException, SQLException, ParseException{
+        Object source = action.getSource();
+        if(source == null){
+            return;
+        }
+        if(source == listView){
+            LibraryBook book = listView.getSelectionModel().getSelectedItem();
+            //logger.debug(book.getBook() + " was clicked clicked");
+        }
+    }
+
+    @FXML private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException{
+        Object source = action.getSource();
+        if(source == Save){
+            try{
+                if(library.getId() != 0){
+                    oldLibrary = new Library(library.getId(), library.getLibraryName(), library.getBooks(), library.getLastModified());
+                }
+                MasterController.getInstance().setCheck(0);
+                if(isLibName(LibName.getText()) && QuantityCheck(Quantity.getText())){
+                    library.setLibraryName(LibName.getText());
+                    library.setBooks(libraryBooks);
+                    try {
+                        if(library.getId() == 0){
+                            LTG.insertLibrary(library);
+                            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
+                        }else{
+                            LTG.updateLibrary(library,oldLibrary);
+                            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }else{
+                    return;
+                }
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+        }else if(source == DelLib){
+            //should go about deleting the currently viewed library
+            MasterController.getInstance().setCheck(0);
+            if(library.getId() == 0){
+                Alert alert = new Alert(AlertType.WARNING);
+                alert.setTitle("DelLib Error");
+                alert.setContentText("New Libraries cannot be deleted");
+                alert.showAndWait();
+            }else{
+                Alert alert = new Alert(AlertType.CONFIRMATION);
+                alert.setTitle("DelLib Library?");
+                alert.setContentText("Are you sure you want to delete " + library.toString());
+                Optional<ButtonType> result = alert.showAndWait();
+                if (result.get() == ButtonType.OK){
+                    LTG.deleteLibrary(library);
+                    MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
+                } else {
+                    logger.info("Deletion Cancled");
+                }
+            }
+        }else if(source == Audit){
+            MasterController.getInstance().changeView(ViewType.LIBRARY_AUDIT_TRAIL, library);
+        }else if(source == AddBook){
+            library.setLibraryName(LibName.getText());
+            if(Books.getSelectionModel().getSelectedItem() == null){
+                return;
+            }
+            LibraryBook checks = new LibraryBook(Integer.parseInt(Quantity.getText()), Books.getSelectionModel().getSelectedItem(), false);
+            if(libraryBooks == null){
+                libraryBooks.add(checks);
+            }
+            if(libraryBooks.contains(checks)){
+                int newCheck = libraryBooks.indexOf(checks);
+                libraryBooks.get(newCheck).setQuantity(Integer.parseInt(Quantity.getText()));
+            }else{
+                libraryBooks.add(checks);
+            }
+            //initialize();
+            if(library.getId() != 0){
+                try {
+                    LTG.updateLibrary(library, oldLibrary);
+                } catch (com.sun.xml.internal.messaging.saaj.packaging.mime.internet.ParseException e) {
+                    e.printStackTrace();
+                }
+            }else{
+                LTG.insertLibrary(library);
+            }
+            MasterController.getInstance().setCheck(0);
+            logger.info(library.getLastModified());
+            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW , library);
+
+        }else if(source == Report){
+            pdfGen p = new pdfGen();
+            try {
+                p.createPDF(library);
+            } catch (DocumentException e) {
+            }
+        }else if(source == DelBook){
+            Alert alert = new Alert(AlertType.CONFIRMATION);
+            alert.setTitle("DelLib Library?");
+            alert.setContentText("Are you sure you want to delete " +listView.getSelectionModel().getSelectedItem());
+            Optional<ButtonType> result = alert.showAndWait();
+            if (result.get() == ButtonType.OK){
+                LTG.deleteLibraryBook(library, listView.getSelectionModel().getSelectedItem());
+                MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
+            } else {
+                logger.info("Deletion Cancled");
+            }
+        }
     }
 }
