@@ -25,6 +25,7 @@ public class MenuController implements Initializable {
 	@FXML private MenuItem BookView;
 	@FXML private MenuItem newBookView;
 	@FXML private MenuItem libView;
+	@FXML private MenuItem addLib;
 
 	/**
 	 * blank constructor
@@ -66,6 +67,9 @@ public class MenuController implements Initializable {
 		if(source == libView){
 			MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, new Author());
 			return;
+		}
+		if(source == addLib){
+			MasterController.getInstance().changeView(ViewType.NEW_LIBRARY, new Author());
 		}
 	}
 }

@@ -66,10 +66,6 @@ public class LibraryDetailController {
         this.libraryBooks = libraryBooks2;
     }
 
-
-
-
-
     private boolean QuantityCheck(String string) {
         int check = Integer.valueOf(string);
         if(check >=0 && check <=100){
@@ -104,15 +100,13 @@ public class LibraryDetailController {
         oldLibrary = new Library(library.getId(),library.getLibraryName(),library.getBooks(),library.getLastModified());
         MasterController.getInstance().setLDC(this);
         ObservableList<LibraryBook> Items = listView.getItems();
-        //	if(libraryBooks != null){
-        for(LibraryBook book: libraryBooks){
-            Items.add(book);
+        if(libraryBooks != null){
+            for(LibraryBook book: libraryBooks){
+                Items.add(book);
 
+            }
+            libraryBooks.clear();
         }
-        //	}
-        //libraryBooks.clear();
-
-
     }
 
     public Library getOldLibrary() {
@@ -121,7 +115,6 @@ public class LibraryDetailController {
     public void setOldLibrary(Library oldLibrary) {
         this.oldLibrary = oldLibrary;
     }
-
 
     public int check(Library data) throws ParseException {
         if (data.getId() == 0) {

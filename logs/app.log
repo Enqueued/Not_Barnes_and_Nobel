@@ -1471,3 +1471,112 @@ Table 'vvf555.autdit_trail' doesn't exist
 10:16:02.949 INFO  Model_Pack.pdfGen : gfhgh
 10:16:02.950 DEBUG Model_Pack.pdfGen : in loop
 10:16:02.950 DEBUG Model_Pack.pdfGen : super cool dawg
+22:23:22.165 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+22:23:22.168 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+22:23:22.169 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+22:23:22.172 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+22:23:22.234 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+22:23:22.234 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+22:23:23.343 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+22:23:23.737 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+00:58:12.666 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+00:58:12.668 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+00:58:12.668 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+00:58:12.672 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+00:58:12.745 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+00:58:12.746 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+00:58:13.964 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+00:58:14.412 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+01:06:01.925 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:06:01.927 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:06:01.928 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:06:01.931 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:06:01.999 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+01:06:01.999 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+01:07:45.104 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:07:45.108 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:07:45.108 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:07:45.113 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:34:20.192 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:34:20.194 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:34:20.195 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:34:20.198 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:34:20.257 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+01:34:20.258 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+01:34:21.378 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+01:34:21.797 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+01:34:35.400 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:34:35.402 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:34:35.405 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:34:35.408 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:34:35.470 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+01:34:35.470 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+01:34:36.430 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+01:34:36.845 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+01:34:46.399 ERROR Gate_Pack.LibraryTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.autdit_trail' doesn't exist
+01:34:46.517 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T23:08:18
+01:34:46.820 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:34:46.821 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:34:46.822 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:34:46.822 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:34:46.876 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+01:34:46.880 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+01:34:49.192 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+01:34:49.613 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+01:34:58.912 ERROR Gate_Pack.LibraryTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.autdit_trail' doesn't exist
+01:34:59.010 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T23:08:18
+01:34:59.305 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+01:34:59.306 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+01:34:59.306 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+01:34:59.306 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+01:34:59.362 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+01:34:59.364 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+01:35:00.757 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+01:35:01.140 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+02:25:00.232 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+02:25:00.234 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+02:25:00.234 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+02:25:00.235 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+02:25:00.294 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+02:25:00.295 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+02:25:01.273 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+02:25:01.666 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+02:26:35.450 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+02:26:35.454 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+02:26:35.455 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+02:26:35.459 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+02:26:35.519 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+02:26:35.520 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+02:26:36.501 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+02:26:36.937 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+02:28:14.661 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+02:28:14.662 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+02:28:14.663 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+02:28:14.665 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+02:28:14.722 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+02:28:14.722 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+02:32:39.559 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+02:44:41.183 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+02:45:06.175 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+02:45:30.773 ERROR Gate_Pack.LibraryTableGateway : Failed to insert new entry in database: 
+Table 'vvf555.autdit_trail' doesn't exist
+02:45:31.149 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+02:45:31.149 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+02:45:31.150 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+02:45:31.150 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+02:45:31.209 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+02:45:31.210 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+02:45:33.338 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+02:45:33.727 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
