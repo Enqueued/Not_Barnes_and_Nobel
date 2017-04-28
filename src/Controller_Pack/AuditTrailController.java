@@ -41,10 +41,12 @@ public class AuditTrailController {
 
 
 	public void initialize() throws SQLException{
-		if(book == null){
+		if(book == null && library == null){
 			authorName.setText(author.toString());
-		}else{
+		}else if(author == null && library == null){
 			authorName.setText(book.toString());
+		}else {
+			authorName.setText(library.toString());
 		}
 			
 		ObservableList<auditTrailEntry> items = auditView.getItems();

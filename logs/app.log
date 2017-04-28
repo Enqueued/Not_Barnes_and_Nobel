@@ -1580,3 +1580,657 @@ Table 'vvf555.autdit_trail' doesn't exist
 02:45:33.338 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
 02:45:33.727 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
 1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+16:33:09.689 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+17:37:50.258 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+17:37:52.057 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+17:37:52.058 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+17:37:52.059 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+17:37:52.059 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+17:37:52.127 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+17:37:52.129 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+17:37:53.252 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+17:37:53.670 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+17:38:24.685 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+17:38:24.688 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+17:38:24.689 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+17:38:24.693 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+17:38:24.757 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+17:38:24.762 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+17:38:25.750 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+17:38:26.224 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+18:53:25.847 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+18:53:27.460 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+18:53:27.462 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+18:53:27.464 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+18:53:27.465 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+18:53:27.524 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+18:53:27.525 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+18:53:28.843 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+18:53:29.262 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+18:58:13.094 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+18:58:13.099 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+18:58:13.100 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+18:58:13.104 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+18:58:13.167 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+18:58:13.168 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+18:58:15.658 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+18:58:16.109 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+18:58:29.203 ERROR Gate_Pack.LibraryTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.autdit_trail' doesn't exist
+18:59:43.940 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+18:59:43.942 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+18:59:43.943 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+18:59:43.947 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+18:59:44.006 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+18:59:44.007 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+18:59:45.384 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+18:59:45.842 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+18:59:47.474 ERROR Gate_Pack.LibraryTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.autdit_trail' doesn't exist
+19:00:59.939 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+19:00:59.946 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+19:00:59.948 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+19:00:59.955 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+19:01:00.027 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+19:01:00.028 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+19:01:00.813 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+19:01:01.275 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Value '4THis is a booknot cool books
+1920-10-26 Book for a loser made by a loser40000-00-00 00:00:00 ' can not be represented as java.sql.Timestamp
+19:01:03.231 ERROR Gate_Pack.LibraryTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.autdit_trail' doesn't exist
+19:09:54.749 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+19:09:54.751 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+19:09:54.752 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+19:09:54.754 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+19:09:54.815 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+19:09:54.815 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+19:09:55.599 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+20:26:26.691 ERROR Gate_Pack.LibraryTableGateway : Failed to insert new entry in database: 
+Table 'vvf555.autdit_trail' doesn't exist
+20:26:27.080 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+20:26:27.082 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+20:26:27.083 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+20:26:27.084 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+20:26:27.149 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+20:26:27.149 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+20:26:28.988 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+20:26:53.844 ERROR Gate_Pack.LibraryTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.autdit_trail' doesn't exist
+20:26:54.230 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+20:26:54.231 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+20:26:54.232 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+20:26:54.233 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+20:26:54.295 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+20:26:54.296 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+20:26:56.808 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+20:29:52.542 ERROR Gate_Pack.LibraryTableGateway : Failed to insert new entry in database: 
+Table 'vvf555.autdit_trail' doesn't exist
+20:29:52.942 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+20:29:52.944 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+20:29:52.945 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+20:29:52.945 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+20:29:53.013 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18]
+20:29:53.014 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:02:25.912 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:02:36.894 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:02:36.901 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:02:36.903 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:02:36.904 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:02:36.905 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Coolio DDawg
+21:02:36.907 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+21:02:36.907 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (23) 
+21:02:36.908 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:02:36.971 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18, Otherone 2017-04-04T23:08:18]
+21:02:36.972 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:02:36.973 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:02:40.191 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:02:49.827 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T23:08:18
+21:02:50.129 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:02:50.131 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:02:50.132 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:02:50.133 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:02:50.134 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Coolio DDawg
+21:02:50.135 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+21:02:50.140 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (23) 
+21:02:50.141 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:02:50.199 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18, Otherone 2017-04-04T23:08:18]
+21:02:50.199 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:02:50.199 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:02:51.558 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:02:57.433 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:02:57.434 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:02:57.435 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:02:57.436 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:02:57.437 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Coolio DDawg
+21:02:57.438 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+21:02:57.439 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (23) 
+21:02:57.439 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:02:57.505 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18, Otherone 2017-04-04T23:08:18]
+21:02:57.506 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:02:57.507 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:02:58.749 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:03:02.650 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:03:02.655 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:03:02.656 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:03:02.657 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:03:02.658 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Coolio DDawg
+21:03:02.660 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+21:03:02.660 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (23) 
+21:03:02.661 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:03:02.722 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18, Otherone 2017-04-04T23:08:18]
+21:03:02.723 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:03:02.724 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:03:03.678 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:03:10.003 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:03:10.005 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:03:10.005 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:03:10.006 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:03:10.007 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! Coolio DDawg
+21:03:10.008 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+21:03:10.008 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (23) 
+21:03:10.009 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:03:10.067 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18, Otherone 2017-04-04T23:08:18]
+21:03:10.068 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:03:10.069 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:03:11.346 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:05:39.184 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:05:39.191 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:05:39.192 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:05:39.197 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:05:39.197 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:05:39.198 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:05:39.198 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:05:39.199 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:05:39.263 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18, Otherone 2017-04-04T23:08:18]
+21:05:39.264 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:05:39.264 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:05:40.611 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:05:44.010 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:05:44.012 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:05:44.013 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:05:44.014 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:05:44.016 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:05:44.017 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:05:44.018 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (3) 
+21:05:44.018 INFO  Gate_Pack.LibraryTableGateway : Otherone 2017-04-04T23:08:18
+21:05:44.083 INFO  Controller_Pack.LibraryController : libraries is null[Otherone 2017-04-04T23:08:18, Otherone 2017-04-04T23:08:18]
+21:05:44.084 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:05:44.085 INFO  Controller_Pack.LibraryController :  in the for loop: Otherone 2017-04-04T23:08:18
+21:05:44.769 INFO  Controller_Pack.LibraryController : Clicked on the Otherone Library!
+21:09:22.379 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:09:22.386 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:09:22.387 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:09:22.392 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:09:22.453 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:09:22.453 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:09:23.634 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:09:35.694 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+21:09:36.006 INFO  Gate_Pack.LibraryTableGateway : in the while loop~! new Guy
+21:09:36.007 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:09:36.008 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:09:36.010 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:09:36.069 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:09:36.070 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:09:37.686 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:12:21.419 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:12:21.438 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:12:21.439 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:12:21.443 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:12:21.507 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:12:21.507 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:12:22.148 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:12:33.447 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+21:12:33.746 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:12:33.748 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:12:33.749 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:12:33.750 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:12:33.815 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:12:33.816 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:12:59.260 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:13:10.406 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+21:13:10.694 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:13:10.696 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:13:10.697 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:13:10.697 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:13:10.761 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:13:10.762 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:15:01.199 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:15:01.203 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:15:01.204 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:15:01.206 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:15:01.265 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:15:01.265 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:19:00.780 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:19:00.798 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:19:00.800 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:19:00.805 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:19:00.865 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:19:00.865 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:19:01.930 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:19:08.511 ERROR Gate_Pack.LibraryTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'vvf555.autdit_trail' doesn't exist
+21:19:08.604 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+21:19:08.905 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:19:08.906 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:19:08.907 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:19:08.908 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:19:08.971 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:19:08.972 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:19:10.754 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:21:20.744 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:21:20.761 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:21:20.763 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:21:20.768 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:21:20.834 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:21:20.835 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:21:22.004 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:21:28.977 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+21:21:29.270 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:21:29.273 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:21:29.273 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+21:21:29.274 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:21:29.343 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:21:29.345 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:21:30.357 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:21:43.901 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+21:21:44.210 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:21:44.212 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:21:44.213 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:21:44.214 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:21:44.275 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+21:21:44.276 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:21:45.720 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:21:53.877 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+21:21:54.171 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:21:54.173 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:21:54.173 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:21:54.174 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:21:54.175 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+21:21:54.176 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+21:21:54.177 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+21:21:54.178 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:21:54.235 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+21:21:54.237 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:21:54.238 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:21:55.148 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+21:24:46.525 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+21:24:46.542 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+21:24:46.543 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+21:24:46.549 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:24:46.549 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+21:24:46.550 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+21:24:46.550 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+21:24:46.551 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+21:24:46.621 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+21:24:46.622 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+21:24:46.623 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+22:52:46.081 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+22:52:46.086 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+22:52:46.087 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+22:52:46.088 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+22:52:46.088 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+22:52:46.089 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+22:52:46.090 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+22:52:46.091 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+22:52:46.151 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+22:52:46.152 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+22:52:46.152 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:29:58.498 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:29:58.516 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:29:58.517 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:29:58.524 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:29:58.525 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:29:58.526 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:29:58.526 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:29:58.527 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:29:58.590 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:29:58.590 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:29:58.591 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:30:37.075 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:30:40.105 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:30:40.108 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:30:40.108 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:30:40.109 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:30:40.110 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:30:40.112 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:30:40.112 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:30:40.113 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:30:40.174 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:30:40.175 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:30:40.176 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:30:40.855 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:31:31.300 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:31:31.318 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:31:31.319 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:31:31.324 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:31:31.325 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:31:31.326 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:31:31.326 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:31:31.327 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:31:31.394 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:31:31.395 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:31:31.396 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:31:59.268 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:31:59.290 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:31:59.292 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:31:59.296 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:31:59.297 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:31:59.299 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:31:59.299 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:31:59.299 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:31:59.361 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:31:59.362 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:31:59.362 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:32:02.330 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:32:19.949 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:32:19.967 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:32:19.968 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:32:19.974 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:32:19.975 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:32:19.975 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:32:19.976 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:32:19.976 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:32:20.042 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:32:20.043 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:32:20.044 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:32:22.681 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:33:02.038 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:33:02.056 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:33:02.057 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:33:02.062 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:33:02.062 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:33:02.063 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:33:02.063 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:33:02.064 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:33:02.122 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:33:02.123 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:33:02.123 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:35:28.572 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:35:28.590 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:35:28.591 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:35:28.595 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:35:28.596 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:35:28.597 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:35:28.597 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:35:28.597 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:35:28.673 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:35:28.674 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:35:28.675 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:35:38.377 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:39:53.927 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:39:53.945 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:39:53.947 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:39:53.948 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:39:53.949 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:39:53.950 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:39:53.951 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:39:53.951 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:39:54.007 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:39:54.008 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:39:54.008 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:08.643 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:40:08.648 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:40:08.648 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (23) 
+23:40:08.651 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:40:08.651 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:40:08.652 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:40:08.652 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:40:08.653 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:40:08.707 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:40:08.707 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:08.707 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:09.496 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:40:15.992 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+23:40:16.283 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:40:16.285 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:40:16.286 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:40:16.287 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:40:16.288 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:40:16.290 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:40:16.291 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:40:16.292 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:40:16.353 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:40:16.354 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:16.355 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:17.372 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:40:24.343 INFO  Controller_Pack.LibraryDetailController : 2017-04-04T01:17:20
+23:40:24.639 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:40:24.641 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:40:24.641 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:40:24.642 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:40:24.643 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:40:24.644 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:40:24.645 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:40:24.646 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:40:24.647 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:40:24.648 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:40:24.649 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:40:24.650 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:40:24.711 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:40:24.712 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:24.713 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:24.714 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:40:26.028 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:42:29.467 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:42:29.485 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:42:29.490 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:42:29.491 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:42:29.492 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:42:29.493 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:42:29.493 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:42:29.493 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:42:29.494 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:42:29.495 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:42:29.495 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:42:29.495 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:42:29.559 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:42:29.560 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:42:29.561 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:42:29.561 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:46:33.311 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:46:33.329 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:46:33.334 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:46:33.336 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:46:33.336 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:46:33.337 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:46:33.337 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:46:33.338 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:46:33.338 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:46:33.339 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:46:33.339 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:46:33.340 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:46:33.407 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:46:33.408 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:46:33.409 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:46:33.409 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:46:48.676 INFO  Gate_Pack.LibraryTableGateway : start
+23:46:49.072 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:46:49.075 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:46:49.075 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:46:49.076 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:46:49.077 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:46:49.079 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:46:49.080 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:46:49.081 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:46:49.081 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:46:49.083 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:46:49.084 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:46:49.085 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:46:49.147 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:46:49.148 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:46:49.149 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:46:49.150 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:15.556 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:47:15.575 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:47:15.580 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:47:15.581 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:15.582 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:47:15.582 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:47:15.583 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:47:15.584 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:15.584 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:47:15.585 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:47:15.585 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:47:15.585 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:15.644 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:47:15.645 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:15.645 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:15.645 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:17.954 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:47:43.583 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:47:43.600 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:47:43.603 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:47:43.603 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:43.604 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:47:43.604 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:47:43.604 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:47:43.605 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:43.605 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:47:43.605 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:47:43.605 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:47:43.605 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:43.667 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:47:43.668 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:43.668 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:43.669 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:44.484 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:47:52.323 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:47:52.324 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:47:52.324 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:47:52.324 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:52.325 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:47:52.325 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:47:52.325 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:47:52.326 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:52.326 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:47:52.326 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:47:52.326 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:47:52.327 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:47:52.405 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:47:52.406 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:52.406 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:52.407 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:47:55.116 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:48:33.666 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:48:33.684 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:48:33.689 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:48:33.690 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:48:33.690 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:48:33.691 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:48:33.692 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:48:33.692 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:48:33.693 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:48:33.693 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:48:33.694 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:48:33.694 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:48:33.768 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20, Chris' lib 2017-04-04T01:17:20]
+23:48:33.769 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:48:33.770 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:48:33.771 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:50:31.752 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:50:31.757 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:50:31.759 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:50:31.760 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:50:31.760 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:50:31.760 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:50:31.761 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:50:31.761 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:50:31.761 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:50:31.761 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:50:31.761 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:50:31.762 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:50:31.835 INFO  Controller_Pack.LibraryController : libraries is null[]
+23:51:53.441 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:51:53.459 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:51:53.464 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:51:53.465 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:51:53.466 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:51:53.466 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:51:53.467 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:51:53.467 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:51:53.467 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:51:53.468 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:51:53.468 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:51:53.469 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:51:53.530 INFO  Controller_Pack.LibraryController : libraries is null[]
+23:52:45.437 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:52:45.457 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:52:45.462 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:52:45.464 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:52:45.464 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:52:45.465 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:52:45.465 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:52:45.466 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:52:45.467 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:52:45.467 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:52:45.468 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:52:45.468 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:52:45.539 INFO  Controller_Pack.LibraryController : libraries is null[]
+23:53:24.155 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:53:24.164 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:53:24.168 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:53:24.169 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:53:24.170 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:53:24.171 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:53:24.171 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:53:24.172 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:53:24.172 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:53:24.173 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:53:24.173 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:53:24.174 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:53:24.241 INFO  Controller_Pack.LibraryController : libraries is null[]
+23:54:15.628 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:54:15.646 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:54:15.648 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:54:15.649 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:54:15.649 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:54:15.650 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:54:15.650 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:54:15.650 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:54:15.650 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:54:15.651 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:54:15.651 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:54:15.651 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:54:15.709 INFO  Controller_Pack.LibraryController : libraries is null[]
+23:54:56.932 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:54:56.950 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:54:56.955 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:54:56.957 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:54:56.957 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:54:56.958 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:54:56.958 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:54:56.959 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:54:56.959 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:54:56.960 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:54:56.960 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:54:56.961 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:54:57.035 INFO  Controller_Pack.LibraryController : libraries is null[]
+23:55:10.443 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:55:10.460 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:55:10.465 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:55:10.465 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:55:10.466 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:55:10.466 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:55:10.467 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:55:10.467 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:55:10.467 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:55:10.467 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:55:10.468 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:55:10.468 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:55:10.528 INFO  Controller_Pack.LibraryController : libraries is null[]
+23:56:00.388 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:56:00.402 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:56:00.404 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (2) 
+23:56:00.405 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:56:00.405 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:56:00.405 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:56:00.405 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (2) 
+23:56:00.406 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:56:00.406 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:56:00.406 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:56:00.406 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:56:00.406 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:56:00.468 INFO  Controller_Pack.LibraryController : libraries is null[]

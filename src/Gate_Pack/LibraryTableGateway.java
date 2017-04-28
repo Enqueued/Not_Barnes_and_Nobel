@@ -58,6 +58,7 @@ public class LibraryTableGateway {
      * @throws SQLException
      */
     public List<Library> getLibraries() throws SQLException{
+		//listViewBook = new ArrayList<LibraryBook>();
         conn = ds.getConnection(); //connection to sql db
         try{
             conn.setAutoCommit(false);
@@ -70,10 +71,10 @@ public class LibraryTableGateway {
                                         "order by library.id");
             //todo: fill in all necessary items
             while(rs.next()){
+				logger.info("putting " + rs.getString("title") +" into the lib stats" );
                 Author it = new Author(rs.getString("AuthorTable.first_name"),rs.getString("last_name"),
                         rs.getString("gender"),rs.getString("web_site"),rs.getDate("dob"),
                         rs.getInt("id"), rs.getTimestamp("last_modified").toLocalDateTime());
-				logger.info("in the while loop~! " + it.toString() );
                 Book book = new Book (rs.getInt("id"), rs.getString("title"),
                         rs.getString("publisher"), rs.getDate("date_published").toString(),
                         rs.getString("summary"), it, rs.getTimestamp("last_modified").toLocalDateTime());
@@ -81,12 +82,25 @@ public class LibraryTableGateway {
 				//creation of new record for list
                 booky = new LibraryBook (rs.getInt("quantity"), book, true);
 				logger.info(booky.toString() );
-                listViewBook.add(booky);
+				if(!listViewBook.contains(booky)) {
+					listViewBook.add(booky);
+				}
                 Library library = new Library(rs.getInt("library_id"),
 						rs.getString("library_name"), listViewBook, rs.getTimestamp("last_modified").toLocalDateTime());
                 logger.info(library.toString());
-                listView.add(library);
-                listViewBook = new ArrayList<LibraryBook>();
+                //if(!listView.contains(library)) {
+				if (listView != null){
+					for(Library lib : listView){
+						logger.error("inside the list isnt null!");
+						if(lib.getId() != library.getId()) {
+							listView.add(library);
+						}
+					}
+				}else{
+					logger.info("inside else");
+					listView.add(library);
+				}
+                //listViewBook = new ArrayList<LibraryBook>();
             }
             conn.commit();
         }catch (Exception e){
@@ -108,7 +122,7 @@ public class LibraryTableGateway {
 
 		try {
 			conn.setAutoCommit(false);
-			PreparedStatement ps = conn.prepareStatement("DELETE from `autdit_trail` WHERE record_id = ? AND record_type = 'L'");
+			PreparedStatement ps = conn.prepareStatement("DELETE from `audit_trail` WHERE record_id = ? AND record_type = 'L'");
 			ps.setInt(1, library.getId());
 			ps.executeUpdate();
 
@@ -158,7 +172,7 @@ public class LibraryTableGateway {
 			}
 			ps.close();
 
-			ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+			ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
 			ps.setInt(1, library.getId());
 			ps.setString(2, "Added " + library.toString());
 			ps.executeUpdate();
@@ -173,7 +187,7 @@ public class LibraryTableGateway {
 					ps.setInt(3, b.getQuantity());
 					ps.executeUpdate();
 					ps.close();
-					ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+					ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
 					ps.setInt(1, library.getId());
 					ps.setString(2, "Added Book" + books.toString());
 					ps.executeUpdate();
@@ -234,7 +248,7 @@ public class LibraryTableGateway {
 			library.setLastModified(rs.getTimestamp("last_modified").toLocalDateTime());
 			ps.close();
 			if(!library.getLibraryName().equals(oldlibrary.getLibraryName())){
-				ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+				ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
 				ps.setInt(1, library.getId());
 				ps.setString(2, "Library name changed from " + oldlibrary.getLibraryName() + " to " + library.getLibraryName());
 				ps.executeUpdate();
@@ -255,7 +269,7 @@ public class LibraryTableGateway {
 							ps.setInt(3, boook.getId());
 							ps.executeUpdate();
 
-							ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+							ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
 							ps.setInt(1, library.getId());
 							ps.setString(2, "Book quantity changed from " + rs.getInt("quantity") + " to " + books.getQuantity());
 							ps.executeUpdate();
@@ -271,7 +285,7 @@ public class LibraryTableGateway {
 					ps.setInt(2,books.getBook().getId() );
 					ps.setInt(3, books.getQuantity());
 					ps.executeUpdate();
-					ps = conn.prepareStatement("insert into `autdit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
+					ps = conn.prepareStatement("insert into `audit_trail` (record_type, record_id, entry_msg) values ('L', ?, ?)");
 					ps.setInt(1, library.getId());
 					ps.setString(2, "Added new book: " + books.getBook());
 					ps.executeUpdate();
@@ -302,7 +316,7 @@ public class LibraryTableGateway {
 
 		try {
 			stmt = conn.createStatement();
-			rs = stmt.executeQuery("SELECT * FROM `autdit_trail` WHERE `record_id` = "+library.getId()+" AND `record_type` = 'L' ORDER BY `date_added` ASC");
+			rs = stmt.executeQuery("SELECT * FROM `audit_trail` WHERE `record_id` = "+library.getId()+" AND `record_type` = 'L' ORDER BY `date_added` ASC");
 			while(rs.next()) {
 				//fetch the next record into rs
 				list.add(new auditTrailEntry(rs.getString("record_type"),rs.getTimestamp("date_added"),

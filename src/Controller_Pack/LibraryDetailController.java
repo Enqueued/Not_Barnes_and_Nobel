@@ -96,14 +96,14 @@ public class LibraryDetailController {
         LibName.setText(library.getLibraryName());
         LibID.setText(String.valueOf(library.getId()));
         Books.getItems().addAll(BTG.getBooks());
-        Quantity.setText("0");
+        //todo make the quantity var update with the book that is added
+        Quantity.setText("??");
         oldLibrary = new Library(library.getId(),library.getLibraryName(),library.getBooks(),library.getLastModified());
         MasterController.getInstance().setLDC(this);
         ObservableList<LibraryBook> Items = listView.getItems();
         if(libraryBooks != null){
             for(LibraryBook book: libraryBooks){
                 Items.add(book);
-
             }
             libraryBooks.clear();
         }
@@ -193,10 +193,10 @@ public class LibraryDetailController {
                     library.setLibraryName(LibName.getText());
                     library.setBooks(libraryBooks);
                     try {
-                        if(library.getId() == 0){
+                        if(library.getId() == 0){ //new library added to the list
                             LTG.insertLibrary(library);
                             MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
-                        }else{
+                        }else{ //update an existing library
                             LTG.updateLibrary(library,oldLibrary);
                             MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
                         }
@@ -233,13 +233,17 @@ public class LibraryDetailController {
             MasterController.getInstance().changeView(ViewType.LIBRARY_AUDIT_TRAIL, library);
         }else if(source == AddBook){
             library.setLibraryName(LibName.getText());
+            //c1
             if(Books.getSelectionModel().getSelectedItem() == null){
+                logger.info("Book Selection is NULL");
                 return;
             }
-            LibraryBook checks = new LibraryBook(Integer.parseInt(Quantity.getText()), Books.getSelectionModel().getSelectedItem(), false);
+            LibraryBook checks = new LibraryBook(Integer.parseInt(Quantity.getText()), Books.getSelectionModel().getSelectedItem(), true);
+            //c2
             if(libraryBooks == null){
                 libraryBooks.add(checks);
             }
+            //c3
             if(libraryBooks.contains(checks)){
                 int newCheck = libraryBooks.indexOf(checks);
                 libraryBooks.get(newCheck).setQuantity(Integer.parseInt(Quantity.getText()));
