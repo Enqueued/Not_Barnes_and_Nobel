@@ -59,14 +59,17 @@ public class LibraryDetailController {
         this.Book = null;
         this.libraryBooks = new ArrayList<LibraryBook>();
     }
-    public LibraryDetailController(Library constant, LibraryTableGateway LTG, List<LibraryBook> libraryBooks2) {
+    public LibraryDetailController(Library constant, LibraryTableGateway LTG, List<LibraryBook> libraryBooks) {
         // TODO Auto-generated constructor stub
         this.library=constant;
         this.LTG = LTG;
-        this.libraryBooks = libraryBooks2;
+        this.libraryBooks = libraryBooks;
     }
 
     private boolean QuantityCheck(String string) {
+//        if (string.equals("??")){ //default quantity
+//            return false;
+//        }
         int check = Integer.valueOf(string);
         if(check >=0 && check <=100){
             return true;
@@ -204,6 +207,7 @@ public class LibraryDetailController {
                         e.printStackTrace();
                     }
                 }else{
+                    logger.info("nope");
                     return;
                 }
             } catch (Exception e){

@@ -30,6 +30,7 @@ public class LibraryTableGateway {
     ResultSet rs = null;
     private List<Library> listView = new ArrayList<Library>();
     private List<LibraryBook> listViewBook = new ArrayList<LibraryBook>();
+	private List<LibraryBook> oldList = new ArrayList<LibraryBook>();
 	private LibraryBook booky;
 
     public LibraryTableGateway() throws SQLException{
@@ -59,6 +60,8 @@ public class LibraryTableGateway {
      */
     public List<Library> getLibraries() throws SQLException{
 		//listViewBook = new ArrayList<LibraryBook>();
+		listViewBook = oldList;
+		//oldList = new ArrayList<LibraryBook>();
         conn = ds.getConnection(); //connection to sql db
         try{
             conn.setAutoCommit(false);
@@ -88,11 +91,13 @@ public class LibraryTableGateway {
                 Library library = new Library(rs.getInt("library_id"),
 						rs.getString("library_name"), listViewBook, rs.getTimestamp("last_modified").toLocalDateTime());
                 logger.info(library.toString());
-                //if(!listView.contains(library)) {
-				if (listView != null){
+                //Todo: may want to try to simplify this
+				if (listView.size() > 0){
+				    logger.info("check Succedded " + library.toString());
+				    logger.error(listView.size());
 					for(Library lib : listView){
-						logger.error("inside the list isnt null!");
-						if(lib.getId() != library.getId()) {
+						logger.info(lib.toString());
+						if(library.getId() != lib.getId() || lib == null) { // want this check to see if pulling garbage
 							listView.add(library);
 						}
 					}
@@ -100,7 +105,9 @@ public class LibraryTableGateway {
 					logger.info("inside else");
 					listView.add(library);
 				}
-                //listViewBook = new ArrayList<LibraryBook>();
+				oldList = listViewBook;
+				//if we reinitialize then it will wipe the current set of books
+				//listViewBook = new ArrayList<LibraryBook>();
             }
             conn.commit();
         }catch (Exception e){

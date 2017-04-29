@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="759e85b1-f41c-4f72-b760-10153cbb0335" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/FXML_Pack/menu.fxml" afterPath="$PROJECT_DIR$/bin/FXML_Pack/menu.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java" afterPath="$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" afterPath="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" afterPath="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" afterPath="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,33 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Library.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model_Pack/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MasterController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1840">
-              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LibraryDetailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="102" column="34" lean-forward="false" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+            <state relative-caret-position="-1696">
+              <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,43 +37,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryBook.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LibraryBook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="126">
               <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryTableGateway.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LibraryTableGateway.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="102" column="18" lean-forward="false" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+            <state relative-caret-position="-1696">
+              <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
               <folding>
-                <marker date="1493355356993" expanded="true" signature="2541:2861" ph="select * fro... library" />
-                <marker date="1493355356993" expanded="true" signature="5037:5104" ph="DELETE from " />
-                <marker date="1493355356993" expanded="true" signature="5213:5260" ph="DELETE from " />
-                <marker date="1493355356993" expanded="true" signature="5368:5402" ph="DELETE from " />
-                <marker date="1493355356993" expanded="true" signature="6023:6072" ph="INSERT INTO `library`... " />
-                <marker date="1493355356993" expanded="true" signature="6335:6415" ph="insert into `audit_trail`... " />
-                <marker date="1493355356993" expanded="true" signature="6747:6822" ph="insert into `library_book`... " />
-                <marker date="1493355356993" expanded="true" signature="7007:7087" ph="insert into `audit_trail`... " />
-                <marker date="1493355356993" expanded="true" signature="7847:7896" ph="SELECT `last... library" />
-                <marker date="1493355356993" expanded="true" signature="8551:8599" ph="UPDATE libra... " />
-                <marker date="1493355356993" expanded="true" signature="8766:8815" ph="SELECT `last... library" />
-                <marker date="1493355356993" expanded="true" signature="9048:9128" ph="insert into `audit_trail`... " />
-                <marker date="1493355356993" expanded="true" signature="9429:9475" ph="SELECT * FRO... library_book" />
-                <marker date="1493355356993" expanded="true" signature="9767:9840" ph="UPDATE libra... " />
-                <marker date="1493355356993" expanded="true" signature="10022:10102" ph="insert into `audit_trail`... " />
-                <marker date="1493355356993" expanded="true" signature="10386:10461" ph="insert into `library_book`... " />
-                <marker date="1493355356993" expanded="true" signature="10643:10723" ph="insert into `audit_trail`... " />
-                <marker date="1493355356993" expanded="true" signature="11432:11549" ph="SELECT * FRO... audit_trail" />
-                <marker date="1493355356993" expanded="true" signature="12453:12607" ph="select * fro... library_book" />
-                <marker date="1493355356993" expanded="true" signature="13823:13886" ph="DELETE from " />
+                <element signature="e#1075#1084#0" expanded="true" />
+                <element signature="e#1146#1159#0" expanded="true" />
+                <element signature="e#1213#1226#0" expanded="true" />
+                <element signature="e#11687#11704#0" expanded="true" />
+                <element signature="e#12710#12723#0" expanded="true" />
+                <marker date="1493453733554" expanded="true" signature="2678:2998" ph="select * fro... library" />
+                <marker date="1493453733554" expanded="true" signature="5412:5479" ph="DELETE from " />
+                <marker date="1493453733554" expanded="true" signature="5588:5635" ph="DELETE from " />
+                <marker date="1493453733554" expanded="true" signature="5743:5777" ph="DELETE from " />
+                <marker date="1493453733554" expanded="true" signature="6398:6447" ph="INSERT INTO `library`... " />
+                <marker date="1493453733554" expanded="true" signature="6710:6790" ph="insert into `audit_trail`... " />
+                <marker date="1493453733554" expanded="true" signature="7122:7197" ph="insert into `library_book`... " />
+                <marker date="1493453733554" expanded="true" signature="7382:7462" ph="insert into `audit_trail`... " />
+                <marker date="1493453733554" expanded="true" signature="8222:8271" ph="SELECT `last... library" />
+                <marker date="1493453733554" expanded="true" signature="8926:8974" ph="UPDATE libra... " />
+                <marker date="1493453733554" expanded="true" signature="9141:9190" ph="SELECT `last... library" />
+                <marker date="1493453733554" expanded="true" signature="9423:9503" ph="insert into `audit_trail`... " />
+                <marker date="1493453733554" expanded="true" signature="9804:9850" ph="SELECT * FRO... library_book" />
+                <marker date="1493453733554" expanded="true" signature="10142:10215" ph="UPDATE libra... " />
+                <marker date="1493453733554" expanded="true" signature="10397:10477" ph="insert into `audit_trail`... " />
+                <marker date="1493453733554" expanded="true" signature="10761:10836" ph="insert into `library_book`... " />
+                <marker date="1493453733554" expanded="true" signature="11018:11098" ph="insert into `audit_trail`... " />
+                <marker date="1493453733554" expanded="true" signature="11807:11924" ph="SELECT * FRO... audit_trail" />
+                <marker date="1493453733554" expanded="true" signature="12828:12982" ph="select * fro... library_book" />
+                <marker date="1493453733554" expanded="true" signature="14198:14261" ph="DELETE from " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdfGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model_Pack/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-512">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +108,7 @@
       <file leaf-file-name="AuditTrailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
+            <state relative-caret-position="510">
               <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding />
             </state>
@@ -116,7 +120,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="912">
               <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#968#969#0" expanded="false" />
+                <element signature="e#1009#1010#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +141,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Library</find>
+      <find>)</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -173,15 +185,15 @@
         <option value="$PROJECT_DIR$/src/Controller_Pack/BookController.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/Library.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/LibraryController.java" />
-        <option value="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" />
         <option value="$PROJECT_DIR$/src/Model_Pack/LibraryBook.java" />
         <option value="$PROJECT_DIR$/src/FXML_Pack/libraryDetailView.fxml" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/MasterController.java" />
         <option value="$PROJECT_DIR$/src/FXML_Pack/libraryListView.fxml" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/MenuController.java" />
         <option value="$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java" />
-        <option value="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
         <option value="$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java" />
+        <option value="$PROJECT_DIR$/src/Model_Pack/pdfGen.java" />
+        <option value="$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java" />
       </list>
     </option>
   </component>
@@ -215,6 +227,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,10 +274,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Not_Barnes_and_Nobel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FXML_Pack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -803,7 +833,8 @@
       <workItem from="1493268952019" duration="5974000" />
       <workItem from="1493327283214" duration="6177000" />
       <workItem from="1493338078845" duration="10430000" />
-      <workItem from="1493423345357" duration="30000" />
+      <workItem from="1493423345357" duration="106000" />
+      <workItem from="1493451665633" duration="4037000" />
     </task>
     <task id="LOCAL-00001" summary="working on project 5.">
       <created>1491189699072</created>
@@ -875,11 +906,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493279271887</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Need to work on the creation of the new libs and pushing them to the server">
+      <created>1493423383629</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1493423383629</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120282000" />
+    <option name="totallyTimeSpent" value="124395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,37 +930,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="1" width="1604" height="901" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.49527666" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34168866" sideWeight="0.4925776" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23746702" sideWeight="0.51012146" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22551547" sideWeight="0.48987854" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8087071" sideWeight="0.49527666" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22551547" sideWeight="0.48987854" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.49527666" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14948453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15141752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853404" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29826897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29826897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34168866" sideWeight="0.4925776" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853404" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1187,13 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model_Pack/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryListView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -1251,56 +1283,24 @@
       </provider>
     </entry>
     <entry file="jar:///opt/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model_Pack/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FXML_Pack/libraryDetailView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model_Pack/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FXML_Pack/libraryListView.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FXML_Pack/libraryListView.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MenuController.java">
@@ -1317,66 +1317,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#968#969#0" expanded="false" />
+            <element signature="e#1009#1010#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model_Pack/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
+    <entry file="file://$PROJECT_DIR$/src/Model_Pack/pdfGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="102" column="34" lean-forward="false" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+        <state relative-caret-position="512">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model_Pack/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/AuditTrailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gate_Pack/LibraryTableGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="102" column="18" lean-forward="false" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+        <state relative-caret-position="-1696">
+          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding>
-            <marker date="1493355356993" expanded="true" signature="2541:2861" ph="select * fro... library" />
-            <marker date="1493355356993" expanded="true" signature="5037:5104" ph="DELETE from " />
-            <marker date="1493355356993" expanded="true" signature="5213:5260" ph="DELETE from " />
-            <marker date="1493355356993" expanded="true" signature="5368:5402" ph="DELETE from " />
-            <marker date="1493355356993" expanded="true" signature="6023:6072" ph="INSERT INTO `library`... " />
-            <marker date="1493355356993" expanded="true" signature="6335:6415" ph="insert into `audit_trail`... " />
-            <marker date="1493355356993" expanded="true" signature="6747:6822" ph="insert into `library_book`... " />
-            <marker date="1493355356993" expanded="true" signature="7007:7087" ph="insert into `audit_trail`... " />
-            <marker date="1493355356993" expanded="true" signature="7847:7896" ph="SELECT `last... library" />
-            <marker date="1493355356993" expanded="true" signature="8551:8599" ph="UPDATE libra... " />
-            <marker date="1493355356993" expanded="true" signature="8766:8815" ph="SELECT `last... library" />
-            <marker date="1493355356993" expanded="true" signature="9048:9128" ph="insert into `audit_trail`... " />
-            <marker date="1493355356993" expanded="true" signature="9429:9475" ph="SELECT * FRO... library_book" />
-            <marker date="1493355356993" expanded="true" signature="9767:9840" ph="UPDATE libra... " />
-            <marker date="1493355356993" expanded="true" signature="10022:10102" ph="insert into `audit_trail`... " />
-            <marker date="1493355356993" expanded="true" signature="10386:10461" ph="insert into `library_book`... " />
-            <marker date="1493355356993" expanded="true" signature="10643:10723" ph="insert into `audit_trail`... " />
-            <marker date="1493355356993" expanded="true" signature="11432:11549" ph="SELECT * FRO... audit_trail" />
-            <marker date="1493355356993" expanded="true" signature="12453:12607" ph="select * fro... library_book" />
-            <marker date="1493355356993" expanded="true" signature="13823:13886" ph="DELETE from " />
+            <element signature="e#1075#1084#0" expanded="true" />
+            <element signature="e#1146#1159#0" expanded="true" />
+            <element signature="e#1213#1226#0" expanded="true" />
+            <element signature="e#11687#11704#0" expanded="true" />
+            <element signature="e#12710#12723#0" expanded="true" />
+            <marker date="1493453733554" expanded="true" signature="2678:2998" ph="select * fro... library" />
+            <marker date="1493453733554" expanded="true" signature="5412:5479" ph="DELETE from " />
+            <marker date="1493453733554" expanded="true" signature="5588:5635" ph="DELETE from " />
+            <marker date="1493453733554" expanded="true" signature="5743:5777" ph="DELETE from " />
+            <marker date="1493453733554" expanded="true" signature="6398:6447" ph="INSERT INTO `library`... " />
+            <marker date="1493453733554" expanded="true" signature="6710:6790" ph="insert into `audit_trail`... " />
+            <marker date="1493453733554" expanded="true" signature="7122:7197" ph="insert into `library_book`... " />
+            <marker date="1493453733554" expanded="true" signature="7382:7462" ph="insert into `audit_trail`... " />
+            <marker date="1493453733554" expanded="true" signature="8222:8271" ph="SELECT `last... library" />
+            <marker date="1493453733554" expanded="true" signature="8926:8974" ph="UPDATE libra... " />
+            <marker date="1493453733554" expanded="true" signature="9141:9190" ph="SELECT `last... library" />
+            <marker date="1493453733554" expanded="true" signature="9423:9503" ph="insert into `audit_trail`... " />
+            <marker date="1493453733554" expanded="true" signature="9804:9850" ph="SELECT * FRO... library_book" />
+            <marker date="1493453733554" expanded="true" signature="10142:10215" ph="UPDATE libra... " />
+            <marker date="1493453733554" expanded="true" signature="10397:10477" ph="insert into `audit_trail`... " />
+            <marker date="1493453733554" expanded="true" signature="10761:10836" ph="insert into `library_book`... " />
+            <marker date="1493453733554" expanded="true" signature="11018:11098" ph="insert into `audit_trail`... " />
+            <marker date="1493453733554" expanded="true" signature="11807:11924" ph="SELECT * FRO... audit_trail" />
+            <marker date="1493453733554" expanded="true" signature="12828:12982" ph="select * fro... library_book" />
+            <marker date="1493453733554" expanded="true" signature="14198:14261" ph="DELETE from " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/MasterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model_Pack/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller_Pack/LibraryDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1696">
+          <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model_Pack/LibraryBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

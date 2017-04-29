@@ -83,7 +83,7 @@ public class pdfGen {
         List<LibraryBook> b = new ArrayList<LibraryBook>();
         b = l.getBooks();
         for(int x = 0; x < b.size(); x++){
-        	logger.info("gfhgh");
+        	logger.info("filling holes");
         		logger.debug("in loop");
         		table.addCell(b.get(x).getBook().getTitle());
         		table.addCell(b.get(x).getBook().getAuthor().toString());
