@@ -100,7 +100,7 @@ public class LibraryDetailController {
         LibID.setText(String.valueOf(library.getId()));
         Books.getItems().addAll(BTG.getBooks());
         //todo make the quantity var update with the book that is added
-        Quantity.setText("??");
+        Quantity.setText("00");
         oldLibrary = new Library(library.getId(),library.getLibraryName(),library.getBooks(),library.getLastModified());
         MasterController.getInstance().setLDC(this);
         ObservableList<LibraryBook> Items = listView.getItems();
