@@ -61,6 +61,7 @@ public class LibraryTableGateway {
     public List<Library> getLibraries() throws SQLException{
 		//listViewBook = new ArrayList<LibraryBook>();
 		listViewBook = oldList;
+		int dupe = 0; //duplification variable
 		//oldList = new ArrayList<LibraryBook>();
         conn = ds.getConnection(); //connection to sql db
         try{
@@ -85,16 +86,24 @@ public class LibraryTableGateway {
 				//creation of new record for list
                 booky = new LibraryBook (rs.getInt("quantity"), book, true);
 				logger.info(booky.toString() );
-				if(!listViewBook.contains(booky)) {
-					listViewBook.add(booky);
+				//todo duplification of books not working going to be commenting this out for now:
+				listViewBook.add(booky);
+				/*for(LibraryBook check: listViewBook) {
+				    if(check.getBook().getTitle().equals(booky.getBook().getId()));
+				    	dupe +=1;
 				}
+				if(dupe == 0){
+					listViewBook.add(booky);
+				}else{
+					dupe = 0;// check has worked - dupe found
+				}*/
                 Library library = new Library(rs.getInt("library_id"),
 						rs.getString("library_name"), listViewBook, rs.getTimestamp("last_modified").toLocalDateTime());
                 logger.info(library.toString());
                 //Todo: may want to try to simplify this
 				if (listView.size() > 0){
 				    logger.info("check Succedded " + library.toString());
-				    logger.error(listView.size());
+				    //logger.error(listView.size());
 					for(Library lib : listView){
 						logger.info(lib.toString());
 						if(library.getId() != lib.getId() || lib == null) { // want this check to see if pulling garbage
