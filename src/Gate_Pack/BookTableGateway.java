@@ -298,4 +298,23 @@ public class BookTableGateway {
 			logger.info("closed");
 		}		
 	}
+
+	//todo fix this, setup join so that only 1 while loop is needed!
+	public List<Book> filter(String titleFill, String authFill, String dateFill) throws SQLException {
+		try {
+			conn = ds.getConnection();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		try{
+		    conn.setAutoCommit(false);
+		    PreparedStatement stmt = conn.prepareStatement("SELECT * FROM `AuthorTable` WHERE `first_name` REGEXP ? OR `last_name` REGEXP ?" , PreparedStatement.RETURN_GENERATED_KEYS);
+		    if(authFill.isEmpty()){
+		    	authFill="[a-z]";
+			}
+		}
+
+
+	}
 }

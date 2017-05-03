@@ -4,23 +4,37 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.List;
+import java.util.Optional;
+
+import Gate_Pack.AuthorTableGateway;
+import Gate_Pack.BookTableGateway;
+import Model_Pack.Author;
 import Model_Pack.ViewType;
 import Model_Pack.Book;
+import javafx.event.ActionEvent;
+import javafx.scene.control.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 
 public class BookController {
+	private AuthorTableGateway adb;
 	private static Logger logger = LogManager.getLogger();
 	private List<Book> books;
+	private BookTableGateway bookTableGateway;
+	ObservableList<Book> items;
 	@FXML private ListView<Book> listView;
+	@FXML private Button filter;
+	@FXML private TextField authField;
+	@FXML private TextField titleField;
+	@FXML private TextField dateField;
 
-	public BookController(List<Book> books) {
+	public BookController(List<Book> books) throws SQLException {
 		// TODO Auto-generated constructor stub
 		this.books = books;
+		this.bookTableGateway = new BookTableGateway();
 	}
 	
 	@FXML private void onMouseClick(MouseEvent action) throws IOException, SQLException, ParseException{
@@ -38,7 +52,34 @@ public class BookController {
 		}
 	}
 
-	
+	@FXML private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException{
+	    String title = "", date = "", author = "";
+		Object source = action.getSource();
+		adb = new AuthorTableGateway();
+		//todo filter is going to have things correctly filter based on the text input
+		if(source == filter){
+			if (!authField.getText().isEmpty()){
+				author = authField.getText();
+			}
+			if(!dateField.getText().isEmpty()){
+				date = dateField.getText();
+			}
+			if(!titleField.getText().isEmpty()){
+				title = titleField.getText();
+			}
+
+			books = bookTableGateway.filter(title, date, author);
+			items.clear();
+			items = listView.getItems();
+			for(Book book: books){
+				items.add(book);
+			}
+			books.clear();
+        }
+
+	}
+
+
 	public void initialize() throws SQLException{
 		ObservableList<Book> items = listView.getItems();
 		for(Book c : books) {
