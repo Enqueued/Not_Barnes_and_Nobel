@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759e85b1-f41c-4f72-b760-10153cbb0335" name="Default" comment="">
+    <list default="true" id="759e85b1-f41c-4f72-b760-10153cbb0335" name="Default" comment="Filter Button under construction...">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/FXML_Pack/bookview.fxml" afterPath="$PROJECT_DIR$/bin/FXML_Pack/bookview.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller_Pack/BookController.java" afterPath="$PROJECT_DIR$/src/Controller_Pack/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FXML_Pack/bookview.fxml" afterPath="$PROJECT_DIR$/src/FXML_Pack/bookview.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java" afterPath="$PROJECT_DIR$/src/Gate_Pack/BookTableGateway.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,26 +111,35 @@
             <state relative-caret-position="-480">
               <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
-                <marker date="1493453733554" expanded="true" signature="2678:2998" ph="select * fro... library" />
-                <marker date="1493453733554" expanded="true" signature="5412:5479" ph="DELETE from " />
-                <marker date="1493453733554" expanded="true" signature="5588:5635" ph="DELETE from " />
-                <marker date="1493453733554" expanded="true" signature="5743:5777" ph="DELETE from " />
-                <marker date="1493453733554" expanded="true" signature="6398:6447" ph="INSERT INTO `library`... " />
-                <marker date="1493453733554" expanded="true" signature="6710:6790" ph="insert into `audit_trail`... " />
-                <marker date="1493453733554" expanded="true" signature="7122:7197" ph="insert into `library_book`... " />
-                <marker date="1493453733554" expanded="true" signature="7382:7462" ph="insert into `audit_trail`... " />
-                <marker date="1493453733554" expanded="true" signature="8222:8271" ph="SELECT `last... library" />
-                <marker date="1493453733554" expanded="true" signature="8926:8974" ph="UPDATE libra... " />
-                <marker date="1493453733554" expanded="true" signature="9141:9190" ph="SELECT `last... library" />
-                <marker date="1493453733554" expanded="true" signature="9423:9503" ph="insert into `audit_trail`... " />
-                <marker date="1493453733554" expanded="true" signature="9804:9850" ph="SELECT * FRO... library_book" />
-                <marker date="1493453733554" expanded="true" signature="10142:10215" ph="UPDATE libra... " />
-                <marker date="1493453733554" expanded="true" signature="10397:10477" ph="insert into `audit_trail`... " />
-                <marker date="1493453733554" expanded="true" signature="10761:10836" ph="insert into `library_book`... " />
-                <marker date="1493453733554" expanded="true" signature="11018:11098" ph="insert into `audit_trail`... " />
-                <marker date="1493453733554" expanded="true" signature="11807:11924" ph="SELECT * FRO... audit_trail" />
-                <marker date="1493453733554" expanded="true" signature="12828:12982" ph="select * fro... library_book" />
-                <marker date="1493453733554" expanded="true" signature="14198:14261" ph="DELETE from " />
+                <element signature="e#13008#13021#0" expanded="false" />
+                <marker date="1493790460411" expanded="true" signature="5075:5189" ph="//..." />
+                <marker date="1493790460411" expanded="true" signature="5633:6530" ph="{...}" />
+                <marker date="1493790460411" expanded="true" signature="5752:5819" ph="DELETE from " />
+                <marker date="1493790460411" expanded="true" signature="5928:5975" ph="DELETE from " />
+                <marker date="1493790460411" expanded="true" signature="6083:6117" ph="DELETE from " />
+                <marker date="1493790460411" expanded="true" signature="6596:8306" ph="{...}" />
+                <marker date="1493790460411" expanded="true" signature="6738:6787" ph="INSERT INTO `library`... " />
+                <marker date="1493790460411" expanded="true" signature="7050:7130" ph="insert into `audit_trail`... " />
+                <marker date="1493790460411" expanded="true" signature="7462:7537" ph="insert into `library_book`... " />
+                <marker date="1493790460411" expanded="true" signature="7722:7802" ph="insert into `audit_trail`... " />
+                <marker date="1493790460411" expanded="true" signature="8408:11901" ph="{...}" />
+                <marker date="1493790460411" expanded="true" signature="8562:8611" ph="SELECT `last... library" />
+                <marker date="1493790460411" expanded="true" signature="9266:9314" ph="UPDATE libra... " />
+                <marker date="1493790460411" expanded="true" signature="9481:9530" ph="SELECT `last... library" />
+                <marker date="1493790460411" expanded="true" signature="9763:9843" ph="insert into `audit_trail`... " />
+                <marker date="1493790460411" expanded="true" signature="10144:10190" ph="SELECT * FRO... library_book" />
+                <marker date="1493790460411" expanded="true" signature="10482:10555" ph="UPDATE libra... " />
+                <marker date="1493790460411" expanded="true" signature="10737:10817" ph="insert into `audit_trail`... " />
+                <marker date="1493790460411" expanded="true" signature="11101:11176" ph="insert into `library_book`... " />
+                <marker date="1493790460411" expanded="true" signature="11358:11438" ph="insert into `audit_trail`... " />
+                <marker date="1493790460411" expanded="true" signature="11981:12747" ph="{...}" />
+                <marker date="1493790460411" expanded="false" signature="12027:12044" ph="&lt;~&gt;" />
+                <marker date="1493790460411" expanded="true" signature="12147:12264" ph="SELECT * FRO... audit_trail" />
+                <marker date="1493790460411" expanded="true" signature="12790:12898" ph="{...}" />
+                <marker date="1493790460411" expanded="true" signature="12971:14285" ph="{...}" />
+                <marker date="1493790460411" expanded="true" signature="13168:13322" ph="select * fro... library_book" />
+                <marker date="1493790460411" expanded="true" signature="14382:15063" ph="{...}" />
+                <marker date="1493790460411" expanded="true" signature="14538:14601" ph="DELETE from " />
               </folding>
             </state>
           </provider>
@@ -867,7 +872,7 @@
       <workItem from="1493490036696" duration="2247000" />
       <workItem from="1493513966656" duration="2785000" />
       <workItem from="1493758171609" duration="3328000" />
-      <workItem from="1493767008590" duration="13905000" />
+      <workItem from="1493767008590" duration="14065000" />
     </task>
     <task id="LOCAL-00001" summary="working on project 5.">
       <created>1491189699072</created>
@@ -960,11 +965,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493499915668</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Filter Button under construction...">
+      <created>1493790420937</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1493790420937</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146710000" />
+    <option name="totallyTimeSpent" value="146870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -985,9 +997,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23746702" sideWeight="0.51012146" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8082011" sideWeight="0.50966495" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8087071" sideWeight="0.49527666" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8082011" sideWeight="0.49033505" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22551547" sideWeight="0.48987854" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.49527666" order="7" side_tool="false" content_ui="tabs" />
@@ -1060,7 +1072,8 @@
     <MESSAGE value="Need to work on the creation of the new libs and pushing them to the server" />
     <MESSAGE value="pdf generation is lacking all the important parts. Go back and revise." />
     <MESSAGE value="current not fully working setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="current not fully working setup" />
+    <MESSAGE value="Filter Button under construction..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter Button under construction..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1453,26 +1466,35 @@
         <state relative-caret-position="-480">
           <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
-            <marker date="1493453733554" expanded="true" signature="2678:2998" ph="select * fro... library" />
-            <marker date="1493453733554" expanded="true" signature="5412:5479" ph="DELETE from " />
-            <marker date="1493453733554" expanded="true" signature="5588:5635" ph="DELETE from " />
-            <marker date="1493453733554" expanded="true" signature="5743:5777" ph="DELETE from " />
-            <marker date="1493453733554" expanded="true" signature="6398:6447" ph="INSERT INTO `library`... " />
-            <marker date="1493453733554" expanded="true" signature="6710:6790" ph="insert into `audit_trail`... " />
-            <marker date="1493453733554" expanded="true" signature="7122:7197" ph="insert into `library_book`... " />
-            <marker date="1493453733554" expanded="true" signature="7382:7462" ph="insert into `audit_trail`... " />
-            <marker date="1493453733554" expanded="true" signature="8222:8271" ph="SELECT `last... library" />
-            <marker date="1493453733554" expanded="true" signature="8926:8974" ph="UPDATE libra... " />
-            <marker date="1493453733554" expanded="true" signature="9141:9190" ph="SELECT `last... library" />
-            <marker date="1493453733554" expanded="true" signature="9423:9503" ph="insert into `audit_trail`... " />
-            <marker date="1493453733554" expanded="true" signature="9804:9850" ph="SELECT * FRO... library_book" />
-            <marker date="1493453733554" expanded="true" signature="10142:10215" ph="UPDATE libra... " />
-            <marker date="1493453733554" expanded="true" signature="10397:10477" ph="insert into `audit_trail`... " />
-            <marker date="1493453733554" expanded="true" signature="10761:10836" ph="insert into `library_book`... " />
-            <marker date="1493453733554" expanded="true" signature="11018:11098" ph="insert into `audit_trail`... " />
-            <marker date="1493453733554" expanded="true" signature="11807:11924" ph="SELECT * FRO... audit_trail" />
-            <marker date="1493453733554" expanded="true" signature="12828:12982" ph="select * fro... library_book" />
-            <marker date="1493453733554" expanded="true" signature="14198:14261" ph="DELETE from " />
+            <element signature="e#13008#13021#0" expanded="false" />
+            <marker date="1493790460411" expanded="true" signature="5075:5189" ph="//..." />
+            <marker date="1493790460411" expanded="true" signature="5633:6530" ph="{...}" />
+            <marker date="1493790460411" expanded="true" signature="5752:5819" ph="DELETE from " />
+            <marker date="1493790460411" expanded="true" signature="5928:5975" ph="DELETE from " />
+            <marker date="1493790460411" expanded="true" signature="6083:6117" ph="DELETE from " />
+            <marker date="1493790460411" expanded="true" signature="6596:8306" ph="{...}" />
+            <marker date="1493790460411" expanded="true" signature="6738:6787" ph="INSERT INTO `library`... " />
+            <marker date="1493790460411" expanded="true" signature="7050:7130" ph="insert into `audit_trail`... " />
+            <marker date="1493790460411" expanded="true" signature="7462:7537" ph="insert into `library_book`... " />
+            <marker date="1493790460411" expanded="true" signature="7722:7802" ph="insert into `audit_trail`... " />
+            <marker date="1493790460411" expanded="true" signature="8408:11901" ph="{...}" />
+            <marker date="1493790460411" expanded="true" signature="8562:8611" ph="SELECT `last... library" />
+            <marker date="1493790460411" expanded="true" signature="9266:9314" ph="UPDATE libra... " />
+            <marker date="1493790460411" expanded="true" signature="9481:9530" ph="SELECT `last... library" />
+            <marker date="1493790460411" expanded="true" signature="9763:9843" ph="insert into `audit_trail`... " />
+            <marker date="1493790460411" expanded="true" signature="10144:10190" ph="SELECT * FRO... library_book" />
+            <marker date="1493790460411" expanded="true" signature="10482:10555" ph="UPDATE libra... " />
+            <marker date="1493790460411" expanded="true" signature="10737:10817" ph="insert into `audit_trail`... " />
+            <marker date="1493790460411" expanded="true" signature="11101:11176" ph="insert into `library_book`... " />
+            <marker date="1493790460411" expanded="true" signature="11358:11438" ph="insert into `audit_trail`... " />
+            <marker date="1493790460411" expanded="true" signature="11981:12747" ph="{...}" />
+            <marker date="1493790460411" expanded="false" signature="12027:12044" ph="&lt;~&gt;" />
+            <marker date="1493790460411" expanded="true" signature="12147:12264" ph="SELECT * FRO... audit_trail" />
+            <marker date="1493790460411" expanded="true" signature="12790:12898" ph="{...}" />
+            <marker date="1493790460411" expanded="true" signature="12971:14285" ph="{...}" />
+            <marker date="1493790460411" expanded="true" signature="13168:13322" ph="select * fro... library_book" />
+            <marker date="1493790460411" expanded="true" signature="14382:15063" ph="{...}" />
+            <marker date="1493790460411" expanded="true" signature="14538:14601" ph="DELETE from " />
           </folding>
         </state>
       </provider>
