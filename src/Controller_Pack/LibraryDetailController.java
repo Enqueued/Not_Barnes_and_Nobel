@@ -31,6 +31,7 @@ import javafx.scene.input.MouseEvent;
  */
 public class LibraryDetailController {
     private static Logger logger = LogManager.getLogger();
+    ObservableList<LibraryBook> Items;
     private Library library;
     private Library oldLibrary;
     private LibraryTableGateway LTG;
@@ -103,7 +104,8 @@ public class LibraryDetailController {
         Quantity.setText("00");
         oldLibrary = new Library(library.getId(),library.getLibraryName(),library.getBooks(),library.getLastModified());
         MasterController.getInstance().setLDC(this);
-        ObservableList<LibraryBook> Items = listView.getItems();
+   //     this.libraryBooks = LTG.getLibraryBooks(library.getId());
+        Items = listView.getItems();
         if(libraryBooks != null){
             for(LibraryBook book: libraryBooks){
                 Items.add(book);
@@ -264,6 +266,8 @@ public class LibraryDetailController {
             }else{
                 LTG.insertLibrary(library);
             }
+            Items.clear();
+            libraryBooks.clear();
             MasterController.getInstance().setCheck(0);
             logger.info(library.getLastModified());
             MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW , library);
@@ -271,6 +275,7 @@ public class LibraryDetailController {
         }else if(source == Report){
             pdfGen p = new pdfGen();
             try {
+                library.setBooks(Items.sorted());
                 p.createPDF(library);
             } catch (DocumentException e) {
             }
