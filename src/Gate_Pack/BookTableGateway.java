@@ -313,7 +313,56 @@ public class BookTableGateway {
 		    if(authFill.isEmpty()){
 		    	authFill="[a-z]";
 			}
+			stmt.setString(1, authFill);
+		    stmt.setString(2, authFill);
+		    rsb=stmt.executeQuery();
+		    while(rsb.next()){
+		        PreparedStatement stmt2 = conn.prepareStatement("SELECT * FROM `book` WHERE `title` REGEXP ?"+
+																" AND `author_id` = ? AND `date_published` > ?",PreparedStatement.RETURN_GENERATED_KEYS);
+		        if(titleFill.isEmpty()){
+		        	titleFill = "[a-z]";
+				}
+				stmt2.setString(1, titleFill);
+		        stmt2.setInt(2, rsb.getInt("id"));
+		        if(dateFill.isEmpty()){
+		        	dateFill = "0001-01-01";
+				}
+				stmt2.setDate(3,java.sql.Date.valueOf(dateFill));
+		        rs = stmt2.executeQuery();
+		        while(rs.next()){
+		        	Author auth = new Author(rsb.getString("first_name"), rsb.getString("last_name"),
+							rsb.getString("gender"), rsb.getString("web_site"), rsb.getDate("dob"),
+							rsb.getInt("id"), rsb.getTimestamp("last_modified").toLocalDateTime());
+		        	Book book = new Book(rs.getInt("id"), rs.getString("title"),
+							rs.getString("publisher"), rs.getDate("date_published").toString(),
+							rs.getString("summary"), auth, rs.getTimestamp("last_modified").toLocalDateTime());
+		        	listView.add(book);
+				}
+				stmt2.close();
+            }
+            stmt.close();
+		    conn.commit();
+		} catch(SQLException e) {
+			logger.error("Failed reading database" + e);
+
+			//handle the exception
+		} finally {
+			//be sure to close the objects
+			if(rs != null)
+				rs.close();
+			if(rsb != null)
+				rsb.close();
+			if(stmt != null)
+				stmt.close();
+			if(stmt2 != null)
+				stmt2.close();
+			if(conn != null) {
+				conn.setAutoCommit(true);
+				conn.close();
+			}
 		}
+		logger.info(listView.toString());
+		return listView;
 
 
 	}

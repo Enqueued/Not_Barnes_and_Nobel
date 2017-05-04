@@ -3593,3 +3593,23 @@ Table 'vvf555.autdit_trail' doesn't exist
 18:51:35.357 INFO  Model_Pack.pdfGen : filling holes
 18:51:35.357 DEBUG Model_Pack.pdfGen : in loop
 18:51:35.358 DEBUG Model_Pack.pdfGen : THis is a book
+03:52:40.381 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+03:52:40.389 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+03:52:40.392 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (5) 
+03:52:40.393 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+03:52:40.394 INFO  Gate_Pack.LibraryTableGateway : inside else
+03:52:40.394 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+03:52:40.396 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+03:52:40.397 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (3) 
+03:52:40.397 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+03:52:40.398 INFO  Gate_Pack.LibraryTableGateway : check Succedded Chris' lib 2017-04-04T01:17:20
+03:52:40.398 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+03:52:40.398 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+03:52:40.399 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+03:52:40.399 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+03:52:40.400 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+03:52:40.400 INFO  Gate_Pack.LibraryTableGateway : check Succedded Chris' lib 2017-04-04T01:17:20
+03:52:40.400 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+03:52:40.468 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+03:52:40.468 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+03:52:41.539 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
