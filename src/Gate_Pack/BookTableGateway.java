@@ -306,6 +306,7 @@ public class BookTableGateway {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		listView.clear();
 
 		try{
 		    conn.setAutoCommit(false);
@@ -325,7 +326,8 @@ public class BookTableGateway {
 				stmt2.setString(1, titleFill);
 		        stmt2.setInt(2, rsb.getInt("id"));
 		        if(dateFill.isEmpty()){
-		        	dateFill = "0001-01-01";
+		            logger.info(dateFill);
+		        	dateFill = "1111-12-01";
 				}
 				stmt2.setDate(3,java.sql.Date.valueOf(dateFill));
 		        rs = stmt2.executeQuery();
@@ -363,7 +365,6 @@ public class BookTableGateway {
 		}
 		logger.info(listView.toString());
 		return listView;
-
 
 	}
 }

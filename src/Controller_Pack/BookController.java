@@ -59,6 +59,7 @@ public class BookController {
 		//todo filter is going to have things correctly filter based on the text input
 		if(source == filter){
 			if (!authField.getText().isEmpty()){
+				logger.info(authField.getText());
 				author = authField.getText();
 			}
 			if(!dateField.getText().isEmpty()){
@@ -68,9 +69,15 @@ public class BookController {
 				title = titleField.getText();
 			}
 
-			books = bookTableGateway.filter(title, date, author);
-			items.clear();
+			books = bookTableGateway.filter(title, author, date);
+			//if(!items.isEmpty()) {
+			//    logger.info(items.toString());
+			//	items.clear();
+			//}
 			items = listView.getItems();
+			logger.info(listView.getItems());
+			items.clear();
+			logger.info(items.toString() );
 			for(Book book: books){
 				items.add(book);
 			}

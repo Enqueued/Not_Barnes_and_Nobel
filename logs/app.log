@@ -3613,3 +3613,61 @@ Table 'vvf555.autdit_trail' doesn't exist
 03:52:40.468 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
 03:52:40.468 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
 03:52:41.539 INFO  Controller_Pack.LibraryController : Clicked on the Chris' lib Library!
+23:34:44.956 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+23:34:44.968 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+23:34:44.970 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (5) 
+23:34:44.972 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:34:44.973 INFO  Gate_Pack.LibraryTableGateway : inside else
+23:34:44.973 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+23:34:44.973 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+23:34:44.973 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (3) 
+23:34:44.974 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:34:44.974 INFO  Gate_Pack.LibraryTableGateway : check Succedded Chris' lib 2017-04-04T01:17:20
+23:34:44.974 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:34:44.974 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+23:34:44.975 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+23:34:44.975 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+23:34:44.975 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:34:44.975 INFO  Gate_Pack.LibraryTableGateway : check Succedded Chris' lib 2017-04-04T01:17:20
+23:34:44.975 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+23:34:45.057 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+23:34:45.058 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+23:39:27.098 INFO  Controller_Pack.BookController : new
+23:39:27.466 INFO  Controller_Pack.BookController : new
+23:39:28.575 INFO  Controller_Pack.BookController : new
+00:24:49.609 INFO  Controller_Pack.BookController : new
+00:25:54.096 INFO  Gate_Pack.AuthorTableGateway : closed
+00:26:04.930 INFO  Controller_Pack.BookController : Guy
+00:42:59.256 INFO  Controller_Pack.BookController : asd
+02:02:09.095 INFO  Controller_Pack.BookController : new
+02:02:09.423 INFO  Gate_Pack.BookTableGateway : 
+02:02:09.508 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+02:19:19.137 INFO  Controller_Pack.BookController : asda
+02:19:19.500 INFO  Gate_Pack.BookTableGateway : []
+02:20:03.773 INFO  Controller_Pack.BookController : new
+02:20:04.101 INFO  Gate_Pack.BookTableGateway : 
+02:20:04.197 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+02:25:23.037 INFO  Controller_Pack.BookController : new
+02:25:23.373 INFO  Gate_Pack.BookTableGateway : 
+02:25:23.467 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+02:29:46.334 INFO  Controller_Pack.BookController : new
+02:29:46.665 INFO  Gate_Pack.BookTableGateway : 
+02:29:46.754 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+02:31:45.567 INFO  Controller_Pack.BookController : new
+02:31:45.886 INFO  Gate_Pack.BookTableGateway : 
+02:31:45.975 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+02:31:45.976 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+02:34:25.114 INFO  Controller_Pack.BookController : new
+02:34:25.434 INFO  Gate_Pack.BookTableGateway : 
+02:34:25.523 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+02:34:25.526 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+02:34:25.527 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+02:35:13.235 INFO  Controller_Pack.BookController : new
+02:35:13.557 INFO  Gate_Pack.BookTableGateway : 
+02:35:13.658 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+02:35:13.659 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+02:35:13.661 INFO  Controller_Pack.BookController : []
+02:35:19.792 INFO  Gate_Pack.BookTableGateway : 
+02:35:20.100 INFO  Gate_Pack.BookTableGateway : [I_Ama loser - THis is a book, Coolio DDawg - How to not be a bad guy, new Guy - super cool dawg]
+02:35:20.100 INFO  Controller_Pack.BookController : [new Guy - super cool dawg]
+02:35:20.101 INFO  Controller_Pack.BookController : []
