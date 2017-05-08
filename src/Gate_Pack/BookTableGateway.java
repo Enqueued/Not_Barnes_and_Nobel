@@ -47,7 +47,6 @@ public class BookTableGateway {
 		}catch (Exception e){
 			logger.error(e);
 		}
-		
 	}
 	
 	public List<Book> getBooks() throws SQLException{

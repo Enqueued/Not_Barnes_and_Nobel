@@ -11,6 +11,9 @@
 	<lib name="mysql-connector-java-5.1.40-bin.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/mysql-connector-java-5.1.40-bin.jar!/"/>
 	</lib>
+	<lib name="jedis-2.6.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jedis-2.6.2.jar!/"/>
+	</lib>
 	<levels>
 		<level name="itext5-itextpdf-5.5.11" value="project"/>
 	</levels>

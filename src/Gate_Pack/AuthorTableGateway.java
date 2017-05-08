@@ -10,6 +10,7 @@ import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+import redis.clients.jedis.Jedis;
 import Model_Pack.Author;
 import Model_Pack.ViewType;
 import Model_Pack.auditTrailEntry;
@@ -23,6 +24,7 @@ import Controller_Pack.MasterController;
 public class AuthorTableGateway {
 	private static Logger logger = LogManager.getLogger();
 	private MysqlDataSource ds = null;
+	Jedis jedis;
 	Statement stmt = null;
 	ResultSet rs = null;
 	Connection conn = null;
@@ -163,6 +165,7 @@ public class AuthorTableGateway {
 				ps.executeUpdate();
 			}
 			conn.commit();
+			jedis.publish("Books", "modified");
 		} catch(SQLException e) {
 			logger.error("Failed updating database" + e);
 			conn.rollback();
@@ -213,6 +216,7 @@ public class AuthorTableGateway {
 			ps.setString(2, "Added " + author.toString());
 			ps.executeUpdate();
 			conn.commit();
+			jedis.publish("Books", "Modified");
 		} catch(SQLException e) {
 			logger.error("Failed to insert new entry in database: \n" +e.getMessage());
 			conn.rollback();
@@ -270,7 +274,7 @@ public class AuthorTableGateway {
 			ps.executeUpdate();
 
 			conn.commit();
-
+			jedis.publish("Books", "modified");
 		} catch(SQLException e) {
 			logger.error("Failed to Delete entry in database: \n" +e.getMessage());
 			conn.rollback();

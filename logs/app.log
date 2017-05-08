@@ -3671,3 +3671,30 @@ Table 'vvf555.autdit_trail' doesn't exist
 02:35:20.100 INFO  Gate_Pack.BookTableGateway : [I_Ama loser - THis is a book, Coolio DDawg - How to not be a bad guy, new Guy - super cool dawg]
 02:35:20.100 INFO  Controller_Pack.BookController : [new Guy - super cool dawg]
 02:35:20.101 INFO  Controller_Pack.BookController : []
+12:32:48.887 INFO  Gate_Pack.LibraryTableGateway : putting super cool dawg into the lib stats
+12:32:48.907 INFO  Gate_Pack.LibraryTableGateway : New Book: new Guy - super cool dawg
+12:32:48.913 INFO  Gate_Pack.LibraryTableGateway : Book: super cool dawg (5) 
+12:32:48.915 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+12:32:48.915 INFO  Gate_Pack.LibraryTableGateway : inside else
+12:32:48.916 INFO  Gate_Pack.LibraryTableGateway : putting How to not be a bad guy into the lib stats
+12:32:48.917 INFO  Gate_Pack.LibraryTableGateway : New Book: Coolio DDawg - How to not be a bad guy
+12:32:48.917 INFO  Gate_Pack.LibraryTableGateway : Book: How to not be a bad guy (3) 
+12:32:48.918 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+12:32:48.918 INFO  Gate_Pack.LibraryTableGateway : check Succedded Chris' lib 2017-04-04T01:17:20
+12:32:48.919 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+12:32:48.919 INFO  Gate_Pack.LibraryTableGateway : putting THis is a book into the lib stats
+12:32:48.921 INFO  Gate_Pack.LibraryTableGateway : New Book: I_Ama loser - THis is a book
+12:32:48.921 INFO  Gate_Pack.LibraryTableGateway : Book: THis is a book (23) 
+12:32:48.922 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+12:32:48.923 INFO  Gate_Pack.LibraryTableGateway : check Succedded Chris' lib 2017-04-04T01:17:20
+12:32:48.923 INFO  Gate_Pack.LibraryTableGateway : Chris' lib 2017-04-04T01:17:20
+12:32:48.993 INFO  Controller_Pack.LibraryController : libraries is null[Chris' lib 2017-04-04T01:17:20]
+12:32:48.993 INFO  Controller_Pack.LibraryController :  in the for loop: Chris' lib 2017-04-04T01:17:20
+12:32:56.340 INFO  Controller_Pack.BookController : New
+12:32:56.622 INFO  Gate_Pack.BookTableGateway : 
+12:32:56.711 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg]
+12:32:56.712 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+12:32:56.713 INFO  Controller_Pack.BookController : []
+15:09:18.252 INFO  Gate_Pack.AuthorTableGateway : closed
+01:51:45.573 INFO  Controller_Pack.ViewDetailController : clicked on Matthew_reborn McConaughey
+01:51:47.835 INFO  Gate_Pack.AuthorTableGateway : closed

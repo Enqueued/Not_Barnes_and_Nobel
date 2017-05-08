@@ -70,10 +70,6 @@ public class BookController {
 			}
 
 			books = bookTableGateway.filter(title, author, date);
-			//if(!items.isEmpty()) {
-			//    logger.info(items.toString());
-			//	items.clear();
-			//}
 			items = listView.getItems();
 			logger.info(listView.getItems());
 			items.clear();
