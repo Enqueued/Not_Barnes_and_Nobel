@@ -1,5 +1,6 @@
 package Main_Pack;
 
+import Model_Pack.Author;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 
