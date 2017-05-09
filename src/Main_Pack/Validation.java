@@ -26,7 +26,7 @@ public class Validation {
     public Author authorValid(Author auth) throws SQLException{
         Author nonauth = auth;
         if(nonauth == null) {
-            Alert alert = new Alert(AlertType.WARNING);
+            Alert alert = new Alert(AlertType.ERROR);
             alert.setTitle("Author Error");
             alert.setContentText("Input Error: Please input an Author");
             alert.showAndWait();
@@ -40,7 +40,7 @@ public class Validation {
         String summy = sum;
         // too long summary or was left empty
         if(summy.length() > 100 || summy.isEmpty()){
-            Alert alert = new Alert(AlertType.WARNING);
+            Alert alert = new Alert(AlertType.ERROR);
             alert.setTitle("Summary Invalid");
             alert.setContentText("Input Error: Please input a valid Summary");
             return false;
@@ -84,6 +84,18 @@ public class Validation {
             return false;
         }else{
             return true;
+        }
+    }
+
+    public boolean genValid(String gender){
+        if(gender.toUpperCase().equals("M") || gender.toUpperCase().equals("U") || gender.toUpperCase().equals("G")){
+            return true;
+        }else{
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setTitle("Gender Error");
+            alert.setContentText("Input Error: Please input a valid Gender");
+            alert.showAndWait();
+            return false;
         }
     }
 }
