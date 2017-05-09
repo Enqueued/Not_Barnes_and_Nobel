@@ -3698,3 +3698,351 @@ Table 'vvf555.autdit_trail' doesn't exist
 15:09:18.252 INFO  Gate_Pack.AuthorTableGateway : closed
 01:51:45.573 INFO  Controller_Pack.ViewDetailController : clicked on Matthew_reborn McConaughey
 01:51:47.835 INFO  Gate_Pack.AuthorTableGateway : closed
+17:55:38.665 INFO  Controller_Pack.ViewDetailController : clicked on Matthew123 McConaughey
+17:55:40.530 INFO  Gate_Pack.AuthorTableGateway : closed
+17:57:40.518 INFO  Controller_Pack.ViewDetailController : clicked on Matthew_backagain McConaughey
+17:57:53.581 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:57:58.857 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:57:58.975 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:58:03.147 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:58:03.304 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:58:06.687 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:58:06.908 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:58:07.093 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:58:07.306 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+17:58:14.924 INFO  Gate_Pack.AuthorTableGateway : closed
+17:58:17.893 INFO  Gate_Pack.AuthorTableGateway : closed
+18:01:56.708 INFO  Controller_Pack.ViewDetailController : clicked on Mat_backagain McConaughey
+18:02:03.983 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+18:02:06.321 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+18:15:32.883 INFO  Gate_Pack.AuthorTableGateway : closed
+18:15:34.501 INFO  Gate_Pack.AuthorTableGateway : closed
+18:18:54.665 INFO  Controller_Pack.ViewDetailController : clicked on Matt_backagain McConaughey
+18:18:59.561 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+18:19:03.884 INFO  Controller_Pack.ViewDetailController : clicked on Matt_backagain McConaughey
+18:19:24.442 ERROR Gate_Pack.AuthorTableGateway : Failed updating databasecom.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+18:19:24.443 ERROR Controller_Pack.DetailController : com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+18:22:32.974 INFO  Gate_Pack.AuthorTableGateway : closed
+18:22:35.546 INFO  Gate_Pack.AuthorTableGateway : closed
+18:22:49.434 INFO  Controller_Pack.ViewDetailController : clicked on Mat_backagain McConaughey
+18:22:54.058 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+18:23:00.208 INFO  Gate_Pack.AuthorTableGateway : closed
+18:23:02.810 INFO  Gate_Pack.AuthorTableGateway : closed
+18:28:32.478 INFO  Controller_Pack.ViewDetailController : clicked on Matttt_backagain McConaughey
+18:28:37.047 ERROR Controller_Pack.DetailController : java.lang.NullPointerException
+18:29:04.203 INFO  Gate_Pack.AuthorTableGateway : closed
+18:29:06.638 INFO  Gate_Pack.AuthorTableGateway : closed
+18:31:36.408 INFO  Controller_Pack.ViewDetailController : clicked on Mat_backagain McConaughey
+18:31:49.212 INFO  Controller_Pack.ViewDetailController : clicked on Matttt_backagain McConaughey
+18:32:00.857 INFO  Gate_Pack.AuthorTableGateway : closed
+18:32:01.856 INFO  Gate_Pack.AuthorTableGateway : closed
+18:35:41.786 INFO  Controller_Pack.ViewDetailController : clicked on Ma_backagain McConaughey
+18:35:54.592 INFO  Gate_Pack.AuthorTableGateway : closed
+18:35:55.785 INFO  Gate_Pack.AuthorTableGateway : closed
+18:36:30.880 INFO  Gate_Pack.BookTableGateway : [Coolio DDawg - How to not be a bad guy, new Guy - super cool dawg]
+18:36:30.882 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:36:30.883 INFO  Controller_Pack.BookController : []
+18:36:34.964 INFO  Gate_Pack.BookTableGateway : 
+18:36:35.008 INFO  Gate_Pack.BookTableGateway : [I_Ama loser - THis is a book, Coolio DDawg - How to not be a bad guy, new Guy - super cool dawg]
+18:36:35.008 INFO  Controller_Pack.BookController : [Coolio DDawg - How to not be a bad guy, new Guy - super cool dawg]
+18:36:35.009 INFO  Controller_Pack.BookController : []
+18:49:58.274 INFO  Gate_Pack.BookTableGateway : 
+18:49:58.285 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:49:58.289 INFO  Gate_Pack.BookTableGateway : []
+18:49:58.290 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:49:58.292 INFO  Controller_Pack.BookController : []
+18:50:14.185 INFO  Gate_Pack.BookTableGateway : 
+18:50:14.186 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:14.191 INFO  Gate_Pack.BookTableGateway : []
+18:50:14.192 INFO  Controller_Pack.BookController : []
+18:50:14.192 INFO  Controller_Pack.BookController : []
+18:50:18.043 INFO  Controller_Pack.BookController : 
+18:50:18.084 INFO  Gate_Pack.BookTableGateway : 
+18:50:18.085 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:18.089 INFO  Gate_Pack.BookTableGateway : []
+18:50:18.089 INFO  Controller_Pack.BookController : []
+18:50:18.090 INFO  Controller_Pack.BookController : []
+18:50:18.760 INFO  Controller_Pack.BookController : 
+18:50:18.803 INFO  Gate_Pack.BookTableGateway : 
+18:50:18.805 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:18.809 INFO  Gate_Pack.BookTableGateway : []
+18:50:18.809 INFO  Controller_Pack.BookController : []
+18:50:18.810 INFO  Controller_Pack.BookController : []
+18:50:19.108 INFO  Controller_Pack.BookController : 
+18:50:19.149 INFO  Gate_Pack.BookTableGateway : 
+18:50:19.151 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:19.155 INFO  Gate_Pack.BookTableGateway : []
+18:50:19.156 INFO  Controller_Pack.BookController : []
+18:50:19.156 INFO  Controller_Pack.BookController : []
+18:50:19.505 INFO  Controller_Pack.BookController : 
+18:50:19.551 INFO  Gate_Pack.BookTableGateway : 
+18:50:19.552 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:19.556 INFO  Gate_Pack.BookTableGateway : []
+18:50:19.557 INFO  Controller_Pack.BookController : []
+18:50:19.557 INFO  Controller_Pack.BookController : []
+18:50:19.766 INFO  Controller_Pack.BookController : 
+18:50:19.811 INFO  Gate_Pack.BookTableGateway : 
+18:50:19.813 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:19.817 INFO  Gate_Pack.BookTableGateway : []
+18:50:19.817 INFO  Controller_Pack.BookController : []
+18:50:19.817 INFO  Controller_Pack.BookController : []
+18:50:20.067 INFO  Controller_Pack.BookController : 
+18:50:20.111 INFO  Gate_Pack.BookTableGateway : 
+18:50:20.112 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:20.117 INFO  Gate_Pack.BookTableGateway : []
+18:50:20.117 INFO  Controller_Pack.BookController : []
+18:50:20.117 INFO  Controller_Pack.BookController : []
+18:50:50.916 INFO  Gate_Pack.BookTableGateway : 
+18:50:50.926 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:50.930 INFO  Gate_Pack.BookTableGateway : []
+18:50:50.930 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:50:50.932 INFO  Controller_Pack.BookController : []
+18:50:54.612 INFO  Controller_Pack.BookController : 
+18:50:54.653 INFO  Gate_Pack.BookTableGateway : 
+18:50:54.654 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 0).
+18:50:54.659 INFO  Gate_Pack.BookTableGateway : []
+18:50:54.659 INFO  Controller_Pack.BookController : []
+18:50:54.660 INFO  Controller_Pack.BookController : []
+18:50:55.812 INFO  Gate_Pack.AuthorTableGateway : closed
+18:51:43.204 INFO  Gate_Pack.BookTableGateway : 
+18:51:43.251 INFO  Gate_Pack.BookTableGateway : []
+18:51:43.253 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:51:43.254 INFO  Controller_Pack.BookController : []
+18:51:48.696 INFO  Gate_Pack.BookTableGateway : 
+18:51:48.736 INFO  Gate_Pack.BookTableGateway : []
+18:51:48.737 INFO  Controller_Pack.BookController : []
+18:51:48.737 INFO  Controller_Pack.BookController : []
+18:52:54.256 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+18:52:54.263 INFO  Gate_Pack.BookTableGateway : []
+18:52:54.264 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:52:54.266 INFO  Controller_Pack.BookController : []
+18:52:57.792 INFO  Controller_Pack.BookController : 
+18:52:57.841 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+18:52:57.845 INFO  Gate_Pack.BookTableGateway : []
+18:52:57.846 INFO  Controller_Pack.BookController : []
+18:52:57.846 INFO  Controller_Pack.BookController : []
+18:52:58.216 INFO  Controller_Pack.BookController : 
+18:52:58.257 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+18:52:58.261 INFO  Gate_Pack.BookTableGateway : []
+18:52:58.261 INFO  Controller_Pack.BookController : []
+18:52:58.262 INFO  Controller_Pack.BookController : []
+18:52:58.410 INFO  Controller_Pack.BookController : 
+18:52:58.446 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+18:52:58.450 INFO  Gate_Pack.BookTableGateway : []
+18:52:58.450 INFO  Controller_Pack.BookController : []
+18:52:58.450 INFO  Controller_Pack.BookController : []
+18:54:10.084 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+18:54:10.091 INFO  Gate_Pack.BookTableGateway : []
+18:54:10.092 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:54:10.094 INFO  Controller_Pack.BookController : []
+18:54:13.262 INFO  Controller_Pack.BookController : 
+18:54:13.304 ERROR Gate_Pack.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+18:54:13.308 INFO  Gate_Pack.BookTableGateway : []
+18:54:13.309 INFO  Controller_Pack.BookController : []
+18:54:13.309 INFO  Controller_Pack.BookController : []
+18:54:14.526 INFO  Gate_Pack.AuthorTableGateway : closed
+18:55:02.587 INFO  Gate_Pack.BookTableGateway : 
+18:55:02.600 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 3).
+18:55:02.604 INFO  Gate_Pack.BookTableGateway : []
+18:55:02.605 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:55:02.606 INFO  Controller_Pack.BookController : []
+18:55:05.056 INFO  Controller_Pack.BookController : 
+18:55:05.106 INFO  Gate_Pack.BookTableGateway : 
+18:55:05.107 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 3).
+18:55:05.111 INFO  Gate_Pack.BookTableGateway : []
+18:55:05.112 INFO  Controller_Pack.BookController : []
+18:55:05.112 INFO  Controller_Pack.BookController : []
+18:55:05.354 INFO  Controller_Pack.BookController : 
+18:55:05.393 INFO  Gate_Pack.BookTableGateway : 
+18:55:05.394 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 3).
+18:55:05.400 INFO  Gate_Pack.BookTableGateway : []
+18:55:05.400 INFO  Controller_Pack.BookController : []
+18:55:05.401 INFO  Controller_Pack.BookController : []
+18:55:05.565 INFO  Controller_Pack.BookController : 
+18:55:05.600 INFO  Gate_Pack.BookTableGateway : 
+18:55:05.600 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 3).
+18:55:05.604 INFO  Gate_Pack.BookTableGateway : []
+18:55:05.604 INFO  Controller_Pack.BookController : []
+18:55:05.605 INFO  Controller_Pack.BookController : []
+18:55:05.765 INFO  Controller_Pack.BookController : 
+18:55:05.807 INFO  Gate_Pack.BookTableGateway : 
+18:55:05.808 ERROR Gate_Pack.BookTableGateway : Failed reading databasejava.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 3).
+18:55:05.812 INFO  Gate_Pack.BookTableGateway : []
+18:55:05.812 INFO  Controller_Pack.BookController : []
+18:55:05.812 INFO  Controller_Pack.BookController : []
+18:55:39.170 INFO  Gate_Pack.BookTableGateway : 
+18:55:39.214 INFO  Gate_Pack.BookTableGateway : []
+18:55:39.215 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+18:55:39.216 INFO  Controller_Pack.BookController : []
+18:55:42.149 INFO  Controller_Pack.BookController : 
+18:55:42.190 INFO  Gate_Pack.BookTableGateway : 
+18:55:42.230 INFO  Gate_Pack.BookTableGateway : []
+18:55:42.230 INFO  Controller_Pack.BookController : []
+18:55:42.231 INFO  Controller_Pack.BookController : []
+19:17:52.353 INFO  Gate_Pack.BookTableGateway : 
+19:17:52.395 INFO  Gate_Pack.BookTableGateway : []
+19:17:52.397 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:17:52.399 INFO  Controller_Pack.BookController : []
+19:17:55.674 INFO  Controller_Pack.BookController : 
+19:17:55.719 INFO  Gate_Pack.BookTableGateway : 
+19:17:55.759 INFO  Gate_Pack.BookTableGateway : []
+19:17:55.760 INFO  Controller_Pack.BookController : []
+19:17:55.760 INFO  Controller_Pack.BookController : []
+19:19:12.394 INFO  Gate_Pack.BookTableGateway : 
+19:19:12.412 INFO  Gate_Pack.BookTableGateway : []
+19:19:12.414 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:19:12.415 INFO  Controller_Pack.BookController : []
+19:19:15.696 INFO  Controller_Pack.BookController : 
+19:19:15.738 INFO  Gate_Pack.BookTableGateway : 
+19:19:15.750 INFO  Gate_Pack.BookTableGateway : []
+19:19:15.751 INFO  Controller_Pack.BookController : []
+19:19:15.751 INFO  Controller_Pack.BookController : []
+19:19:16.157 INFO  Controller_Pack.BookController : 
+19:19:16.202 INFO  Gate_Pack.BookTableGateway : 
+19:19:16.215 INFO  Gate_Pack.BookTableGateway : []
+19:19:16.215 INFO  Controller_Pack.BookController : []
+19:19:16.216 INFO  Controller_Pack.BookController : []
+19:19:16.345 INFO  Controller_Pack.BookController : 
+19:19:16.384 INFO  Gate_Pack.BookTableGateway : 
+19:19:16.398 INFO  Gate_Pack.BookTableGateway : []
+19:19:16.398 INFO  Controller_Pack.BookController : []
+19:19:16.399 INFO  Controller_Pack.BookController : []
+19:21:11.668 INFO  Gate_Pack.BookTableGateway : 
+19:21:11.787 INFO  Gate_Pack.BookTableGateway : 
+19:21:12.890 INFO  Gate_Pack.BookTableGateway : 
+19:24:07.594 INFO  Gate_Pack.BookTableGateway : 
+19:26:03.418 INFO  Gate_Pack.BookTableGateway : 
+19:26:03.437 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:03.439 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:03.440 INFO  Controller_Pack.BookController : []
+19:26:16.255 INFO  Controller_Pack.BookController : 
+19:26:16.292 INFO  Gate_Pack.BookTableGateway : 
+19:26:16.305 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:16.306 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:16.307 INFO  Controller_Pack.BookController : []
+19:26:17.011 INFO  Controller_Pack.BookController : 
+19:26:17.050 INFO  Gate_Pack.BookTableGateway : 
+19:26:17.068 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:17.069 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:17.070 INFO  Controller_Pack.BookController : []
+19:26:17.221 INFO  Controller_Pack.BookController : 
+19:26:17.259 INFO  Gate_Pack.BookTableGateway : 
+19:26:17.275 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:17.275 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:17.276 INFO  Controller_Pack.BookController : []
+19:26:17.420 INFO  Controller_Pack.BookController : 
+19:26:17.457 INFO  Gate_Pack.BookTableGateway : 
+19:26:17.470 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:17.471 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:17.472 INFO  Controller_Pack.BookController : []
+19:26:25.746 INFO  Controller_Pack.BookController : 
+19:26:25.787 INFO  Gate_Pack.BookTableGateway : 
+19:26:25.802 INFO  Gate_Pack.BookTableGateway : [Coolio DDawg - How to not be a bad guy]
+19:26:25.803 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:25.804 INFO  Controller_Pack.BookController : []
+19:26:30.068 INFO  Controller_Pack.BookController : 
+19:26:30.105 INFO  Gate_Pack.BookTableGateway : 
+19:26:30.122 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:30.123 INFO  Controller_Pack.BookController : [Coolio DDawg - How to not be a bad guy]
+19:26:30.123 INFO  Controller_Pack.BookController : []
+19:26:39.942 INFO  Gate_Pack.BookTableGateway : 
+19:26:39.959 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:39.959 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:39.960 INFO  Controller_Pack.BookController : []
+19:26:41.067 INFO  Gate_Pack.BookTableGateway : 
+19:26:41.085 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:41.086 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:41.086 INFO  Controller_Pack.BookController : []
+19:26:41.297 INFO  Gate_Pack.BookTableGateway : 
+19:26:41.311 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:41.311 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:26:41.312 INFO  Controller_Pack.BookController : []
+19:27:22.377 INFO  Controller_Pack.BookController : 
+19:27:22.414 INFO  Gate_Pack.BookTableGateway : 
+19:27:22.436 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:27:22.437 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:27:22.438 INFO  Controller_Pack.BookController : []
+19:28:48.277 INFO  Gate_Pack.BookTableGateway : 
+19:28:48.292 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:28:48.293 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:28:48.294 INFO  Controller_Pack.BookController : []
+19:28:59.038 INFO  Gate_Pack.BookTableGateway : 
+19:28:59.052 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:28:59.053 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:28:59.054 INFO  Controller_Pack.BookController : []
+19:29:08.677 INFO  Gate_Pack.BookTableGateway : 
+19:29:08.693 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:08.693 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:08.694 INFO  Controller_Pack.BookController : []
+19:29:08.829 INFO  Gate_Pack.BookTableGateway : 
+19:29:08.842 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:08.843 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:08.844 INFO  Controller_Pack.BookController : []
+19:29:08.987 INFO  Gate_Pack.BookTableGateway : 
+19:29:09.000 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.000 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.001 INFO  Controller_Pack.BookController : []
+19:29:09.146 INFO  Gate_Pack.BookTableGateway : 
+19:29:09.159 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.159 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.161 INFO  Controller_Pack.BookController : []
+19:29:09.352 INFO  Gate_Pack.BookTableGateway : 
+19:29:09.366 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.366 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.367 INFO  Controller_Pack.BookController : []
+19:29:09.508 INFO  Gate_Pack.BookTableGateway : 
+19:29:09.521 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.522 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:29:09.523 INFO  Controller_Pack.BookController : []
+19:32:18.789 INFO  Controller_Pack.BookController : 
+19:32:18.833 INFO  Gate_Pack.BookTableGateway : 
+19:32:18.856 INFO  Gate_Pack.BookTableGateway : [Coolio DDawg - How to not be a bad guy]
+19:32:18.857 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:32:18.858 INFO  Controller_Pack.BookController : []
+19:32:22.061 INFO  Controller_Pack.BookController : 
+19:32:22.099 INFO  Gate_Pack.BookTableGateway : 
+19:32:22.121 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:32:22.122 INFO  Controller_Pack.BookController : [Coolio DDawg - How to not be a bad guy]
+19:32:22.123 INFO  Controller_Pack.BookController : []
+19:32:33.571 INFO  Gate_Pack.BookTableGateway : 
+19:32:33.591 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:32:33.592 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:32:33.593 INFO  Controller_Pack.BookController : []
+19:34:37.539 INFO  Gate_Pack.BookTableGateway : 
+19:34:37.558 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:34:37.560 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:34:37.562 INFO  Controller_Pack.BookController : []
+19:35:24.371 INFO  Gate_Pack.BookTableGateway : 
+19:35:24.377 INFO  Gate_Pack.BookTableGateway : 
+19:35:24.390 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:35:24.392 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:35:24.393 INFO  Controller_Pack.BookController : []
+19:36:04.686 INFO  Gate_Pack.BookTableGateway : 
+19:36:04.691 INFO  Gate_Pack.BookTableGateway : PUB 
+19:36:04.706 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:36:04.707 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:36:04.709 INFO  Controller_Pack.BookController : []
+19:37:56.309 INFO  Gate_Pack.BookTableGateway : 
+19:37:56.314 INFO  Gate_Pack.BookTableGateway : PUB 
+19:37:56.327 INFO  Gate_Pack.BookTableGateway : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:37:56.329 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:37:56.331 INFO  Controller_Pack.BookController : []
+19:38:46.703 INFO  Controller_Pack.BookController : hot
+19:38:46.751 INFO  Gate_Pack.BookTableGateway : 
+19:38:46.754 INFO  Gate_Pack.BookTableGateway : PUB hot
+19:38:46.769 INFO  Gate_Pack.BookTableGateway : [Coolio DDawg - How to not be a bad guy]
+19:38:46.770 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:38:46.771 INFO  Controller_Pack.BookController : []
+19:55:33.838 INFO  Controller_Pack.BookController : hot
+19:55:33.884 INFO  Gate_Pack.BookTableGateway : 
+19:55:33.887 INFO  Gate_Pack.BookTableGateway : PUB hot
+19:55:33.902 INFO  Gate_Pack.BookTableGateway : [Coolio DDawg - How to not be a bad guy]
+19:55:33.903 INFO  Controller_Pack.BookController : [new Guy - super cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:55:33.904 INFO  Controller_Pack.BookController : []
+19:55:38.037 INFO  Controller_Pack.BookController : clicked on new Guy - super cool dawg
+19:55:49.009 INFO  Gate_Pack.BookTableGateway : 
+19:55:49.010 INFO  Gate_Pack.BookTableGateway : PUB 
+19:55:49.025 INFO  Gate_Pack.BookTableGateway : [new Guy - super duper cool dawg, Coolio DDawg - How to not be a bad guy, I_Ama loser - THis is a book]
+19:55:49.026 INFO  Controller_Pack.BookController : [Coolio DDawg - How to not be a bad guy]
+19:55:49.027 INFO  Controller_Pack.BookController : []
+19:55:53.028 INFO  Gate_Pack.AuthorTableGateway : closed

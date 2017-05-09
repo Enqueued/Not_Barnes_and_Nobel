@@ -2,6 +2,7 @@ package Model_Pack;
 
 import Gate_Pack.AuthorTableGateway;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
+import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import org.apache.logging.log4j.LogManager;
@@ -49,7 +50,6 @@ public class AuthorList extends Task<Void> {
 
     class MyRedisListener extends JedisPubSub {
         private final Logger logger2 = LogManager.getLogger(MyRedisListener.class);
-        private MysqlDataSource ds = null;
         Jedis jedis = null;
         public MyRedisListener() throws IOException {
             Properties props = new Properties();
@@ -57,8 +57,8 @@ public class AuthorList extends Task<Void> {
             file = new FileInputStream("./src/db.properties");
             props.load(file);
             file.close();
-            jedis = new Jedis("easel2.fulgentcorp.com");
-            jedis.auth("pd6BvDKAEMXhxwUg");
+            jedis = new Jedis("REDIS_URL");
+            jedis.auth("REDIS_AUTH");
             jedis.select(0);
         }
 
@@ -68,17 +68,22 @@ public class AuthorList extends Task<Void> {
 
         @Override
         public void onMessage(String channel, String message){
-            items.clear();
-            try{
-                ATG = new AuthorTableGateway();
-                list = ATG.getAuthors();
-                for(Author auth : list){
-                    items.add(auth);
+            Platform.runLater(new Runnable() {
+                @Override
+                public void run() {
+                    items.clear();
+                    try{
+                        ATG = new AuthorTableGateway();
+                        list = ATG.getAuthors();
+                        for(Author auth : list){
+                            items.add(auth);
+                        }
+                    } catch (SQLException e){
+                        e.printStackTrace();
+                    }
+                    updateMessage(message);
                 }
-            } catch (SQLException e){
-                e.printStackTrace();
-            }
-            updateMessage(message);
+            });
         }
     }
 }

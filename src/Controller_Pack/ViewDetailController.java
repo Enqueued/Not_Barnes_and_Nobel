@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.List;
+
+import Model_Pack.AuthorList;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import Model_Pack.ViewType;
@@ -12,11 +14,13 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
+import redis.clients.jedis.Jedis;
 
 public class ViewDetailController {
 	private static Logger logger = LogManager.getLogger();
 	private List<Author> authors;
 	@FXML private ListView<Author> listView;
+	AuthorList list;
 
 	/**
 	 * used to actuate the buttons
@@ -32,6 +36,7 @@ public class ViewDetailController {
 			if(author == null){
 				return;
 			}
+			list.cancel();
 			if(source == listView){
 				logger.info("clicked on " + author);
 				MasterController.getInstance().changeView(ViewType.AUTHOR_DETAIL, author);
@@ -49,6 +54,11 @@ public class ViewDetailController {
 			items.add(c);
 		}
 		authors.clear();
+		list = new AuthorList(items);
+
+		new Thread(list).start();
+
+
 	}
 
 	/**
@@ -57,5 +67,6 @@ public class ViewDetailController {
 	 */
 	public ViewDetailController(List<Author> authors){
 		this.authors = authors;
+		list = null;
 	}
 }

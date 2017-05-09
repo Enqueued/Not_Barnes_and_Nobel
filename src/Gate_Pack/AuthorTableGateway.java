@@ -36,8 +36,12 @@ public class AuthorTableGateway {
 	 */
 	public AuthorTableGateway() throws SQLException{
 		Properties props = new Properties();
+		jedis = new Jedis("easel2.fulgentcorp.com");
+		jedis.auth("pd6BvDKAEMXhxwUg");
+		jedis.select(0);
 		FileInputStream file = null;
 		try{
+
 			file = new FileInputStream("./src/db.properties");
 			props.load(file);
 			file.close();

@@ -23,9 +23,9 @@ public class Validation {
         }
     }
 
-    public boolean authorValid(Author auth) throws SQLException{
+    public Author authorValid(Author auth) throws SQLException{
         Author nonauth = auth;
-        if(nonauth = null) {
+        if(nonauth == null) {
             Alert alert = new Alert(AlertType.WARNING);
             alert.setTitle("Author Error");
             alert.setContentText("Input Error: Please input an Author");
@@ -34,7 +34,56 @@ public class Validation {
         }else{
             return nonauth;
         }
+    }
 
+    public boolean summValid(String sum){
+        String summy = sum;
+        // too long summary or was left empty
+        if(summy.length() > 100 || summy.isEmpty()){
+            Alert alert = new Alert(AlertType.WARNING);
+            alert.setTitle("Summary Invalid");
+            alert.setContentText("Input Error: Please input a valid Summary");
+            return false;
+        }else{
+            return true;
+        }
+    }
 
+    public boolean publishValid(String pub){
+        String pubs = pub;
+        if(pubs.length() > 100 || pubs.isEmpty()){
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setTitle("Publisher Error");
+            alert.setContentText("Input Error: Please input a valid publisher");
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+    public boolean firstValid(String first){
+        String fst = first;
+        if(fst.length() > 100 || fst.isEmpty()){
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setTitle("First Name Error");
+            alert.setContentText("Input Error: Please input a valid first name");
+            alert.showAndWait();
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+    public boolean lastValid(String last){
+        String lst = last;
+        if(lst.length() > 100 || lst.isEmpty()){
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setTitle("Last Name Error");
+            alert.setContentText("Input Error: Please input a valid last name");
+            alert.showAndWait();
+            return false;
+        }else{
+            return true;
+        }
     }
 }

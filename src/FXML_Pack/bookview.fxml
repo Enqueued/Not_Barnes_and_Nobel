@@ -6,14 +6,14 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ListView fx:id="listView" onMouseClicked="#onMouseClick" prefHeight="385.0" prefWidth="356.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="244.0" AnchorPane.topAnchor="15.0" />
       <Button fx:id="filter" layoutX="447.0" layoutY="343.0" mnemonicParsing="false" onAction="#onButtonPress" text="Search" />
-      <Label layoutX="433.0" layoutY="50.0" text="Author Name" />
-      <Label layoutX="460.0" layoutY="142.0" text="Label" />
+      <Label layoutX="433.0" layoutY="50.0" text="Publisher Name" />
+      <Label layoutX="460.0" layoutY="142.0" text="Title" />
       <Label layoutX="460.0" layoutY="243.0" text="Date" />
-      <TextField fx:id="authField" alignment="CENTER" layoutX="393.0" layoutY="82.0" promptText="First :: Last" />
+      <TextField fx:id="pubField" alignment="CENTER" layoutX="398.0" layoutY="89.0" promptText="First :: Last" />
       <TextField fx:id="titleField" alignment="CENTER" layoutX="393.0" layoutY="187.0" promptText="[a-z]_[a-z]" />
       <TextField fx:id="dateField" alignment="CENTER" layoutX="391.0" layoutY="271.0" promptText="YYYY-MM-DD" />
    </children>
