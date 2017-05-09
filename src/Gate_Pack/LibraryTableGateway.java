@@ -65,6 +65,7 @@ public class LibraryTableGateway {
 		//oldList = new ArrayList<LibraryBook>();
         conn = ds.getConnection(); //connection to sql db
         try{
+            logger.error("In the Try");
             conn.setAutoCommit(false);
             stmt = conn.createStatement();
             //need to think about what we are going to pull first
@@ -75,7 +76,7 @@ public class LibraryTableGateway {
                                         "order by library.id");
             //todo: fill in all necessary items
             while(rs.next()){
-				logger.info("putting " + rs.getString("title") +" into the lib stats" );
+				logger.info("putting " + rs.getString("title") +" into the lib");
                 Author it = new Author(rs.getString("AuthorTable.first_name"),rs.getString("last_name"),
                         rs.getString("gender"),rs.getString("web_site"),rs.getDate("dob"),
                         rs.getInt("id"), rs.getTimestamp("last_modified").toLocalDateTime());
@@ -175,8 +176,8 @@ public class LibraryTableGateway {
 	public void insertLibrary(Library library) throws SQLException {
 		conn = ds.getConnection();
 		ResultSet rs = null;
-
 		try {
+		    logger.error("LIBRARY!!!" +library.toString());
 			conn.setAutoCommit(false);
 			PreparedStatement ps = conn.prepareStatement("INSERT INTO `library`( `library_name`) VALUES (?)", PreparedStatement.RETURN_GENERATED_KEYS);
 			ps.setString(1,library.getLibraryName());

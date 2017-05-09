@@ -57,8 +57,8 @@ public class AuthorList extends Task<Void> {
             file = new FileInputStream("./src/db.properties");
             props.load(file);
             file.close();
-            jedis = new Jedis("REDIS_URL");
-            jedis.auth("REDIS_AUTH");
+            jedis = new Jedis(props.getProperty("REDIS_URL"));
+            jedis.auth(props.getProperty("REDIS_AUTH"));
             jedis.select(0);
         }
 

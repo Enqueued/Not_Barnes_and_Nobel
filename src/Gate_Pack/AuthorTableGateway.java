@@ -36,15 +36,17 @@ public class AuthorTableGateway {
 	 */
 	public AuthorTableGateway() throws SQLException{
 		Properties props = new Properties();
-		jedis = new Jedis("easel2.fulgentcorp.com");
-		jedis.auth("pd6BvDKAEMXhxwUg");
-		jedis.select(0);
+//		jedis = new Jedis("easel2.fulgentcorp.com");
+//		jedis.auth("pd6BvDKAEMXhxwUg");
+//		jedis.select(0);
 		FileInputStream file = null;
 		try{
-
 			file = new FileInputStream("./src/db.properties");
 			props.load(file);
 			file.close();
+			jedis = new Jedis(props.getProperty("REDIS_URL"));
+            jedis.auth(props.getProperty("REDIS_AUTH"));
+            jedis.select(0);
 			this.ds = new MysqlDataSource();
 			ds.setURL(props.getProperty("MYSQL_AUTHOR_DB_URL"));
 			ds.setUser(props.getProperty("MYSQL_AUTHOR_DB_USERNAME"));
@@ -75,7 +77,7 @@ public class AuthorTableGateway {
 
 			//handle the exception 
 		} finally {
-			//be sure to close the objects 
+			//be sure to close the objects
 			if(rs != null)
 				rs.close();
 			if(stmt != null)

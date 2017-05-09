@@ -9,6 +9,7 @@ import java.util.Optional;
 
 import Gate_Pack.BookTableGateway;
 import Gate_Pack.LibraryTableGateway;
+import Main_Pack.Validation;
 import Model_Pack.*;
 import com.itextpdf.text.DocumentException;
 import org.apache.logging.log4j.LogManager;
@@ -38,6 +39,7 @@ public class LibraryDetailController {
     private BookTableGateway BTG;
     private List<Book> Book;
     private List<LibraryBook> libraryBooks;
+    private Validation validation;
     @FXML private Button DelBook;
     @FXML private Button DelLib;
     @FXML private Button AddBook;
@@ -59,6 +61,7 @@ public class LibraryDetailController {
     public LibraryDetailController() {
         this.Book = null;
         this.libraryBooks = new ArrayList<LibraryBook>();
+        this.validation = new Validation();
     }
     public LibraryDetailController(Library constant, LibraryTableGateway LTG, List<LibraryBook> libraryBooks) {
         // TODO Auto-generated constructor stub
@@ -68,9 +71,6 @@ public class LibraryDetailController {
     }
 
     private boolean QuantityCheck(String string) {
-//        if (string.equals("??")){ //default quantity
-//            return false;
-//        }
         int check = Integer.valueOf(string);
         if(check >=0 && check <=100){
             return true;
@@ -186,7 +186,7 @@ public class LibraryDetailController {
         }
     }
 
-    @FXML private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException{
+    @FXML private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException, com.sun.xml.internal.messaging.saaj.packaging.mime.internet.ParseException {
         Object source = action.getSource();
         if(source == Save){
             try{
@@ -194,7 +194,8 @@ public class LibraryDetailController {
                     oldLibrary = new Library(library.getId(), library.getLibraryName(), library.getBooks(), library.getLastModified());
                 }
                 MasterController.getInstance().setCheck(0);
-                if(isLibName(LibName.getText()) && QuantityCheck(Quantity.getText())){
+                if(validation.LibValid(LibName.getText()) && validation.quanValid(Quantity.getText())){
+                    logger.info("Library Name: "+LibName.getText()+" Quantity: "+Quantity.getText());
                     library.setLibraryName(LibName.getText());
                     library.setBooks(libraryBooks);
                     try {
@@ -237,41 +238,31 @@ public class LibraryDetailController {
             }
         }else if(source == Audit){
             MasterController.getInstance().changeView(ViewType.LIBRARY_AUDIT_TRAIL, library);
-        }else if(source == AddBook){
-            library.setLibraryName(LibName.getText());
-            //c1
-            if(Books.getSelectionModel().getSelectedItem() == null){
-                logger.info("Book Selection is NULL");
-                return;
-            }
-            LibraryBook checks = new LibraryBook(Integer.parseInt(Quantity.getText()), Books.getSelectionModel().getSelectedItem(), true);
-            //c2
-            if(libraryBooks == null){
-                libraryBooks.add(checks);
-            }
-            //c3
-            if(libraryBooks.contains(checks)){
-                int newCheck = libraryBooks.indexOf(checks);
-                libraryBooks.get(newCheck).setQuantity(Integer.parseInt(Quantity.getText()));
-            }else{
-                libraryBooks.add(checks);
-            }
-            //initialize();
-            if(library.getId() != 0){
-                try {
-                    LTG.updateLibrary(library, oldLibrary);
-                } catch (com.sun.xml.internal.messaging.saaj.packaging.mime.internet.ParseException e) {
-                    e.printStackTrace();
-                }
-            }else{
-                LTG.insertLibrary(library);
-            }
-            Items.clear();
-            libraryBooks.clear();
-            MasterController.getInstance().setCheck(0);
-            logger.info(library.getLastModified());
-            MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW , library);
-
+            }else if(source == AddBook){
+			library.setLibraryName(LibName.getText());
+			if(Books.getSelectionModel().getSelectedItem() == null){
+				return;
+			}
+			LibraryBook checks = new LibraryBook(Integer.parseInt(Quantity.getText()),Books.getSelectionModel().getSelectedItem(), false);
+			if(libraryBooks == null){
+				libraryBooks.add(checks);
+			}
+			if(libraryBooks.contains(checks)){
+				int newCheck = libraryBooks.indexOf(checks);
+				libraryBooks.get(newCheck).setQuantity(Integer.parseInt(Quantity.getText()));
+			}else{
+				libraryBooks.add(checks);
+			}
+			if(library.getId() != 0){
+				LTG.updateLibrary(library, oldLibrary);
+			}else{
+				LTG.insertLibrary(library);
+			}
+			Items.clear();
+			libraryBooks.clear();
+			MasterController.getInstance().setCheck(0);
+			logger.info(library.getLastModified());
+			MasterController.getInstance().changeView(ViewType.LIBRARY_VIEW, library);
         }else if(source == Report){
             pdfGen p = new pdfGen();
             try {

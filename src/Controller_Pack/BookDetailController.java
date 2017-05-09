@@ -5,6 +5,8 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.List;
 import java.util.Optional;
+
+import Main_Pack.Validation;
 import Model_Pack.ViewType;
 import Model_Pack.Book;
 import Model_Pack.Author;
@@ -45,6 +47,7 @@ public class BookDetailController {
 	@FXML private TextField Publisher;
 	@FXML private TextField date;
 	@FXML private ComboBox<Author> Author;
+	private Validation validation;
 	private List<Model_Pack.Author> authors;
 
 	public BookDetailController(){
@@ -54,6 +57,7 @@ public class BookDetailController {
 		this.authors = authors;
 		this.DB = DB;
 		this.book = book;
+		this.validation = new Validation();
 	}
 
 	@FXML private void onButtonPress(ActionEvent action) throws IOException, SQLException, ParseException{
@@ -65,7 +69,8 @@ public class BookDetailController {
 					oldBook = new Book(book.getId(), book.getTitle(), book.getPublisher(), book.getDatePublished(), book.getSummary(), book.getAuthor(), book.getLastModified());
 				}
 				MasterController.getInstance().setCheck(0);
-				if(titleValid(Title.getText()) && publisherValid(Publisher.getText()) && summaryValid(Summary.getText()) && (author = authorValid(Author.getSelectionModel().getSelectedItem())) != null && dateValid(date.getText())){
+				logger.info("BDC: Title- "+Title.getText()+" publisher- "+Publisher.getText()+" Author- "+Author.getSelectionModel().getSelectedItem());
+				if(validation.titleValid(Title.getText()) && validation.publisherValid(Publisher.getText()) && validation.summValid(Summary.getText()) &&	(author = validation.authorValid(Author.getSelectionModel().getSelectedItem())) != null && validation.dateValid(date.getText())){
 					book.setTitle(Title.getText());
 					book.setDatePublished(date.getText());
 					book.setPublisher(Publisher.getText());
@@ -120,7 +125,7 @@ public class BookDetailController {
 		
 	}
 
-	private boolean dateValid(String text) {
+	/*private boolean dateValid(String text) {
 		if(text.matches("[0-2][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]") ){
 			return true;
 		}else{
@@ -183,7 +188,7 @@ public class BookDetailController {
 			alert.showAndWait(); 
 			return false;
 		}	
-	}
+	}*/
 	public void initialize()throws SQLException, ParseException{
 		Title.setText(book.getTitle());
 		Author.getItems().addAll(authors);

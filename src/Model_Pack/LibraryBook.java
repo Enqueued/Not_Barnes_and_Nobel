@@ -15,6 +15,7 @@ public class LibraryBook {
     public LibraryBook(){
         book = new Book();
         quantity = 0;
+        newRecord = true;
     }
 
     //record defaults to false

@@ -7,6 +7,7 @@ import java.util.List;
 
 import Gate_Pack.AuthorTableGateway;
 import Gate_Pack.BookTableGateway;
+import Main_Pack.Validation;
 import Model_Pack.ViewType;
 import Model_Pack.Book;
 import javafx.event.ActionEvent;
@@ -22,6 +23,7 @@ public class BookController {
 	private static Logger logger = LogManager.getLogger();
 	private List<Book> books;
 	private BookTableGateway bookTableGateway;
+	private Validation validation;
 	ObservableList<Book> items;
 	@FXML private ListView<Book> listView;
 	@FXML private Button filter;
@@ -33,6 +35,7 @@ public class BookController {
 		// TODO Auto-generated constructor stub
 		this.books = books;
 		this.bookTableGateway = new BookTableGateway();
+		this.validation = new Validation();
 	}
 	
 	@FXML private void onMouseClick(MouseEvent action) throws IOException, SQLException, ParseException{
@@ -56,27 +59,31 @@ public class BookController {
 		adb = new AuthorTableGateway();
 		//todo filter is going to have things correctly filter based on the text input
 		if(source == filter){
-			if (!pubField.getText().isEmpty()){
-				logger.info(pubField.getText());
-				publisher = pubField.getText();
-			}
-			if(!dateField.getText().isEmpty()){
-				date = dateField.getText();
-			}
-			if(!titleField.getText().isEmpty()){
-				title = titleField.getText();
-			}
+			if(validation.publishValid(pubField.getText()) &&
+					validation.titleValid(titleField.getText()) &&
+					validation.dateValidation(dateField.getText())){
+				if (!pubField.getText().isEmpty()){
+					logger.info(pubField.getText());
+					publisher = pubField.getText();
+				}
+				if(!dateField.getText().isEmpty()){
+					date = dateField.getText();
+				}
+				if(!titleField.getText().isEmpty()){
+					title = titleField.getText();
+				}
 
-			books = bookTableGateway.filter(title, publisher, date);
-			items = listView.getItems();
-			logger.info(listView.getItems());
-			items.clear();
-			logger.info(items.toString() );
-			for(Book book: books){
-				items.add(book);
+				books = bookTableGateway.filter(title, publisher, date);
+				items = listView.getItems();
+				logger.info(listView.getItems());
+				items.clear();
+				logger.info(items.toString() );
+				for(Book book: books){
+					items.add(book);
+				}
+				books.clear();
 			}
-			books.clear();
-        }
+		}
 
 	}
 
